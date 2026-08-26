@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Operasi Ortopedi</title>
+  <meta name="description" content="Aplikasi web untuk belajar prinsip, indikasi, langkah, dan komplikasi operasi ortopedi, lengkap dengan kuis dan flashcard." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="mobile-topbar">
+    <button id="mobile-menu-btn" aria-label="Buka menu">☰</button>
+    <strong>🦴 Belajar Ortopedi</strong>
+    <span style="width:24px;"></span>
+  </div>
+
+  <div class="app-shell">
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="emoji">🦴</span> Belajar Ortopedi</div>
+
+      <div class="nav-group">
+        <button class="nav-btn" data-route="home">🏠 Beranda</button>
+        <button class="nav-btn" data-route="procedures">📚 Materi Operasi</button>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-group-title">Latihan</div>
+        <button class="nav-btn" data-route="quiz">🧠 Kuis</button>
+        <button class="nav-btn" data-route="flashcards">🗂️ Flashcard</button>
+        <button class="nav-btn" data-route="glossary">📖 Glosarium</button>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-group-title">Lainnya</div>
+        <button class="nav-btn" data-route="progress">📊 Progres Saya</button>
+      </div>
+
+      <div class="sidebar-footer">
+        Konten bersifat edukasi umum, bukan pengganti panduan klinis resmi atau supervisi dokter spesialis.
+      </div>
+    </aside>
+
+    <main class="main" id="app"></main>
+  </div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
