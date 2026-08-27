@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Shoulder Arthroscopy 3D — Educational Simulator</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="app">
+
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-mark">⚕</span>
+      <div class="brand-text">
+        <strong>Shoulder Arthroscopy 3D</strong>
+        <small>Educational simulator — not for clinical use</small>
+      </div>
+    </div>
+
+    <div class="mode-switch" role="tablist" aria-label="View mode">
+      <button id="modeExternalBtn" class="mode-btn active" role="tab" aria-selected="true">External View</button>
+      <button id="modeArthroBtn" class="mode-btn" role="tab" aria-selected="false">Arthroscopic View</button>
+    </div>
+
+    <button id="panelToggle" class="icon-btn" aria-label="Toggle panels">☰</button>
+  </header>
+
+  <div id="viewport">
+    <canvas id="three-canvas"></canvas>
+
+    <div id="scopeOverlay" class="hidden">
+      <div class="vignette"></div>
+      <div class="crosshair">
+        <span></span><span></span>
+      </div>
+      <div class="hud hud-tl">
+        <div class="hud-label">PORTAL</div>
+        <div id="hudPortal" class="hud-value">Posterior</div>
+      </div>
+      <div class="hud hud-tr">
+        <div id="hudRec" class="hud-rec">● LIVE</div>
+      </div>
+      <div class="hud hud-bl">
+        <div id="hudStructure" class="hud-structure">—</div>
+      </div>
+      <div class="hud hud-br">
+        <div class="hud-label">DEPTH</div>
+        <div class="depth-bar"><div id="depthFill" class="depth-fill"></div></div>
+      </div>
+    </div>
+
+    <div id="loading">Loading 3D anatomy…</div>
+  </div>
+
+  <aside id="leftPanel" class="panel">
+    <section class="panel-section">
+      <h2>Structures</h2>
+      <label class="toggle-row"><input type="checkbox" data-structure="bone" checked><span>Bone (scapula &amp; humerus)</span></label>
+      <label class="toggle-row"><input type="checkbox" data-structure="labrum" checked><span>Glenoid labrum</span></label>
+      <label class="toggle-row"><input type="checkbox" data-structure="capsule" checked><span>Joint capsule</span></label>
+      <label class="toggle-row"><input type="checkbox" data-structure="cuff" checked><span>Rotator cuff tendons</span></label>
+      <label class="toggle-row"><input type="checkbox" data-structure="biceps" checked><span>Biceps tendon</span></label>
+    </section>
+
+    <section class="panel-section">
+      <h2>Pathology</h2>
+      <select id="pathologySelect">
+        <option value="normal">Normal anatomy</option>
+        <option value="bankart">Bankart lesion (labral tear)</option>
+        <option value="cuffTear">Rotator cuff tear (supraspinatus)</option>
+      </select>
+      <p id="pathologySummary" class="muted small"></p>
+    </section>
+
+    <section class="panel-section" id="infoSection">
+      <h2>Selected structure</h2>
+      <p class="muted small">Click any structure in the 3D view to learn about it. In arthroscopic view, the structure under the crosshair is shown automatically.</p>
+      <div id="infoCard" class="info-card hidden">
+        <strong id="infoName"></strong>
+        <p id="infoNote"></p>
+      </div>
+    </section>
+  </aside>
+
+  <aside id="rightPanel" class="panel hidden">
+    <section class="panel-section">
+      <h2>Portal</h2>
+      <div class="portal-buttons">
+        <button class="portal-btn" data-portal="posterior">Posterior</button>
+        <button class="portal-btn" data-portal="anterior">Anterior</button>
+        <button class="portal-btn" data-portal="lateral">Lateral</button>
+      </div>
+      <p id="portalDesc" class="muted small"></p>
+    </section>
+
+    <section class="panel-section">
+      <h2>Scope</h2>
+      <label class="slider-row">
+        <span>Advance / withdraw</span>
+        <input type="range" id="depthSlider" min="0" max="100" value="35" />
+      </label>
+      <p class="muted small">Drag in the view to look around. Scroll or use the slider to move the scope in and out.</p>
+    </section>
+
+    <section class="panel-section">
+      <h2>Probe (working portal)</h2>
+      <label class="toggle-row"><input type="checkbox" id="probeToggle"><span>Show probe</span></label>
+      <label class="slider-row">
+        <span>Probe depth</span>
+        <input type="range" id="probeDepthSlider" min="0" max="100" value="50" />
+      </label>
+      <p class="muted small">Illustrates triangulation: instrument enters from the paired working portal while the scope views from here.</p>
+    </section>
+
+    <section class="panel-section">
+      <h2>Portal map</h2>
+      <div id="portalDiagram" class="portal-diagram">
+        <div class="pd-joint"></div>
+        <div class="pd-dot pd-posterior" data-portal="posterior" title="Posterior"></div>
+        <div class="pd-dot pd-anterior" data-portal="anterior" title="Anterior"></div>
+        <div class="pd-dot pd-lateral" data-portal="lateral" title="Lateral"></div>
+      </div>
+    </section>
+  </aside>
+
+  <footer id="helpbar">
+    <span id="helpText">Drag to orbit · Scroll to zoom · Click a structure for info</span>
+  </footer>
+
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "./js/vendor/three/three.module.js",
+    "three/addons/controls/OrbitControls.js": "./js/vendor/three/controls/OrbitControls.js"
+  }
+}
+</script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
