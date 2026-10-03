@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fellowship Directory</title>
+<meta name="description" content="Medical and surgical fellowship programmes, researched from official institution pages.">
+<style>
+:root{
+  --bg:#f7f6f3;--surface:#ffffff;--surface-2:#f0eee9;--text:#1d1c1a;--muted:#6b6862;
+  --border:#e3e0d9;--accent:#1f5f8b;--accent-soft:#e3eef6;--new:#2e7d4f;--new-soft:#e2f2e8;
+  --warn:#9a5b00;--warn-soft:#fbf0dc;--shadow:0 1px 2px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141414;--surface:#1d1d1c;--surface-2:#262624;--text:#ecebe7;--muted:#a19e97;
+    --border:#33322f;--accent:#7fb6dd;--accent-soft:#1d2e3a;--new:#7cc79a;--new-soft:#1b2f23;
+    --warn:#e0b161;--warn-soft:#33281a;--shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141414;--surface:#1d1d1c;--surface-2:#262624;--text:#ecebe7;--muted:#a19e97;
+  --border:#33322f;--accent:#7fb6dd;--accent-soft:#1d2e3a;--new:#7cc79a;--new-soft:#1b2f23;
+  --warn:#e0b161;--warn-soft:#33281a;--shadow:none;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header{padding:32px 0 16px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0}
+.stats{display:flex;gap:24px;flex-wrap:wrap;margin:18px 0 0}
+.stat b{display:block;font-size:22px}
+.stat span{color:var(--muted);font-size:13px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--border)}
+.row{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:8px}
+@media (max-width:820px){.row{grid-template-columns:1fr 1fr}.row .search{grid-column:1/-1}.controls{position:static}}
+input,select,button{font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:9px 10px;min-width:0;width:100%}
+button{cursor:pointer;width:auto}
+button:hover{border-color:var(--accent)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px;flex-wrap:wrap}
+.bar .count{color:var(--muted);font-size:14px}
+.bar .actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+label.chk{display:flex;gap:6px;align-items:center;font-size:14px;color:var(--muted)}
+label.chk input{width:auto}
+main{padding:16px 0 48px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.card h2{font-size:17px;margin:0;line-height:1.35}
+.inst{color:var(--muted);margin:2px 0 8px;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.chip{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--muted)}
+.chip.sp{background:var(--accent-soft);color:var(--accent)}
+.chip.new{background:var(--new-soft);color:var(--new)}
+.summary{margin:0 0 10px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px 20px;font-size:14px}
+@media (max-width:640px){.facts{grid-template-columns:1fr 1fr}}
+.facts div span{display:block;color:var(--muted);font-size:12px}
+.ns{color:var(--muted);font-style:italic}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--accent);font-size:14px}
+dl{display:grid;grid-template-columns:180px 1fr;gap:6px 12px;margin:10px 0 0;font-size:14px}
+@media (max-width:600px){dl{grid-template-columns:1fr}dt{margin-top:6px}}
+dt{color:var(--muted)}
+dd{margin:0;overflow-wrap:anywhere}
+.links a{color:var(--accent);overflow-wrap:anywhere}
+.note{background:var(--warn-soft);color:var(--warn);padding:8px 10px;border-radius:8px;font-size:13px;margin-top:8px}
+.more{display:block;margin:16px auto}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Fellowship Directory</h1>
+    <p class="lede">Medical &amp; surgical fellowships worldwide. Every entry links to the institution's official page, so confirm details there before applying.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+</div>
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <input class="search" id="q" type="search" placeholder="Search programme, institution, city…" aria-label="Search">
+      <select id="sp" aria-label="Specialty"></select>
+      <select id="sub" aria-label="Subspecialty"></select>
+      <select id="co" aria-label="Country"></select>
+      <select id="tt" aria-label="Training type"></select>
+    </div>
+    <div class="bar">
+      <span class="count" id="count"></span>
+      <div class="actions">
+        <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
+        <select id="sort" aria-label="Sort" style="width:auto">
+          <option value="title">Sort: programme A–Z</option>
+          <option value="inst">Sort: institution A–Z</option>
+          <option value="country">Sort: country</option>
+        </select>
+        <button id="csv" type="button">Download CSV</button>
+        <button id="theme" type="button" aria-label="Toggle theme">◐</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrap">
+  <main id="list"></main>
+  <footer>__COUNT__ programmes · researched from official institution sources, last verified October 2026. "Not stated on official page" means the official page was checked and does not give that detail.</footer>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const DATA = JSON.parse(document.getElementById('data').textContent);
+  const PAGE = 40;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const NS = /^(not stated|check with|confirm current|not specified|contact programme)/i;
+  const val = v => !v || NS.test(v) ? '<span class="ns">' + esc(v || 'Not stated on official page') + '</span>' : esc(v);
+  DATA.forEach(r => { r._s = [r.t, r.i, r.ci, r.co, r.f.Subspecialty, r.f.Specialty, r.su].join(' ').toLowerCase(); });
+
+  let shown = PAGE, filtered = DATA;
+
+  function opts(sel, label, values, keep){
+    const counts = {};
+    values.forEach(v => { if (v) counts[v] = (counts[v] || 0) + 1; });
+    const keys = Object.keys(counts).sort((a,b) => a.localeCompare(b));
+    sel.innerHTML = '<option value="">' + label + '</option>' +
+      keys.map(k => '<option value="' + esc(k) + '">' + esc(k) + ' (' + counts[k] + ')</option>').join('');
+    if (keep && counts[keep]) sel.value = keep;
+  }
+
+  function stats(){
+    const sp = new Set(DATA.map(r => r.f.Specialty)).size;
+    const co = new Set(DATA.map(r => r.co).filter(Boolean)).size;
+    const inst = new Set(DATA.map(r => r.i)).size;
+    $('stats').innerHTML = [[DATA.length,'programmes'],[sp,'specialties'],[inst,'institutions'],[co,'countries']]
+      .map(([n,l]) => '<div class="stat"><b>' + n.toLocaleString() + '</b><span>' + l + '</span></div>').join('');
+  }
+
+  function base(except){
+    const q = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const f = {sp:$('sp').value, sub:$('sub').value, co:$('co').value, tt:$('tt').value};
+    const onlyNew = $('onlyNew').checked;
+    return DATA.filter(r =>
+      (!onlyNew || r.new) &&
+      (except==='sp' || !f.sp || r.f.Specialty === f.sp) &&
+      (except==='sub' || !f.sub || r.f.Subspecialty === f.sub) &&
+      (except==='co' || !f.co || r.co === f.co) &&
+      (except==='tt' || !f.tt || r.f['Training type'] === f.tt) &&
+      q.every(w => r._s.includes(w)));
+  }
+
+  function refreshOptions(){
+    opts($('sp'), 'All specialties', base('sp').map(r => r.f.Specialty), $('sp').value);
+    opts($('sub'), 'All subspecialties', base('sub').map(r => r.f.Subspecialty), $('sub').value);
+    opts($('co'), 'All countries', base('co').map(r => r.co), $('co').value);
+    opts($('tt'), 'All training types', base('tt').map(r => r.f['Training type']), $('tt').value);
+  }
+
+  function card(r){
+    const f = r.f;
+    const place = [r.ci, f['State or region'], r.co].filter((v,i,a) => v && a.indexOf(v) === i).join(', ');
+    const facts = ['Duration','Deadline','Positions','International applicants','Visa support','Funding']
+      .map(k => '<div><span>' + k + '</span>' + val(f[k]) + '</div>').join('');
+    const dl = Object.keys(f).map(k => '<dt>' + esc(k) + '</dt><dd>' + val(f[k]) + '</dd>').join('');
+    const links = r.u.map(u => '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(u) + '</a>').join('<br>');
+    return '<article class="card">' +
+      '<h2>' + esc(r.t) + '</h2>' +
+      '<div class="inst">' + esc(r.i) + (place ? ' · ' + esc(place) : '') + '</div>' +
+      '<div class="chips"><span class="chip sp">' + esc(f.Specialty) + '</span>' +
+        (f.Subspecialty ? '<span class="chip">' + esc(f.Subspecialty) + '</span>' : '') +
+        (f['Training type'] ? '<span class="chip">' + esc(f['Training type']) + '</span>' : '') +
+        (r.new ? '<span class="chip new">New</span>' : '') + '</div>' +
+      (r.su ? '<p class="summary">' + esc(r.su) + '</p>' : '') +
+      '<div class="facts">' + facts + '</div>' +
+      '<details><summary>All details &amp; official sources</summary><dl>' + dl +
+        '<dt>Official source</dt><dd class="links">' + links + '</dd></dl>' +
+        (r.n ? '<div class="note">' + esc(r.n) + '</div>' : '') + '</details>' +
+      '</article>';
+  }
+
+  function render(){
+    const list = $('list');
+    if (!filtered.length){ list.innerHTML = '<p class="empty">No programmes match these filters.</p>'; }
+    else {
+      list.innerHTML = filtered.slice(0, shown).map(card).join('') +
+        (filtered.length > shown ? '<button class="more" id="more" type="button">Show more (' + (filtered.length - shown) + ' left)</button>' : '');
+      const m = $('more'); if (m) m.onclick = () => { shown += PAGE; render(); };
+    }
+    $('count').textContent = filtered.length.toLocaleString() + ' of ' + DATA.length.toLocaleString() + ' programmes';
+  }
+
+  function apply(){
+    refreshOptions();
+    filtered = base();
+    const s = $('sort').value;
+    const key = s === 'inst' ? r => r.i + r.t : s === 'country' ? r => r.co + r.i + r.t : r => r.t + r.i;
+    filtered = filtered.slice().sort((a,b) => key(a).localeCompare(key(b)));
+    shown = PAGE; render();
+  }
+
+  function csv(){
+    const cols = ['Title','Institution','City','Country'].concat(Object.keys(DATA[0].f), ['Official source','Summary']);
+    const q = v => '"' + String(v ?? '').replace(/"/g,'""') + '"';
+    const rows = filtered.map(r => [r.t, r.i, r.ci, r.co].concat(Object.values(r.f), [r.u.join(' | '), r.su]).map(q).join(','));
+    const blob = new Blob(['﻿' + cols.map(q).join(',') + '\n' + rows.join('\n')], {type:'text/csv;charset=utf-8'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'fellowships.csv'; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  let t;
+  $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 150); });
+  ['sp','sub','co','tt','sort','onlyNew'].forEach(id => $(id).addEventListener('change', apply));
+  $('csv').onclick = csv;
+  $('theme').onclick = () => {
+    const root = document.documentElement;
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch(e) {}
+  };
+  try { const th = localStorage.getItem('theme'); if (th) document.documentElement.dataset.theme = th; } catch(e) {}
+
+  stats(); apply();
+})();
+</script>
+</body>
+</html>
