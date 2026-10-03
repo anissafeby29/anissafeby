@@ -13,7 +13,7 @@ ISO = {"United States": "USA", "Canada": "CAN", "United Kingdom": "GBR", "Austra
        "India": "IND", "Thailand": "THA", "Lebanon": "LBN", "Hong Kong SAR": "HKG", "Spain": "ESP", "Japan": "JPN", "Netherlands": "NLD",
        "Saudi Arabia": "SAU", "Malaysia": "MYS", "South Korea": "KOR", "Taiwan": "TWN", "Italy": "ITA", "South Africa": "ZAF",
        "Israel": "ISR", "France": "FRA", "Austria": "AUT", "Sweden": "SWE", "Philippines": "PHL", "China": "CHN", "Nepal": "NPL",
-       "Sri Lanka": "LKA", "Denmark": "DNK", "Norway": "NOR", "Finland": "FIN", "Europe (multi-country)": "EUR", "Türkiye": "TUR", "Turkey": "TUR", "Greece": "GRC", "Portugal": "PRT", "Czech Republic": "CZE", "Slovakia": "SVK", "Lithuania": "LTU", "Poland": "POL", "Hungary": "HUN", "Romania": "ROU", "Croatia": "HRV", "Brazil": "BRA", "Mexico": "MEX", "Egypt": "EGY", "Kenya": "KEN", "Pakistan": "PAK", "Bangladesh": "BGD", "Vietnam": "VNM", "Indonesia": "IDN"}
+       "Sri Lanka": "LKA", "Denmark": "DNK", "Norway": "NOR", "Finland": "FIN", "Europe (multi-country)": "EUR", "International (multi-country)": "INT", "Türkiye": "TUR", "Turkey": "TUR", "Greece": "GRC", "Portugal": "PRT", "Czech Republic": "CZE", "Slovakia": "SVK", "Lithuania": "LTU", "Poland": "POL", "Hungary": "HUN", "Romania": "ROU", "Croatia": "HRV", "Brazil": "BRA", "Mexico": "MEX", "Egypt": "EGY", "Kenya": "KEN", "Pakistan": "PAK", "Bangladesh": "BGD", "Vietnam": "VNM", "Indonesia": "IDN"}
 GROUPS = [
     ("The programme", ["Training type", "Duration", "Start", "Positions", "Accreditation", "Department"]),
     ("Eligibility and visa", ["Eligibility", "International applicants", "Visa support", "Licence requirement"]),
