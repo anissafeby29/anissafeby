@@ -66,6 +66,8 @@ dl{display:grid;grid-template-columns:180px 1fr;gap:6px 12px;margin:10px 0 0;fon
 dt{color:var(--muted)}
 dd{margin:0;overflow-wrap:anywhere}
 .links a{color:var(--accent);overflow-wrap:anywhere}
+.prof{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent)}
+#vert a{color:var(--accent);margin-left:10px}
 .note{background:var(--warn-soft);color:var(--warn);padding:8px 10px;border-radius:8px;font-size:13px;margin-top:8px}
 .more{display:block;margin:16px auto}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
@@ -90,7 +92,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
       <select id="tt" aria-label="Training type"></select>
     </div>
     <div class="bar">
-      <span class="count" id="count"></span>
+      <span class="count"><span id="count"></span><span id="vert"></span></span>
       <div class="actions">
         <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
         <select id="sort" aria-label="Sort" style="width:auto">
@@ -113,6 +115,10 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
 (function(){
   const DATA = JSON.parse(document.getElementById('data').textContent);
   const PAGE = 40;
+  const SITES = {'Orthopaedics':'orthofellow.com','Urology':'urofellow.com','Neurosurgery':'neurosurgfellow.com',
+    'General Surgery':'surgfellow.com','Plastic Surgery':'plasticfellow.com','Cardiothoracic Surgery':'ctsfellow.com'};
+  const SITE_NAMES = {'orthofellow.com':'OrthoFellow','urofellow.com':'UroFellow','neurosurgfellow.com':'NeuroSurgFellow',
+    'surgfellow.com':'SurgFellow','plasticfellow.com':'PlasticFellow','ctsfellow.com':'CTSFellow'};
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const NS = /^(not stated|check with|confirm current|not specified|contact programme)/i;
@@ -174,6 +180,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
         (r.new ? '<span class="chip new">New</span>' : '') + '</div>' +
       (r.su ? '<p class="summary">' + esc(r.su) + '</p>' : '') +
       '<div class="facts">' + facts + '</div>' +
+      (r.p ? '<a class="prof" href="' + esc(r.p) + '" target="_blank" rel="noopener">Full profile on ' + esc(SITE_NAMES[new URL(r.p).hostname.replace(/^www\./,'')] || new URL(r.p).hostname) + ' ↗</a>' : '') +
       '<details><summary>All details &amp; official sources</summary><dl>' + dl +
         '<dt>Official source</dt><dd class="links">' + links + '</dd></dl>' +
         (r.n ? '<div class="note">' + esc(r.n) + '</div>' : '') + '</details>' +
@@ -188,6 +195,8 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
         (filtered.length > shown ? '<button class="more" id="more" type="button">Show more (' + (filtered.length - shown) + ' left)</button>' : '');
       const m = $('more'); if (m) m.onclick = () => { shown += PAGE; render(); };
     }
+    const site = SITES[$('sp').value];
+    $('vert').innerHTML = site ? '<a href="https://' + site + '" target="_blank" rel="noopener">Dedicated site: ' + SITE_NAMES[site] + ' ↗</a>' : '';
     $('count').textContent = filtered.length.toLocaleString() + ' of ' + DATA.length.toLocaleString() + ' programmes';
   }
 

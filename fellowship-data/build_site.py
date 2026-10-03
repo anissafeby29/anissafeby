@@ -37,7 +37,7 @@ def build_records():
             "ci": r.get("City", ""), "su": r.get("Summary", ""),
             "f": {k: r.get(k, "") for k in FIELDS},
             "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
-            "n": "", "new": True,
+            "n": "", "new": True, "p": r.get("profile_url", ""),
         })
     records.sort(key=lambda x: (x["f"]["Specialty"], x["t"].lower(), x["i"].lower()))
     return records
