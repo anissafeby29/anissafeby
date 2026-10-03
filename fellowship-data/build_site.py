@@ -30,7 +30,7 @@ def build_records():
             "ci": m.get("City") or "", "su": m.get("Summary") or "",
             "f": {k: r.get(k, "") for k in FIELDS},
             "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
-            "n": r.get("notes", ""), "new": False,
+            "n": r.get("notes", ""), "new": False, "s": r["slug"],
         })
     for r in load("new_programs.json"):
         records.append({
@@ -38,13 +38,21 @@ def build_records():
             "ci": r.get("City", ""), "su": r.get("Summary", ""),
             "f": {k: r.get(k, "") for k in FIELDS},
             "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
-            "n": "", "new": True, "p": r.get("profile_url", ""),
+            "n": "", "new": True, "p": r.get("profile_url", ""), "s": r["slug"],
         })
     fix = {"Hong Kong SAR, China": "Hong Kong SAR"}
     for r in records:
         r["co"] = fix.get(r["co"], r["co"])
         if r["co"].startswith("Europe ("):
             r["co"] = "Switzerland"
+    seen = set()
+    for r in records:
+        base = r["s"].rstrip("/").split("/")[-1] or "programme"
+        name, k = base, 2
+        while name in seen:
+            name, k = f"{base}-{k}", k + 1
+        seen.add(name)
+        r["s"] = name
     records.sort(key=lambda x: (x["f"]["Specialty"], x["t"].lower(), x["i"].lower()))
     return records
 
@@ -65,6 +73,10 @@ def main():
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     print("index.html:", len(records), "programmes,", round(len(page) / 1e6, 2), "MB")
+    import sys
+    sys.path.insert(0, HERE)
+    import profiles
+    profiles.write_all(records, logo, ROOT, HERE)
 
 
 if __name__ == "__main__":
