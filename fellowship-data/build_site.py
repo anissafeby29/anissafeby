@@ -45,6 +45,18 @@ def build_records():
         r["co"] = fix.get(r["co"], r["co"])
         if r["co"].startswith("Europe ("):
             r["co"] = "Switzerland"
+    import re
+    def group(r):
+        t = (r["f"].get("Training type") or "").lower() + " " + r["t"].lower()
+        if "advert" in t or "vacancy" in t: return "Job advert / vacancy"
+        if re.search(r"observ|visiting|travell|exchange|short course|scholarship|grant|elective", t): return "Observership / visiting / short course"
+        if re.search(r"residency|subspecialty training|training programme|program\b|af[cn]|area of focused", t) and "fellow" not in t: return "Subspecialty training programme"
+        if "research" in t and "clinical" in t: return "Clinical + research fellowship"
+        if "research" in t or "postdoc" in t or "t32" in t: return "Research fellowship"
+        if "instructor" in t: return "Clinical instructorship"
+        return "Clinical fellowship"
+    for r in records:
+        r["g"] = group(r)
     seen = set()
     for r in records:
         base = r["s"].rstrip("/").split("/")[-1] or "programme"

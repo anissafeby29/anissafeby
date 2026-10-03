@@ -311,7 +311,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
       (except==='sp' || !f.sp || r.f.Specialty === f.sp) &&
       (except==='sub' || !f.sub || r.f.Subspecialty === f.sub) &&
       (except==='co' || !f.co || r.co === f.co) &&
-      (except==='tt' || !f.tt || r.f['Training type'] === f.tt) &&
+      (except==='tt' || !f.tt || r.g === f.tt) &&
       q.every(w => r._s.includes(w)));
   }
 
@@ -368,7 +368,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     opts($('sp'), 'All specialties', base('sp').map(r => r.f.Specialty));
     opts($('sub'), 'All subspecialties', base('sub').map(r => r.f.Subspecialty));
     opts($('co'), 'All countries', base('co').map(r => r.co));
-    opts($('tt'), 'All training types', base('tt').map(r => r.f['Training type']));
+    opts($('tt'), 'All training types', base('tt').map(r => r.g));
     const s = $('sort').value;
     const key = s === 'inst' ? r => r.i + r.t : s === 'country' ? r => r.co + r.i + r.t : r => r.t + r.i;
     filtered = base().sort((a,b) => key(a).localeCompare(key(b)));
