@@ -43,8 +43,8 @@ def build_records():
     fix = {"Hong Kong SAR, China": "Hong Kong SAR"}
     for r in records:
         r["co"] = fix.get(r["co"], r["co"])
-        if r["co"].startswith("Europe ("):
-            r["co"] = "Switzerland"
+        if r["co"].startswith("Europe"):
+            r["co"] = "Europe (multi-country)"
     import re
     def group(r):
         t = (r["f"].get("Training type") or "").lower() + " " + r["t"].lower()
