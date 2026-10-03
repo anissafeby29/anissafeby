@@ -67,7 +67,17 @@ dt{color:var(--muted)}
 dd{margin:0;overflow-wrap:anywhere}
 .links a{color:var(--accent);overflow-wrap:anywhere}
 .prof{display:inline-block;margin-top:10px;font-size:14px;color:var(--accent)}
-#vert a{color:var(--accent);margin-left:10px}
+#vert a{color:var(--accent);margin-left:10px;font-weight:600}
+.sites{margin:22px 0 0}
+.sites h2{font-size:15px;margin:0 0 10px;color:var(--muted);font-weight:600}
+.sitegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:820px){.sitegrid{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.sitegrid{grid-template-columns:1fr}}
+.site{display:block;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+.site:hover{border-color:var(--accent)}
+.site b{display:block;font-size:15px}
+.site span{display:block;color:var(--muted);font-size:13px}
+.site em{font-style:normal;color:var(--accent);font-size:13px}
 .note{background:var(--warn-soft);color:var(--warn);padding:8px 10px;border-radius:8px;font-size:13px;margin-top:8px}
 .more{display:block;margin:16px auto}
 .empty{text-align:center;color:var(--muted);padding:40px 0}
@@ -80,6 +90,10 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
     <div class="brand"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#1f5f8b"/><circle cx="32" cy="32" r="17" fill="none" stroke="#fff" stroke-width="3.5"/><ellipse cx="32" cy="32" rx="7.5" ry="17" fill="none" stroke="#fff" stroke-width="3"/><path d="M15 32h34" stroke="#fff" stroke-width="3"/><path d="M40 19l9-5-3 10" fill="none" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h1>The Fellowship Portal</h1></div>
     <p class="lede">Medical &amp; surgical fellowships worldwide. Every entry links to the institution's official page, so confirm details there before applying.</p>
     <div class="stats" id="stats"></div>
+    <section class="sites" aria-label="Specialist sites">
+      <h2>Specialist directories</h2>
+      <div class="sitegrid" id="sites"></div>
+    </section>
   </header>
 </div>
 <div class="controls">
@@ -230,6 +244,15 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
   };
   try { const th = localStorage.getItem('theme'); if (th) document.documentElement.dataset.theme = th; } catch(e) {}
 
+  const SITE_INFO = [
+    ['orthofellow.com','Orthopaedics','1,600+ fellowships, observerships & travelling fellowships'],
+    ['urofellow.com','Urology','300+ urology programmes'],
+    ['neurosurgfellow.com','Neurosurgery','240+ neurosurgery programmes'],
+    ['surgfellow.com','General Surgery','160+ surgical programmes'],
+    ['plasticfellow.com','Plastic Surgery','Plastic & reconstructive fellowships'],
+    ['ctsfellow.com','Cardiothoracic Surgery','Cardiothoracic programmes worldwide']];
+  $('sites').innerHTML = SITE_INFO.map(([d,sp,txt]) => '<a class="site" href="https://' + d + '" target="_blank" rel="noopener"><b>' +
+    SITE_NAMES[d] + '</b><span>' + esc(sp) + ' · ' + esc(txt) + '</span><em>Visit ' + d + ' ↗</em></a>').join('');
   stats(); apply();
 })();
 </script>
