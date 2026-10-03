@@ -1,6 +1,6 @@
 # Fellowship data — The Fellowship Portal
 
-Total in `index.html`: 2031 programmes.
+Total in `index.html`: 4,526 programmes (16 specialties, 42 countries, 1,130 institutions), each with its own profile page under `/programs/<slug>/`.
 
 Researched 3 October 2026 from official institution pages only (no aggregators).
 
@@ -8,7 +8,9 @@ Researched 3 October 2026 from official institution pages only (no aggregators).
 |---|---|
 | `programs.csv` / `.json` | The 331 programmes already on thefellowshipportal.com, with missing/vague fields filled from official sources. `research_status` = updated / no_new_info / source_unreachable. |
 | `changes.csv` | Every field change: old value, new value, source URL. |
-| `new_programs.csv` / `.json` | 1700 new programmes across 16 specialties (Internal Medicine 300, Anaesthesiology 247, Radiology 194, Obstetrics & Gynaecology 188, General Surgery 166, Orthopaedics 155, Paediatrics 66, Cardiology 61, Ophthalmology 56, ENT / Otolaryngology 44, Neurosurgery 44, Emergency Medicine 39, Urology 39, Cardiothoracic Surgery 38, Plastic Surgery 38, Dermatology 25). |
+| `new_programs.csv` / `.json` | 4,195 programmes added October 2026 across 16 specialties. |
+
+Values starting "Institution policy:" come from the institution's GME/postgraduate office page (visa, salary scale, licence, standard start date) and apply to all its programmes; programme pages may differ.
 
 "Not stated on official page" means the official page was checked and does not give that information.
 
