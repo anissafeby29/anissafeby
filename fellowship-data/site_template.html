@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fellowship Directory</title>
+<title>The Fellowship Portal — Medical &amp; Surgical Fellowships Worldwide</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%231f5f8b%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.5%22/%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%227.5%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M15%2032h34%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M40%2019l9-5-3%2010%22%20fill%3D%22none%22%20stroke%3D%22%23f2c14e%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
 <meta name="description" content="Medical and surgical fellowship programmes, researched from official institution pages.">
 <style>
 :root{
@@ -27,7 +28,9 @@
 body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
 header{padding:32px 0 16px}
-h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+h1{font-size:28px;margin:0;letter-spacing:-.01em;line-height:1.15}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.brand svg{width:52px;height:52px;flex:none}
 .lede{color:var(--muted);margin:0}
 .stats{display:flex;gap:24px;flex-wrap:wrap;margin:18px 0 0}
 .stat b{display:block;font-size:22px}
@@ -72,7 +75,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
 <body>
 <div class="wrap">
   <header>
-    <h1>Fellowship Directory</h1>
+    <div class="brand"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#1f5f8b"/><circle cx="32" cy="32" r="17" fill="none" stroke="#fff" stroke-width="3.5"/><ellipse cx="32" cy="32" rx="7.5" ry="17" fill="none" stroke="#fff" stroke-width="3"/><path d="M15 32h34" stroke="#fff" stroke-width="3"/><path d="M40 19l9-5-3 10" fill="none" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h1>The Fellowship Portal</h1></div>
     <p class="lede">Medical &amp; surgical fellowships worldwide. Every entry links to the institution's official page, so confirm details there before applying.</p>
     <div class="stats" id="stats"></div>
   </header>
