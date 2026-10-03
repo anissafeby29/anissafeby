@@ -4,6 +4,7 @@ Run: python3 fellowship-data/build_site.py
 """
 import json
 import os
+import urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -39,6 +40,11 @@ def build_records():
             "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
             "n": "", "new": True, "p": r.get("profile_url", ""),
         })
+    fix = {"Hong Kong SAR, China": "Hong Kong SAR"}
+    for r in records:
+        r["co"] = fix.get(r["co"], r["co"])
+        if r["co"].startswith("Europe ("):
+            r["co"] = "Switzerland"
     records.sort(key=lambda x: (x["f"]["Specialty"], x["t"].lower(), x["i"].lower()))
     return records
 
@@ -47,7 +53,15 @@ def main():
     records = build_records()
     data = json.dumps(records, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     with open(os.path.join(HERE, "site_template.html"), encoding="utf-8") as fh:
-        page = fh.read().replace("__DATA__", data).replace("__COUNT__", str(len(records)))
+        page = fh.read()
+    with open(os.path.join(HERE, "logo.svg"), encoding="utf-8") as fh:
+        logo = fh.read().strip()
+    page = (page.replace("__FAVICON__", "data:image/svg+xml," + urllib.parse.quote(logo))
+            .replace("__LOGO__", logo.replace("<svg ", '<svg aria-hidden="true" ', 1))
+            .replace("__COUNT__", f"{len(records):,}")
+            .replace("__SPECS__", str(len({r["f"]["Specialty"] for r in records})))
+            .replace("__COUNTRIES__", str(len({r["co"] for r in records if r["co"]})))
+            .replace("__DATA__", data))
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     print("index.html:", len(records), "programmes,", round(len(page) / 1e6, 2), "MB")
