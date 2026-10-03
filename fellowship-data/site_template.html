@@ -109,6 +109,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
       <span class="count"><span id="count"></span><span id="vert"></span></span>
       <div class="actions">
         <label class="chk"><input type="checkbox" id="onlyNew"> New only</label>
+        <label class="chk"><input type="checkbox" id="hideClosed" checked> Hide closed adverts</label>
         <select id="sort" aria-label="Sort" style="width:auto">
           <option value="title">Sort: programme A–Z</option>
           <option value="inst">Sort: institution A–Z</option>
@@ -137,6 +138,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const NS = /^(not stated|check with|confirm current|not specified|contact programme)/i;
   const val = v => !v || NS.test(v) ? '<span class="ns">' + esc(v || 'Not stated on official page') + '</span>' : esc(v);
+  DATA.forEach(r => { r._closed = /advert/i.test(r.t) && /closed|has closed|now closed|past|expired/i.test((r.f.Deadline||'') + ' ' + (r.f.Start||'')); });
   DATA.forEach(r => { r._s = [r.t, r.i, r.ci, r.co, r.f.Subspecialty, r.f.Specialty, r.su].join(' ').toLowerCase(); });
 
   let shown = PAGE, filtered = DATA;
@@ -161,9 +163,9 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
   function base(except){
     const q = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const f = {sp:$('sp').value, sub:$('sub').value, co:$('co').value, tt:$('tt').value};
-    const onlyNew = $('onlyNew').checked;
+    const onlyNew = $('onlyNew').checked, hideClosed = $('hideClosed').checked;
     return DATA.filter(r =>
-      (!onlyNew || r.new) &&
+      (!onlyNew || r.new) && (!hideClosed || !r._closed) &&
       (except==='sp' || !f.sp || r.f.Specialty === f.sp) &&
       (except==='sub' || !f.sub || r.f.Subspecialty === f.sub) &&
       (except==='co' || !f.co || r.co === f.co) &&
@@ -234,7 +236,7 @@ footer{color:var(--muted);font-size:13px;padding:24px 0 40px;border-top:1px soli
 
   let t;
   $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 150); });
-  ['sp','sub','co','tt','sort','onlyNew'].forEach(id => $(id).addEventListener('change', apply));
+  ['sp','sub','co','tt','sort','onlyNew','hideClosed'].forEach(id => $(id).addEventListener('change', apply));
   $('csv').onclick = csv;
   $('theme').onclick = () => {
     const root = document.documentElement;
