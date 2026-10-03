@@ -255,9 +255,9 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   const SITES = {'Orthopaedics':'orthofellow.com','Urology':'urofellow.com','Neurosurgery':'neurosurgfellow.com',
     'General Surgery':'surgfellow.com','Plastic Surgery':'plasticfellow.com','Cardiothoracic Surgery':'ctsfellow.com'};
   const SITE_NAMES = {'orthofellow.com':'OrthoFellow','urofellow.com':'UroFellow','neurosurgfellow.com':'NeuroSurgFellow',
-    'surgfellow.com':'SurgFellow','plasticfellow.com':'PlasticFellow','ctsfellow.com':'CTSFellow'};
+    'surgfellow.com':'SurgFellow','plasticfellow.com':'PlasticFellow','ctsfellow.com':'CTSFellow','vascfellow.com':'VascFellow'};
   const SITE_TXT = {'orthofellow.com':'1,600+ orthopaedic listings','urofellow.com':'300+ urology','neurosurgfellow.com':'240+ neurosurgery',
-    'surgfellow.com':'160+ general surgery','plasticfellow.com':'Plastic & reconstructive','ctsfellow.com':'Cardiothoracic'};
+    'surgfellow.com':'160+ general surgery','plasticfellow.com':'Plastic & reconstructive','ctsfellow.com':'Cardiothoracic','vascfellow.com':'Vascular & endovascular'};
 
   DATA.forEach(r => {
     r._closed = /advert/i.test(r.t) && /closed|has closed|now closed|past|expired/i.test((r.f.Deadline||'') + ' ' + (r.f.Start||''));
@@ -279,7 +279,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     $('specs').innerHTML = Object.keys(c).sort((a,b) => c[b]-c[a]).map(s =>
       '<button class="spec" type="button" data-sp="' + esc(s) + '" aria-pressed="' + (s===cur) + '"><span class="row"><span class="name">' + esc(s) +
       '</span><span class="n">' + c[s].toLocaleString() + '</span></span>' +
-      (SITES[s] ? '<span class="site">+ ' + SITE_NAMES[SITES[s]] + '</span>' : '') + '</button>').join('');
+      (SITES[s] ? '<span class="site">+ ' + SITE_NAMES[SITES[s]] + (s === 'General Surgery' ? ' · VascFellow' : '') + '</span>' : '') + '</button>').join('');
   }
 
   function countries(){
@@ -347,7 +347,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
       const m = $('more'); if (m) m.onclick = () => { shown += PAGE; render(); };
     }
     $('count').textContent = filtered.length.toLocaleString() + ' of ' + DATA.length.toLocaleString() + ' programmes';
-    const site = SITES[$('sp').value];
+    const site = /vascular/i.test($('sub').value) ? 'vascfellow.com' : SITES[$('sp').value];
     $('vert').innerHTML = site ? '<a href="https://' + site + '" target="_blank" rel="noopener">More on ' + SITE_NAMES[site] + ' ↗</a>' : '';
   }
 
