@@ -377,6 +377,748 @@
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-fellowship-in-paediatric-surgery-and-paediatric-surgical-oncology-kkh",
+   "field": "Start",
+   "value": "July (main intake); entry at other times subject to availability",
+   "source": "https://www.kkh.com.sg/education/training-fellowships/medical/surgery/clinical-fellowship-in-paediatric-surgery-and-paediatric-surgical-oncology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-fellowship-university-of-british-columbia",
+   "field": "Start",
+   "value": "1 July (academic year 1 July - 30 June)",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/abdominal-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-british-columbia",
+   "field": "Start",
+   "value": "1 July (12-month fellowship, July-June)",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/cardiothoracic-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/body-imaging-and-intervention-fellowship-university-of-british-columbia",
+   "field": "Start",
+   "value": "January (one fellow) and July (two fellows) each year",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/body-imaging-intervention/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-and-body-imaging-fellowship-university-of-british-columbia",
+   "field": "Start",
+   "value": "July (July 2027 and July 2028 cohorts)",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/breast-body-imaging-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/oncologic-body-imaging-fellowship-program-university-of-british-columbia",
+   "field": "Deadline",
+   "value": "31 October 2026 for 2028-2029 (2027-2028 deadline was 30 September 2026)",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/oncologic-body-imaging-fellowship-program/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/oncologic-body-imaging-fellowship-program-university-of-british-columbia",
+   "field": "Positions",
+   "value": "1 funded position",
+   "source": "https://radiology.med.ubc.ca/education/fellowships/oncologic-body-imaging-fellowship-program/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/laser-medicine-and-photobiology-clinical-fellowship-ubc",
+   "field": "Deadline",
+   "value": "Institution policy: complete applications must reach UBC PGME at least 8 weeks before the training start date",
+   "source": "https://postgrad.med.ubc.ca/prospective-trainees/postgraduate-trainees/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/immunodermatology-clinical-fellowship-ubc",
+   "field": "Deadline",
+   "value": "Institution policy: complete applications must reach UBC PGME at least 8 weeks before the training start date",
+   "source": "https://postgrad.med.ubc.ca/prospective-trainees/postgraduate-trainees/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "15 September (application and all supplementary material via ERAS); NRMP match results December",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/cardiology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Completed accredited pediatric residency in North America; board certified/eligible (ABP); J-1 accepted, valid ECFMG certificate for IMGs; no H visas",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/cardiology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/cardiology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "Submit ERAS application July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/critical-care-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July following the match (July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments))",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/critical-care-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "MD or equivalent; completed/enrolled in 3-year general pediatrics residency or ABP alternate pathway; US citizen, permanent resident or J-1; IMGs need valid ECFMG certification",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/critical-care-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/critical-care-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "Standard ERAS/NRMP timeline; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited pediatrics residency and board eligible; US citizens, permanent residents or ECFMG-sponsored J-1 (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/developmental-behavioral/education/fellowship/adolescent-medicine/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/developmental-behavioral/education/fellowship/adolescent-medicine/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026 (one position every other year)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "US citizens, permanent residents or ECFMG-sponsored J-1 only (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/developmental-behavioral/education/fellowship/child-abuse/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP Fall Match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/developmental-behavioral/education/fellowship/child-abuse/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "ERAS applications generally submitted in summer (review from July); NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Completed or on track to complete accredited residency in pediatrics or emergency medicine before fellowship; board-eligibility requirements apply",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/emergency-medicine/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP Medicine and Pediatric Specialties Match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/emergency-medicine/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "1 November (applications via ERAS from 1 July); Pediatric Specialties Fall Match in December",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/endocrinology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July each year",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/endocrinology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP Pediatric Specialties Fall Match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/endocrinology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "ERAS opens July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Graduate of accredited medical school; completed accredited pediatric residency by fellowship start; board eligible/certified in pediatrics; US citizens or J-1 (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/gastroenterology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/gastroenterology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "15 September (application and all supplementary material via ERAS); match results December",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/hematology-oncology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Permanent residents or ECFMG-sponsored J-1 (department does not sponsor H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/hematology-oncology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/hematology-oncology/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "Apply via ERAS from early July; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "US citizens, permanent residents or ECFMG-sponsored J-1 (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/hospitalist-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/hospitalist-medicine/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "US citizens, permanent residents or ECFMG-sponsored J-1 (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/infectious-disease/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/infectious-disease/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "Generally July (start dates may be flexible)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/neonatal/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Completed/enrolled in 3-year general pediatrics residency or ABP alternate pathway; US citizen, permanent resident or J-1; valid ECFMG certification; USMLE Step 1 and Step 2 CK passed before application review",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/neonatal/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP Neonatal-Perinatal Medicine match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/neonatal/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-neurocritical-care-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "Applications accepted from January for 1 July start the following year; considered on a rolling basis",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/fetal-neonatal-neurology/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-neurocritical-care-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "1 July",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/fetal-neonatal-neurology/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "Permanent residents or ECFMG-sponsored J-1 (no H-1B)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/pulmonology-sleep-medicine/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/pulmonology-sleep-medicine/education/fellowship/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Deadline",
+   "value": "Applications should be submitted by September via ERAS (interviews September-November)",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/rheumatology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Eligibility",
+   "value": "One year internship plus two years ACGME/RCPSC-accredited pediatric residency; permanent resident or USMLE Steps 1-3 passed and eligible for ECFMG-sponsored J-1",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/rheumatology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-ut-southwestern-children-s-health-dallas",
+   "field": "Application method",
+   "value": "ERAS application",
+   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/rheumatology/education/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuro-ophthalmology-fellowship-northwestern-university-feinberg-school-of-medicine",
+   "field": "Duration",
+   "value": "1 year",
+   "source": "https://www.feinberg.northwestern.edu/sites/ophthalmology/education/fellowships/neuro-ophthalmology-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Deadline",
+   "value": "ERAS applications accepted from July each year; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-university-of-minnesota-masonic",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-university-of-minnesota-masonic",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-minnesota-masonic",
+   "field": "Positions",
+   "value": "Generally match 3 candidates each year",
+   "source": "https://med.umn.edu/pediatrics/education/fellowships/medical-fellowships/neonatal-perinatal-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-transplant-hepatology-fellowship-columbia-morgan-stanley-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-transplant-hepatology-fellowship-columbia-morgan-stanley-children-s",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-seattle-childrens-hospital-university-of-washington",
+   "field": "Start",
+   "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-training-program-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/departmental-neonatal-perinatal-medicine-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-neuro-critical-care-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-and-targeted-neonatal-echocardiography-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/kidsim-pediatric-simulation-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/acute-care-point-of-care-ultrasound-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-vasculitis-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-antimicrobial-stewardship-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-movement-disorders-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-palliative-care-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-bmt-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-sleep-medicine-fellowship-university-of-calgary-alberta-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/electrophysiology-subspecialty-training-program-calgary-libin",
+   "field": "Eligibility",
+   "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
+   "level": "institution"
   }
  ],
  "conflicts": []

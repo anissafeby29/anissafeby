@@ -314,7 +314,197 @@
    "value": "Enquiries/applications via the Endocrine Surgery Fellowship Coordinator (patricia.richitelli@yale.edu)",
    "source": "https://medicine.yale.edu/surgery/education/fellowships/endocrine/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-duke-university",
+   "field": "Positions",
+   "value": "3 (2027 Radiology Fellowship Match for 2028 appointments)",
+   "source": "https://radiology.duke.edu/about/clinical-divisions/breast-imaging/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-duke-university",
+   "field": "Duration",
+   "value": "12 months",
+   "source": "https://radiology.duke.edu/about/clinical-divisions/breast-imaging/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-ucsf",
+   "field": "Positions",
+   "value": "7 per year",
+   "source": "https://pulmonary.ucsf.edu/fellowship/pulmonary-critical-care-medicine-fellowship-program/pulmonary-critical-care-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-ucsf",
+   "field": "Application method",
+   "value": "ERAS (applications open around 1 July)",
+   "source": "https://pulmonary.ucsf.edu/fellowship/pulmonary-critical-care-medicine-fellowship-program/pulmonary-critical-care-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-ucsf",
+   "field": "Duration",
+   "value": "3 years (ABIM requirement); nearly all fellows stay 4-5 years",
+   "source": "https://pulmonary.ucsf.edu/fellowship/pulmonary-critical-care-medicine-fellowship-program/pulmonary-critical-care-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ilene-r-joseph-interventional-pulmonology-fellowship-michigan",
+   "field": "Deadline",
+   "value": "15 August (applications open 1 July via IPFAS/ERAS; NRMP rank list late November, match results first week of December)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/pulmonary-critical-care-medicine/education/fellowships-training-programs/ilene-r-joseph-interventional-pulmonology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "NRMP Match; submit UI Health Care application or SBI Universal Application, CV, statement of purpose, 3 letters, ECFMG certificate and USMLE transcripts by email to courtney-bork@uiowa.edu",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/breast-imaging/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "UI Health Care application, CV, statement of purpose, 3 letters, ECFMG certificate and USMLE 1-3 transcripts emailed to courtney-bork@uiowa.edu; interviews per SCARD guidelines",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/cardiothoracic-imaging/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed radiology residency and USMLE Steps 1-3 before applying; able to obtain an Iowa resident medical licence; preferably preparing for ABR certification",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/cardiothoracic-imaging/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endovascular-surgical-neuroradiology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "ERAS (ECFMG certificate if applicable, USMLE 1-3 transcripts, personal statement, 3 letters)",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/endovascular-surgical-neuroradiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/interventional-radiology-independent-residency-university-of-iowa",
+   "field": "Application method",
+   "value": "ERAS (with NRMP match)",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/interventional-radiology-independent/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/interventional-radiology-independent-residency-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed ACGME- or Canadian-accredited radiology residency; ABR board certified or eligible (passed Core Exam); passed USMLE Steps 1 and 2; able to obtain an Iowa medical licence",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/interventional-radiology-independent/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-radiology-fellowship-university-of-iowa",
+   "field": "Deadline",
+   "value": "NRMP Match 2026 for 2027-2028 positions: applications accepted beginning 1 November; interviews start after 13 January",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/musculoskeletal-radiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-radiology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "NRMP Match; UI or common SSR application, personal statement, 3 letters and ECFMG certificate emailed to suyun-channon@uiowa.edu",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/musculoskeletal-radiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-radiology-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "USMLE Steps 1-3 completed; ACGME-accredited radiology residency in the United States; eligible for a permanent Iowa medical licence",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/musculoskeletal-radiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "ERAS (NRMP match)",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/neuroradiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed ACGME, AOA, ACGME-I (Advanced Specialty) or Royal College-accredited residency; ECFMG-certified FMGs with exceptional qualifications also considered",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/neuroradiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/nuclear-oncology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "Email UI Health Care application, statement of purpose, 3 letters and ECFMG certificate to the programme coordinator (Courtney Bork); selected candidates interviewed",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/nuclear-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/nuclear-oncology-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed nuclear medicine residency (ABNM certification/eligibility preferred) or ACGME diagnostic radiology residency with cross-sectional experience; Iowa licence eligibility",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/nuclear-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "Application form, statement of purpose, USMLE reports, ECFMG certificate and 3 letters sent to Dr Lillian Lai c/o Courtney Bork (electronic submission accepted)",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/pediatric-radiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed radiology residency and USMLE Steps 1-3 before applying; able to obtain an Iowa resident medical licence",
+   "source": "https://radiology.medicine.uiowa.edu/education/fellowships/pediatric-radiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/micrographic-surgery-and-dermatologic-oncology-fellowship-university-of-iowa",
+   "field": "Deadline",
+   "value": "1 August (2026 SF Match cycle: applications accepted from 8 June 2026; deadline 1 August 2026)",
+   "source": "https://dermatology.medicine.uiowa.edu/education/micrographic-surgery-and-dermatologic-oncology-fellowship/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/micrographic-surgery-and-dermatologic-oncology-fellowship-university-of-iowa",
+   "field": "Application method",
+   "value": "SF Match Central Application Service only",
+   "source": "https://dermatology.medicine.uiowa.edu/education/micrographic-surgery-and-dermatologic-oncology-fellowship/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-and-strabismus-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "Completed appropriate residency; FMGs need valid ECFMG certificate, all USMLE steps and 2 years of accredited US postgraduate training; Iowa licence by 30 June; apply through SF Match (materials by 15 September)",
+   "source": "https://eye.medicine.uiowa.edu/education/fellowships/pediatric-ophthalmology-and-strabismus/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ophthalmic-pathology-fellowship-university-of-iowa",
+   "field": "Eligibility",
+   "value": "FMGs accepted if USMLE Steps I and II passed, ECFMG certificate held and US permanent residency status; must be available for 1 July orientation and licensed in Iowa by 30 June",
+   "source": "https://eye.medicine.uiowa.edu/education/fellowships/ophthalmic-pathology-fellowship/how-apply",
+   "level": "programme"
   }
  ],
- "conflicts": []
+ "conflicts": [
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-ucsf",
+   "field": "Visa support",
+   "existing": "(listed as open to international applicants)",
+   "found": "Programme FAQ: does not sponsor J-1 or other visas (NIH funding limited to US citizens/permanent residents); exceptional applicants considered only in very rare cases",
+   "source": "https://pulmonary.ucsf.edu/fellowship/pulmonary-critical-care-medicine-fellowship-program/pulmonary-critical-care-medicine"
+  },
+  {
+   "slug": "/programs/ophthalmic-pathology-fellowship-university-of-iowa",
+   "field": "International applicants",
+   "existing": "(listed as open to international applicants)",
+   "found": "How-to-apply page: foreign medical graduates accepted only with USMLE I-II, ECFMG certificate and US permanent residency status",
+   "source": "https://eye.medicine.uiowa.edu/education/fellowships/ophthalmic-pathology-fellowship/how-apply"
+  }
+ ]
 }

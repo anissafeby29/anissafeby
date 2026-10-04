@@ -559,7 +559,540 @@
    "value": "1",
    "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/pediatric-neonatal-perinatal-medicine",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pain-medicine-fellowship-university-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July to 30 June (AY27: 1 July 2026 - 30 June 2027)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/university-of-washington-gynecologic-oncology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July to 30 June (AY27: 1 July 2026 - 30 June 2027)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washington-pediatric-pain-medicine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July to 30 June (AY27: 1 July 2026 - 30 June 2027)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cancer-imaging-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July to 30 June (AY27: 1 July 2026 - 30 June 2027)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cancer-imaging-fellowship-university-of-washington",
+   "field": "Deadline",
+   "value": "No fixed deadline: rolling, first-come first-accepted admissions (no Match)",
+   "source": "https://rad.uw.edu/education/our-training-programs/cancer-imaging",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroendovascular-surgery-fellowship-university-of-washington",
+   "field": "Deadline",
+   "value": "Positions filled / applications closed for 2026-2027 and 2027-2028; from 2027-2028 cycle onward recruitment is via SNIS Neurointerventional Surgery Match (NRMP)",
+   "source": "https://neurosurgery.uw.edu/education/fellowship-programs/Neuroendovascular",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cerebrovascular-and-skull-base-surgery-fellowship-university-of-washington",
+   "field": "Deadline",
+   "value": "Positions filled / applications closed for 2026-2027, 2027-2028 and 2028-2029",
+   "source": "https://neurosurgery.uw.edu/education/fellowship-programs/cerebrovascular-and-skull-base-surgery",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/andrology-fellowship-uw",
+   "field": "Positions",
+   "value": "2 per year",
+   "source": "https://urology.uw.edu/education/fellowship/andrology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/andrology-fellowship-uw",
+   "field": "Application method",
+   "value": "Via UW hiring portal (Interfolio): CV, personal statement, at least 3 letters (incl. urology PD); interviews in person at AUA; match-date selection",
+   "source": "https://urology.uw.edu/education/fellowship/andrology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endourology-and-minimally-invasive-surgery-fellowship-uw",
+   "field": "Application method",
+   "value": "Via UW hiring portal (Interfolio): Endourology application form, CV, personal statement, at least 3 letters (incl. urology PD); interviews at AUA annual meeting",
+   "source": "https://urology.uw.edu/education/fellowship/endourology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/genitourinary-reconstructive-surgery-fellowship-uw",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://urology.uw.edu/education/fellowship/trauma",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/genitourinary-reconstructive-surgery-fellowship-uw",
+   "field": "Application method",
+   "value": "Via UW hiring portal (Interfolio): GURS application form, CV, personal statement, at least 3 letters (incl. urology PD/chair)",
+   "source": "https://urology.uw.edu/education/fellowship/trauma",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/suo-urologic-oncology-fellowship-uw",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://urology.uw.edu/education/fellowship/urological-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/suo-urologic-oncology-fellowship-uw",
+   "field": "Application method",
+   "value": "Society of Urologic Oncology (SUO) Match application plus UW hiring portal (Interfolio): CV, personal statement, at least 3 letters (incl. urology PD)",
+   "source": "https://urology.uw.edu/education/fellowship/urological-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-chla",
+   "field": "Start",
+   "value": "Institution policy: CHLA physician-in-training agreements offer clinical fellow positions beginning 1 July",
+   "source": "https://www.chla.org/sites/default/files/atoms/files/CHLA-Physician-in-Training-Agreement-PIT-A2015-Sample-v2.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-chla",
+   "field": "Start",
+   "value": "Institution policy: CHLA physician-in-training agreements offer clinical fellow positions beginning 1 July",
+   "source": "https://www.chla.org/sites/default/files/atoms/files/CHLA-Physician-in-Training-Agreement-PIT-A2015-Sample-v2.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-chla",
+   "field": "Start",
+   "value": "Institution policy: CHLA physician-in-training agreements offer clinical fellow positions beginning 1 July",
+   "source": "https://www.chla.org/sites/default/files/atoms/files/CHLA-Physician-in-Training-Agreement-PIT-A2015-Sample-v2.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-chla",
+   "field": "Start",
+   "value": "Institution policy: CHLA physician-in-training agreements offer clinical fellow positions beginning 1 July",
+   "source": "https://www.chla.org/sites/default/files/atoms/files/CHLA-Physician-in-Training-Agreement-PIT-A2015-Sample-v2.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neurodevelopmental-disabilities-fellowship-chla",
+   "field": "Start",
+   "value": "Institution policy: CHLA physician-in-training agreements offer clinical fellow positions beginning 1 July",
+   "source": "https://www.chla.org/sites/default/files/atoms/files/CHLA-Physician-in-Training-Agreement-PIT-A2015-Sample-v2.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/kenneth-t-and-eileen-l-norris-foundation-pediatric-hematology-oncology-fellowship-chla",
+   "field": "Positions",
+   "value": "4 per year",
+   "source": "https://www.chla.org/fellowship/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/kenneth-t-and-eileen-l-norris-foundation-pediatric-hematology-oncology-fellowship-chla",
+   "field": "Eligibility",
+   "value": "Completed ACGME- or RCPSC-accredited pediatric residency; USMLE Steps 1-3 passed; ECFMG certificate for international graduates; California medical licence",
+   "source": "https://www.chla.org/fellowship/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/kenneth-t-and-eileen-l-norris-foundation-pediatric-hematology-oncology-fellowship-chla",
+   "field": "Application method",
+   "value": "ERAS (NRMP match); applications accepted from July 2026",
+   "source": "https://www.chla.org/fellowship/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/blood-and-marrow-transplantation-fellowship-chla",
+   "field": "Deadline",
+   "value": "Applications accepted until August of the year preceding the fellowship start",
+   "source": "https://www.chla.org/fellowship/blood-and-marrow-transplantation-bmt-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/general-academic-pediatrics-fellowship-in-health-equity-chla",
+   "field": "Application method",
+   "value": "NRMP Pediatric Fall Specialties Match (now accepting applications for 2027-2028)",
+   "source": "https://www.chla.org/fellowship/pediatrics-fellowship-health-equity",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-allergy-and-immunology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "July (2027 cohort begins July 2027)",
+   "source": "https://pediatriccriticalcaremedicine.wustl.edu/fellowship/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-hepatology-and-nutrition-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-transplant-hepatology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/hospice-and-palliative-medicine-fellowship-pediatric-track-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment year runs 1 July to 30 June (current: 1 July 2026 - 30 June 2027)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "July (next intake July 2027)",
+   "source": "https://pediatricsnephrology.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-washu-st-louis-childrens",
+   "field": "Start",
+   "value": "July (2026 cycle positions begin July 2027)",
+   "source": "https://pediatricrheumatologyimmunology.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-allergy-and-immunology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS (applications from July; CV and three letters of recommendation; interview invitations from August)",
+   "source": "https://pediatricallergypulmonary.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS (applications from July; CV and three letters of recommendation; interview invitations from August)",
+   "source": "https://pediatricallergypulmonary.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-washu-st-louis-childrens",
+   "field": "Eligibility",
+   "value": "MD, MD/PhD or DO with completed accredited pediatric residency",
+   "source": "https://pediatricallergypulmonary.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-washu-st-louis-childrens",
+   "field": "Eligibility",
+   "value": "Minimum three years of pediatrics internship and residency completed",
+   "source": "https://pediatriccardiology.wustl.edu/fellowship/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS to WashU Medicine/BJH/SLCH Consortium; NRMP Pediatric Specialties Fall Match",
+   "source": "https://pediatricendocrinology.wustl.edu/fellowship/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-washu-st-louis-childrens",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited general pediatrics residency (IMGs welcome; J-1 sponsorship available)",
+   "source": "https://pediatricendocrinology.wustl.edu/fellowship/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-washu-st-louis-childrens",
+   "field": "Deadline",
+   "value": "15 October (ERAS applications may begin 11 June)",
+   "source": "https://pediatricshematologyoncology.wustl.edu/fellowship/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://pediatricshematologyoncology.wustl.edu/fellowship/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Eligibility",
+   "value": "Board certified or board eligible in Pediatrics",
+   "source": "https://pediatrichospitalmedicine.wustl.edu/fellowship/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS plus NRMP Pediatric Specialties Fall Match (applications accepted through the fall)",
+   "source": "https://pediatrichospitalmedicine.wustl.edu/fellowship/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS; selection through NRMP",
+   "source": "https://newbornmedicine.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS (applications accepted from 1 July; three letters of recommendation)",
+   "source": "https://pediatricsnephrology.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-washu-st-louis-childrens",
+   "field": "Application method",
+   "value": "ERAS (common application form, personal statement, USMLE transcript, three letters incl. residency PD) and NRMP pediatric rheumatology match",
+   "source": "https://pediatricrheumatologyimmunology.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-washu-st-louis-childrens",
+   "field": "Eligibility",
+   "value": "Completing a pediatric or med-peds residency, with strong interest in pediatric rheumatology",
+   "source": "https://pediatricrheumatologyimmunology.wustl.edu/fellowships/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/academic-general-pediatrics-fellowship-stanford-lucile-packard",
+   "field": "Deadline",
+   "value": "Not accepting applications at this time (programme participates in NRMP Pediatric Fall Specialties Match)",
+   "source": "https://med.stanford.edu/genpeds/medical-education/fellowship-academic-general-pediatrics.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-advanced-inflammatory-bowel-disease-fellowship-stanford-lucile-packard",
+   "field": "Application method",
+   "value": "Online application form (Stanford Qualtrics); applications for 2027-2028 being accepted, reviewed on a rolling basis",
+   "source": "https://med.stanford.edu/ibd-celiac-disease/ibd-advanced-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/adolescent-medicine/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/child-advocacy-and-protection/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/child-advocacy-and-protection/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/critical-care/education/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/critical-care/education/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/emergency-medicine/Fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/emergency-medicine/Fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-and-blood-and-marrow-transplant-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/hematology-oncology-blood-and-marrow-transplant/fellowship-program/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-and-blood-and-marrow-transplant-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/hematology-oncology-blood-and-marrow-transplant/fellowship-program/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/hospital-medicine/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited pediatric residency, board-eligible in pediatrics at start; must be licensable in Wisconsin",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/hospital-medicine/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/neonatology/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/neonatology/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/nephrology/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/nephrology/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Deadline",
+   "value": "Applications accepted July through October via ERAS",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/pulmonary-and-sleep-medicine/fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-medical-college-of-wisconsin-children-s-wisconsin",
+   "field": "Eligibility",
+   "value": "Must have completed a US-accredited residency programme",
+   "source": "https://www.mcw.edu/departments/pediatrics/divisions/pulmonary-and-sleep-medicine/fellowship-program",
+   "level": "programme"
   }
  ],
- "conflicts": []
+ "conflicts": [
+  {
+   "slug": "/programs/university-of-washington-gynecologic-oncology-fellowship",
+   "field": "International applicants",
+   "existing": "Listed as open to international applicants",
+   "found": "Applicants must be US citizens or permanent residents; H1B and J1 visa holders cannot be accepted (T32 funding)",
+   "source": "https://obgyn.uw.edu/education/fellowships/gynecologic-oncology"
+  },
+  {
+   "slug": "/programs/pediatric-advanced-inflammatory-bowel-disease-fellowship-stanford-lucile-packard",
+   "field": "International applicants",
+   "existing": "Listed as open to international applicants",
+   "found": "Applicants must have a green card or be a U.S. citizen; J1 and H1B visas not accepted",
+   "source": "https://med.stanford.edu/ibd-celiac-disease/ibd-advanced-fellowship.html"
+  },
+  {
+   "slug": "/programs/academic-general-pediatrics-fellowship-stanford-lucile-packard",
+   "field": "Visa support",
+   "existing": "Listed as open to international applicants",
+   "found": "Unable to sponsor J-1 visas at this time; not accepting applications",
+   "source": "https://med.stanford.edu/genpeds/medical-education/fellowship-academic-general-pediatrics.html"
+  },
+  {
+   "slug": "/programs/advanced-pubertal-hormone-development-gender-fellowship-stanford-lucile-packard",
+   "field": "Start",
+   "existing": "July 2027",
+   "found": "Starting date TBA",
+   "source": "https://med.stanford.edu/pedsendo/fellowship/PubertalHormoneDevelopmentFellowshipPrograms/-advance-gender-fellowship.html"
+  }
+ ]
 }

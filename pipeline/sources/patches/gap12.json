@@ -181,6 +181,643 @@
    "value": "No fixed deadline stated; ERAS applications reviewed on a rolling basis as received (early submission recommended)",
    "source": "https://dom.pitt.edu/endo/fellowship/apply/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/paediatric-hospital-medicine-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-general-paediatrics-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/community-paediatrics-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/child-maltreatment-paediatrics-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/complex-care-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/craniofacial-surgery-fellowship-yale-school-of-medicine",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven Hospital resident/fellow appointments run for one year beginning 1 July and ending 30 June (sample appointment agreement)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-and-strabismus-fellowship-duke-eye-center",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/inherited-retinal-degenerations-and-ophthalmic-genetics-fellowship-duke-eye-center",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/columbia-neurosurgical-anesthesia",
+   "field": "Start",
+   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
+   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/sports-cardiology-fellowship-st-michaels-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-fellowship-st-michaels-hospital-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-st-michaels-hospital-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-st-michaels-hospital-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/emergency-trauma-and-acute-care-radiology-fellowship-st-michaels-hospital-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-neuroimaging-fellowship-st-michaels-hospital-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuroradiology-clinical-research-fellowship-in-mri-biomarkers-in-multiple-sclerosis-st-michaels-hospital-unity-health-toronto-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/musculoskeletal-radiology-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-radiology-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-radiology-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/body-imaging-fellowship-program-university-of-alberta",
+   "field": "Start",
+   "value": "Institution policy: Preferred start 1 July; otherwise must start on the first of a month",
+   "source": "https://www.ualberta.ca/en/medicine/media-library/policies/programs/pgme/pgme-fellowship-guidelines.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiovascular-disease-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-cardiology-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/clinical-cardiac-electrophysiology-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-heart-failure-and-transplant-cardiology-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/adult-congenital-heart-disease-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/structural-heart-disease-fellowship-duke",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/emergency-ultrasound-fellowship-columbia",
+   "field": "Start",
+   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
+   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/global-emergency-medicine-fellowship-columbia",
+   "field": "Start",
+   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
+   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/simulation-fellowship-columbia",
+   "field": "Start",
+   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
+   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/first-episode-psychosis-fellowship-douglas-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-psychiatry-fellowship-douglas-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/eating-disorders-fellowship-douglas-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/electrophysiology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuromuscular-medicine-fellowship-ucla",
+   "field": "Start",
+   "value": "Institution policy (UCLA GME): appointments run 1 July to 30 June",
+   "source": "https://medschool.ucla.edu/education/medical-residencies-fellowships/incoming-residents/2026-2027-sample-agreement",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-orthopaedic-trauma-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU/BJH consortium stipend year runs 1 July - 30 June (standard start 1 July)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-50-50-fellowship-jdmi-joint-department-of-medical-imaging-mount-sinai-uhn-womens-college-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/womens-imaging-fellowship-jdmi-joint-department-of-medical-imaging-mount-sinai-uhn-womens-college-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiology-fellowship-mount-sinai-morningside-west",
+   "field": "Start",
+   "value": "Institution policy: Mount Sinai house staff appointments commence 1 July (house staff contract)",
+   "source": "https://icahn.mssm.edu/files/ISMMS/Assets/Education/Grad%20School/MSHSContract.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/multidisciplinary-breast-surgery-fellowship-columbia-university-irving-medical-center-newyork-presbyterian-hospital",
+   "field": "Start",
+   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
+   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/personality-disorder-fellowship-muhc",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-orthopedic-trauma-fellowship",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/total-burn-care-clinical-fellowship-sunnybrook",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/retinoblastoma-fellowship-the-hospital-for-sick-children-sickkids-university-of-toronto",
+   "field": "Deadline",
+   "value": "Second Friday in September of the year prior to beginning the fellowship in July",
+   "source": "https://ophthalmology.utoronto.ca/retinoblastoma",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completion of an ACGME or RCPSC pediatric or internal medicine/pediatric residency by fellowship start; board certified in pediatrics (ABP) or eligible to sit the ABP general pediatrics exam during the first fellowship year",
+   "source": "https://www.choa.org/medical-professionals/education-and-training/fellowships-and-residencies/cardiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-blood-and-marrow-transplant-and-cell-therapy-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed pediatrics residency and pediatric hematology/oncology fellowship (foreign applicants with equivalent qualifications eligible); must be eligible for a Georgia DEA licence and an MD/DO licence",
+   "source": "https://www.choa.org/medical-professionals/education-and-training/fellowships-and-residencies/hematology-oncology/bmt-and-cell-therapy",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-movement-disorders-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "Submit the Pediatric Movement Disorders Fellowship application and required items to the Program Administrator, Barrow Neurological Institute at Phoenix Children's",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-movement-disorders-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-adolescent-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Deadline",
+   "value": "1 August of the year prior to beginning fellowship (ERAS application and three letters)",
+   "source": "https://pediatrics.vumc.org/adolescent-medicine-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-adolescent-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "July each year",
+   "source": "https://pediatrics.vumc.org/adolescent-medicine-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-adolescent-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://pediatrics.vumc.org/adolescent-medicine-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-adolescent-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS common application for adolescent medicine fellowships (CV, personal statement, three letters incl. chair/programme director); NRMP match",
+   "source": "https://pediatrics.vumc.org/adolescent-medicine-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-vanderbilt-monroe-carell",
+   "field": "Deadline",
+   "value": "One month after the ERAS application start date (applications available mid-July; fall match)",
+   "source": "https://pediatrics.vumc.org/pediatric-cardiology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "1 July of the year following the match",
+   "source": "https://pediatrics.vumc.org/pediatric-cardiology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS only (ACGME ID 3254711045); NRMP fellowship match (NRMP 1702325F0); three letters incl. residency programme director",
+   "source": "https://pediatrics.vumc.org/pediatric-cardiology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-fellowship-vanderbilt-monroe-carell",
+   "field": "Positions",
+   "value": "Matches three to four trainees per year (accredited for 12 PICU fellows)",
+   "source": "https://pediatrics.vumc.org/pediatric-critical-care-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-fellowship-vanderbilt-monroe-carell",
+   "field": "Deadline",
+   "value": "1 October (ERAS submissions received 15 July to 1 October)",
+   "source": "https://pediatrics.vumc.org/pediatric-critical-care-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS fellowship application; NRMP match; interviews September–November",
+   "source": "https://pediatrics.vumc.org/developmental-pediatrics-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-vanderbilt-monroe-carell",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://pediatrics.vumc.org/pediatric-endocrinology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS (application plus four letters of recommendation); NRMP match registration required",
+   "source": "https://pediatrics.vumc.org/pediatric-endocrinology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/academic-general-pediatrics-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "Email application materials and letters (with report forms) directly to the fellowship programme director; NRMP Fall Pediatric Specialties Match",
+   "source": "https://pediatrics.vumc.org/general-pediatrics-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS; NRMP match",
+   "source": "https://pediatrics.vumc.org/hematology-and-oncology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-vanderbilt-monroe-carell",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://pediatrics.vumc.org/nephrology/fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS (application plus three letters); NRMP match",
+   "source": "https://pediatrics.vumc.org/nephrology/fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS (application plus three letters); NRMP match; interviews late August–early November",
+   "source": "https://pediatrics.vumc.org/pediatric-pulmonology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-vanderbilt-monroe-carell",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://pediatrics.vumc.org/rheumatology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-vanderbilt-monroe-carell",
+   "field": "Application method",
+   "value": "ERAS; NRMP match registration required",
+   "source": "https://pediatrics.vumc.org/rheumatology-fellowship-curriculum",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Deadline",
+   "value": "31 July (deadline for completed ERAS applications; programme opens to applicants 1 July)",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/critical-care/fellow/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Emory GME requires USMLE Step 3 or equivalent; candidates completing an ABP-certified pediatric fellowship may apply via the ABP Dual Subspecialty pathway",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/critical-care/fellow/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed an accredited three-year pediatric residency by fellowship start and eligible for ABP General Pediatrics board certification; USMLE Steps 1-3; ECFMG report if applicable",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/endocrinology/fellow/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-epilepsy-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Apply through the Adult Emory Epilepsy Program (2 positions reserved for pediatric fellows); Emory fellowship application, CV and all USMLE step scores required",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/neurology/fellowship/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed an accredited three-year pediatric residency by fellowship start; USMLE reports; ECFMG report if applicable",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/gi/fellow/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed an approved pediatric residency and fulfilled ABP certification eligibility by fellowship start; must satisfy Georgia State licensure requirements; USMLE Steps 1-3; ECFMG report if applicable",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/hospitalists/fellow/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed an accredited three-year pediatric residency from a US or Canadian institution by fellowship start; USMLE Steps 1-3; ECFMG report if applicable",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/nephrology/fellowship/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-emory-children-s-healthcare-of-atlanta",
+   "field": "Eligibility",
+   "value": "Completed (or completing by 1 July of start year) an ACGME-accredited residency; passed all USMLE components; ABP certification eligibility; eligible for Georgia licensure; ECFMG certification and English exam for IMGs",
+   "source": "https://med.emory.edu/departments/pediatrics/divisions/rheumatology/fellowship/application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-diabetes-fellowship-phoenix-children-s",
+   "field": "Eligibility",
+   "value": "US citizen, permanent resident, or J-1 visa sponsored by ECFMG; completion of an ACGME-accredited pediatric residency",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-endocrinology-diabetes-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-diabetes-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-endocrinology-diabetes-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-phoenix-children-s",
+   "field": "Eligibility",
+   "value": "US citizen, permanent resident, or J-1 visa sponsored by ECFMG; completion of an ACGME-accredited pediatrics residency",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-gastroenterology-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-gastroenterology-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "ERAS (CV, letters of recommendation, personal statement and supporting documents via MyERAS)",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-infectious-diseases-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "ERAS (CV, letters of recommendation, personal statement and supporting documents via MyERAS)",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-rheumatology-fellowship-program/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-epilepsy-fellowship-phoenix-children-s",
+   "field": "Application method",
+   "value": "ERAS; NRMP (programme number 2952184F0)",
+   "source": "https://phoenixchildrens.org/healthcare-professionals/medical-education/graduate-medical-education/fellowship-programs/pediatric-epilepsy-fellowship/application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-movement-disorders-fellowship-phoenix-children-s",
+   "field": "Start",
+   "value": "1 July (application form: academic year starts 1 July through 30 June)",
+   "source": "https://phoenixchildrens.org/sites/default/files/2025-03/pediatric-movement-disorders-application_2-26-25.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-upmc-pittsburgh",
+   "field": "Positions",
+   "value": "2 per year",
+   "source": "https://dom.pitt.edu/gi/transplant-hepatology-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-upmc-pittsburgh",
+   "field": "Eligibility",
+   "value": "Must complete training in both Internal Medicine and Gastroenterology before the start of transplant hepatology training",
+   "source": "https://dom.pitt.edu/gi/transplant-hepatology-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/sleep-medicine-fellowship-upmc-pittsburgh",
+   "field": "Start",
+   "value": "1 July (typical fellowship start date)",
+   "source": "https://dom.pitt.edu/paccsm/sleep-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/sleep-medicine-fellowship-upmc-pittsburgh",
+   "field": "Eligibility",
+   "value": "Completed (or completing by 1 July) training making the applicant board-eligible/certified in internal medicine, psychiatry, neurology, pediatrics, family medicine, otolaryngology or another qualifying specialty",
+   "source": "https://dom.pitt.edu/paccsm/sleep-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-informatics-fellowship-upmc-pittsburgh",
+   "field": "Deadline",
+   "value": "1 October (ERAS applications accepted from July; AMIA Clinical Informatics Fellowship Match concludes mid-December)",
+   "source": "https://dom.pitt.edu/dgim/fellowship/clinical-informatics/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-informatics-fellowship-upmc-pittsburgh",
+   "field": "Start",
+   "value": "1 July",
+   "source": "https://dom.pitt.edu/dgim/fellowship/clinical-informatics/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-informatics-fellowship-upmc-pittsburgh",
+   "field": "Eligibility",
+   "value": "Completion of an ACGME-accredited residency in any specialty before the 1 July start (unless ACGME exception applies); eligible for a Pennsylvania training or full medical licence; board eligible/certified in primary specialty",
+   "source": "https://dom.pitt.edu/dgim/fellowship/clinical-informatics/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-informatics-fellowship-upmc-pittsburgh",
+   "field": "Application method",
+   "value": "ERAS (personal statement, USMLE transcript, etc.); AMIA Clinical Informatics Fellowship Match",
+   "source": "https://dom.pitt.edu/dgim/fellowship/clinical-informatics/apply/",
+   "level": "programme"
   }
  ],
  "conflicts": []

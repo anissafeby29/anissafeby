@@ -125,7 +125,470 @@
    "value": "Trainees from adult neurology, child neurology or physical medicine and rehabilitation backgrounds; visa applicants must be J-1 (ECFMG) eligible (H-1B per UW policy)",
    "source": "https://neurology.uw.edu/education/fellowships/neuromuscular-medicine-fellowship/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-baylor-texas-children-s",
+   "field": "Eligibility",
+   "value": "Graduating pediatric, medicine-pediatrics or family medicine residents in good standing",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/adolescent-medicine-sports-medicine/education/adolescent-medicine-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-houston-baylor-texas-children-s",
+   "field": "Positions",
+   "value": "4 per year",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/hospital-medicine/education/pediatric-hospital-medicine-fellowship-houston/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-houston-baylor-texas-children-s",
+   "field": "Eligibility",
+   "value": "American Board of Pediatrics eligibility or certification",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/hospital-medicine/education/pediatric-hospital-medicine-fellowship-houston/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-houston-baylor-texas-children-s",
+   "field": "Application method",
+   "value": "PHM Fellow Application via ERAS (opens early July); pediatric fellowship Match; CV, personal statement and three letters",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/hospital-medicine/education/pediatric-hospital-medicine-fellowship-houston/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-baylor-texas-children-s",
+   "field": "Eligibility",
+   "value": "Completed pediatric residency before starting; must be a US citizen, US permanent resident or hold a valid J-1 visa",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/rheumatology/education/pediatric-rheumatology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-baylor-texas-children-s",
+   "field": "Deadline",
+   "value": "Apply via ERAS the year prior to starting fellowship (later submissions considered in special circumstances if a position remains open)",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/rheumatology/education/pediatric-rheumatology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Completed pediatric residency and eligible for American Board of Pediatrics certification",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/cardiology/education/pediatric-cardiology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Application method",
+   "value": "ERAS; NRMP Match (interviews over 3–4 months, typically beginning in August)",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/cardiology/education/pediatric-cardiology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/diabetes-and-endocrinology/education/pediatric-endocrinology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Completion of an ACGME-accredited US pediatric residency prior to matriculation",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/diabetes-and-endocrinology/education/pediatric-endocrinology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Application method",
+   "value": "ERAS; NRMP Fall Subspecialty Match (December); interviews August–November",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/diabetes-and-endocrinology/education/pediatric-endocrinology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Start",
+   "value": "July (entry in July following the December Fall Subspecialty Match)",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/diabetes-and-endocrinology/education/pediatric-endocrinology-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Graduates of categorical pediatrics or emergency medicine residencies",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/emergency-medicine/education/pediatric-emergency-medicine-fellowship/admissions",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Pediatric residents (six selected each year via NRMP)",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/neonatology/education/neonatal-perinatal-medicine-fellowship/admissions-and-benefits",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-baylor-college-of-medicine-texas-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Board-eligible or board-certified in pediatrics (ABP); completed three years of accredited general pediatrics residency",
+   "source": "https://www.bcm.edu/departments/pediatrics/divisions-and-centers/pulmonology/education/pediatric-pulmonology-fellowship/admissions-and-benefits",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/paediatric-endocrinology-clinical-observership-the-royal-childrens-hospital-melbourne",
+   "field": "Duration",
+   "value": "Maximum of 3 months",
+   "source": "https://www.rch.org.au/endo/Education_and_training/education_and_training/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/paediatric-endocrinology-clinical-observership-the-royal-childrens-hospital-melbourne",
+   "field": "Positions",
+   "value": "Up to two observers at any given time",
+   "source": "https://www.rch.org.au/endo/Education_and_training/education_and_training/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/head-and-neck-oncology-and-reconstructive-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Start",
+   "value": "1 August (Mayo academic year for this fellowship begins Aug. 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/head-and-neck-oncology-and-reconstructive-surgery-fellowship-minnesota/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/head-and-neck-oncology-and-reconstructive-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Deadline",
+   "value": "Application period December–March (via AHNS Advanced Training Council)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/head-and-neck-oncology-and-reconstructive-surgery-fellowship-minnesota/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/head-and-neck-oncology-and-reconstructive-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Application method",
+   "value": "AHNS Advanced Training Council match (Central Application System)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/head-and-neck-oncology-and-reconstructive-surgery-fellowship-minnesota/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/colon-and-rectal-surgery-residency-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Positions",
+   "value": "3 ACGME categorical positions per year",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/colon-and-rectal-surgery-residency-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/colon-and-rectal-surgery-residency-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Eligibility",
+   "value": "Completed general surgery residency at an accredited institution (international applicants from non-ACGME general surgery programmes may apply to the separate non-accredited International Colon and Rectal Surgery Fellowship)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/colon-and-rectal-surgery-residency-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/colon-and-rectal-surgery-residency-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Application method",
+   "value": "ERAS (letters on APDCRS Resident Candidate Assessment form); NRMP Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/colon-and-rectal-surgery-residency-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/comprehensive-endocrine-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Start",
+   "value": "1 August (academic year begins Aug. 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/comprehensive-endocrine-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/comprehensive-endocrine-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Eligibility",
+   "value": "Completed accredited US general surgery training (or equivalent outside the US); board certified or board eligible",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/comprehensive-endocrine-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/comprehensive-endocrine-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Application method",
+   "value": "American Association of Endocrine Surgeons Fellowship Match; interviews May–July",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/comprehensive-endocrine-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Start",
+   "value": "1 August (academic year begins Aug. 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/surgical-critical-care-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Eligibility",
+   "value": "Completed fifth year of general surgery residency (PGY-3 categorical residents eligible only with a guaranteed PGY-4 position to return to)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/surgical-critical-care-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Application method",
+   "value": "SAFAS application; NRMP Surgical Critical Care Match; interviews July–mid-September",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/surgical-critical-care-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Positions",
+   "value": "2 per year",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Eligibility",
+   "value": "Completed accredited general surgery training; American Board of Surgery eligible",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Application method",
+   "value": "ERAS; NRMP Vascular Surgery Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Deadline",
+   "value": "31 January of the year preceding the appointment date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Start",
+   "value": "June or July (academic year begins in June or July)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/vascular-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-mayo-clinic-minnesota",
+   "field": "Deadline",
+   "value": "1 August of the year preceding the programme start date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/rheumatology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-mayo-clinic-minnesota",
+   "field": "Start",
+   "value": "July (academic year begins in July)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/rheumatology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-mayo-clinic-minnesota",
+   "field": "Eligibility",
+   "value": "Completed accredited internal medicine training and hold a licence to practise medicine in the US",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/rheumatology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-mayo-clinic-minnesota",
+   "field": "Application method",
+   "value": "ERAS; NRMP Medical Specialties Match; interviews August–October",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/rheumatology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-mayo-clinic-minnesota",
+   "field": "Positions",
+   "value": "6 per year",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/infectious-diseases-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-mayo-clinic-minnesota",
+   "field": "Start",
+   "value": "1 July (academic year begins July 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/infectious-diseases-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-mayo-clinic-minnesota",
+   "field": "Eligibility",
+   "value": "Completed three years of postgraduate training in an accredited internal medicine residency",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/infectious-diseases-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-mayo-clinic-minnesota",
+   "field": "Application method",
+   "value": "ERAS; NRMP Medical Specialties Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/infectious-diseases-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-medical-oncology-fellowship-mayo-clinic-minnesota",
+   "field": "Deadline",
+   "value": "21 July of the year preceding the programme start date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hematologyoncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-medical-oncology-fellowship-mayo-clinic-minnesota",
+   "field": "Start",
+   "value": "July (academic year begins in July)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hematologyoncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-medical-oncology-fellowship-mayo-clinic-minnesota",
+   "field": "Eligibility",
+   "value": "Completed three years of accredited internal medicine training in the US or Canada; passed USMLE Step 3 (by January)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hematologyoncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-medical-oncology-fellowship-mayo-clinic-minnesota",
+   "field": "Application method",
+   "value": "ERAS (programme signals strongly advised); NRMP Medical Specialties Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hematologyoncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Positions",
+   "value": "9 per year (clinical scholar and physician-scientist tracks)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pulmonary-and-critical-care-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Deadline",
+   "value": "31 July of the year preceding the programme start date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pulmonary-and-critical-care-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Start",
+   "value": "1 July (academic year begins July 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pulmonary-and-critical-care-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Eligibility",
+   "value": "Three years of accredited internal medicine training and board eligible; graduates of non-US/Canadian schools need ECFMG certification and a completed three-year US internal medicine residency",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pulmonary-and-critical-care-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Positions",
+   "value": "3 per year",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/geriatric-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Deadline",
+   "value": "31 October of the year preceding the appointment date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/geriatric-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Start",
+   "value": "1 July (academic year begins July 1)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/geriatric-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Eligibility",
+   "value": "Completed three years of ACGME-accredited internal medicine or family medicine residency",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/geriatric-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-mayo-clinic-minnesota",
+   "field": "Application method",
+   "value": "ERAS; NRMP Medical Specialties Match; interviews July–November",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/geriatric-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuro-ophthalmology-fellowship-minnesota-mayo-clinic",
+   "field": "Start",
+   "value": "7 July (academic year runs July 7 – July 6)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/neuro-ophthalmology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transfusion-medicine-fellowship-minnesota-mayo-clinic-school-of-graduate-medical-education",
+   "field": "Deadline",
+   "value": "1 January of the previous year (18 months before programme start); later submissions considered if positions remain unfilled",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/transfusion-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rhinology-and-skull-base-surgery-fellowship-university-of-toronto",
+   "field": "Deadline",
+   "value": "15 April of the preceding year (decision usually by May/June, 12–14 months before the 1 July start)",
+   "source": "https://otolaryngology.utoronto.ca/rhinology-skull-base-surgery",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/medical-retina-and-uveitis-fellowship-university-of-toronto",
+   "field": "Start",
+   "value": "1 July (fellowship runs 1 July – 30 June)",
+   "source": "https://ophthalmology.utoronto.ca/medical-retina-and-uveitis",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vitreoretinal-surgery-fellowship-st-michaels-hospital-university-of-toronto",
+   "field": "Start",
+   "value": "1 July each year",
+   "source": "https://ophthalmology.utoronto.ca/vitreoretinal-surgery-st-michaels-hospital",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/colorectal-surgery-program-university-of-toronto",
+   "field": "Start",
+   "value": "July (programme year July–June, e.g. July 2026 – June 2027)",
+   "source": "https://surgery.utoronto.ca/colorectal-surgery-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-upmc-childrens-pittsburgh",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.pediatrics.pitt.edu/divisions/allergy-and-immunology/education-and-training/allergy-and-immunology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-upmc-childrens-pittsburgh",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.pediatrics.pitt.edu/divisions/endocrinology/education-and-training/endocrinology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/michigan-orthopedic-anesthesia-fellowship",
+   "field": "Duration",
+   "value": "1 year (non-ACGME)",
+   "source": "https://medschool.umich.edu/departments/anesthesiology/education/fellowships",
+   "level": "programme"
   }
  ],
- "conflicts": []
+ "conflicts": [
+  {
+   "slug": "/programs/craniofacial-fellowship-rch-melbourne",
+   "field": "Start",
+   "existing": "July 2027 (next available)",
+   "found": "Department page now advertises the Craniofacial Fellowship as commencing July 2028",
+   "source": "https://www.rch.org.au/plastic/education_training/"
+  },
+  {
+   "slug": "/programs/hand-and-microsurgery-clinical-fellowship-rch-melbourne",
+   "field": "Start",
+   "existing": "August 2027 (next available)",
+   "found": "Department page now advertises the Hand and Microsurgery fellowship as commencing August 2028",
+   "source": "https://www.rch.org.au/plastic/education_training/"
+  }
+ ]
 }
