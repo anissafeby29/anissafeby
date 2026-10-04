@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Fellowship Portal</title>
-<meta name="description" content="Search 4,602 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
-<link rel="preload" href="assets/programmes.json?v=cdd0cbfe9f" as="fetch" crossorigin>
+<meta name="description" content="Search 5,511 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
+<link rel="preload" href="assets/programmes.json?v=23a47fedaa" as="fetch" crossorigin>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%231f5f8b%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.5%22/%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%227.5%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M15%2032h34%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M40%2019l9-5-3%2010%22%20fill%3D%22none%22%20stroke%3D%22%23f2c14e%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -191,7 +191,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     </div>
     <div class="herogrid"><div>
     <h1>Your next fellowship, <em>anywhere</em> in the world.</h1>
-    <p class="lede">Search clinical and research fellowships across 22 specialties and 43 countries. Every programme links to the hospital's own page, with eligibility, visa and deadline details where they are published.</p>
+    <p class="lede">Search clinical and research fellowships across 22 specialties and 51 countries. Every programme links to the hospital's own page, with eligibility, visa and deadline details where they are published.</p>
     <form class="searchbox" id="searchform" role="search">
       <input id="q" type="search" placeholder="Try “neonatology Toronto” or “J-1 cardiology”" aria-label="Search programmes" autocomplete="off">
       <button type="submit">Search</button>
@@ -247,14 +247,14 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   </section>
 
   <footer>
-    4,602 programmes, researched from official institution sources and last checked October 2026. “Not stated on official page” means the page was checked and does not give that detail. Requirements and dates change, so always confirm on the official page before applying. <a href="about/">About</a> · <a href="contact/">Contact</a>
+    5,511 programmes, researched from official institution sources and last checked October 2026. “Not stated on official page” means the page was checked and does not give that detail. Requirements and dates change, so always confirm on the official page before applying. <a href="about/">About</a> · <a href="contact/">Contact</a>
   </footer>
 </main>
 
 <script>
 (function(){
   document.getElementById('list').innerHTML = '<p class="empty">Loading programmes…</p>';
-  fetch('assets/programmes.json?v=cdd0cbfe9f').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
+  fetch('assets/programmes.json?v=23a47fedaa').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
   const PAGE = 30;
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
