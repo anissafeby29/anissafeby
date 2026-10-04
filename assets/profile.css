@@ -137,3 +137,5 @@ table.cmp thead th{font:800 15px/1.25 var(--f-display)}
 table.cmp thead th a{color:var(--ink)}
 table.cmp tbody th{font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);width:150px}
 .prow .pt .dlt{font-style:normal;color:var(--ink);opacity:.8}
+
+[hidden]{display:none!important}

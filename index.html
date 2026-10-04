@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Fellowship Portal</title>
 <meta name="description" content="Search 5,709 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="The Fellowship Portal">
+<meta property="og:title" content="The Fellowship Portal: medical fellowships worldwide">
+<meta property="og:description" content="5,709 clinical and research fellowships in 22 specialties and 53 countries, with visa and deadline details from official pages.">
+<meta property="og:url" content="https://thefellowshipportal.com/"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0f2638">
 <link rel="preload" href="assets/programmes.json?v=5884023825" as="fetch" crossorigin>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%231f5f8b%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.5%22/%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%227.5%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M15%2032h34%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M40%2019l9-5-3%2010%22%20fill%3D%22none%22%20stroke%3D%22%23f2c14e%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,7 +89,37 @@ a{color:var(--brand)}
 .board div span{font:500 11px var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hero-muted)}
 
 /* Sections */
+[hidden]{display:none!important}
 section{padding-block:34px 0}
+.hero{position:relative;overflow:hidden}
+.hero > .wrap{position:relative;z-index:1}
+.routes{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.5}
+.routes path{fill:none;stroke:var(--gold);stroke-width:1.2;stroke-dasharray:2 7;stroke-linecap:round;opacity:.55}
+.routes circle{fill:var(--gold)}
+@media (prefers-reduced-motion:no-preference){.routes path{animation:dash 30s linear infinite}@keyframes dash{to{stroke-dashoffset:-400}}}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:-22px;position:relative;z-index:2}
+@media (max-width:760px){.steps{grid-template-columns:1fr;margin-top:-16px;gap:8px}}
+.step{display:flex;gap:14px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:0 8px 24px -16px rgba(15,38,56,.35)}
+.step .num{flex:0 0 34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#1d1600;font:800 16px var(--f-display)}
+.step b{display:block;font:800 16px/1.25 var(--f-display);margin-bottom:2px}
+.step span{font-size:14px;color:var(--muted);line-height:1.45;display:block}
+@media (max-width:760px){.step{padding:12px 14px;align-items:center}.step span{display:none}.step .num{flex-basis:28px;height:28px;font-size:14px}}
+.closing{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:900px){.closing{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.closing{grid-template-columns:1fr}}
+.cl{display:grid;grid-template-columns:58px minmax(0,1fr);gap:14px;align-items:center;text-decoration:none;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.cl:hover{border-color:var(--brand)}
+.cl .date{display:flex;flex-direction:column;align-items:center;justify-content:center;height:58px;border-radius:12px;background:var(--hero);color:var(--hero-ink);font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase}
+.cl .date b{font:800 22px/1 var(--f-display);color:var(--gold);letter-spacing:0}
+.cl .t{display:block;font-weight:600;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.cl .i{display:block;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.spec .bar{display:block;height:4px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin-top:2px}
+.spec .bar i{display:block;height:100%;background:var(--new)}
+.spec .imgp{font-size:12px;color:var(--muted)}
+.spec[aria-pressed="true"] .bar{background:rgba(255,255,255,.25)}.spec[aria-pressed="true"] .bar i{background:var(--gold)}
+.spec[aria-pressed="true"] .imgp{color:inherit;opacity:.85}
+.morelink{font-weight:600;font-size:14px;text-decoration:none}
+.chip.allc{background:transparent;border-style:dashed;cursor:pointer}
 .sechead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 h2{font:800 24px/1.15 var(--f-display);letter-spacing:-.015em;margin:0;text-wrap:balance}
 .hint{color:var(--muted);font-size:14px}
@@ -188,6 +224,11 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
 </head>
 <body>
 <header class="hero">
+  <svg class="routes" viewBox="0 0 1400 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <path d="M-20 520 C 260 300, 520 260, 760 330 S 1180 300, 1440 120"/><path d="M80 640 C 360 420, 700 470, 980 260 S 1300 90, 1420 60"/>
+    <path d="M420 660 C 600 520, 820 560, 1040 470 S 1320 380, 1440 400"/>
+    <circle cx="760" cy="330" r="3"/><circle cx="980" cy="260" r="3"/><circle cx="1040" cy="470" r="3"/><circle cx="1240" cy="190" r="2.5"/>
+  </svg>
   <div class="wrap">
     <div class="top">
       <a class="brand" href="./"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#1f5f8b"/><circle cx="32" cy="32" r="17" fill="none" stroke="#fff" stroke-width="3.5"/><ellipse cx="32" cy="32" rx="7.5" ry="17" fill="none" stroke="#fff" stroke-width="3"/><path d="M15 32h34" stroke="#fff" stroke-width="3"/><path d="M40 19l9-5-3 10" fill="none" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The Fellowship Portal</span></a>
@@ -211,13 +252,24 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
 </header>
 
 <main class="wrap">
+  <div class="steps">
+    <div class="step"><span class="num">1</span><div><b>Search 5,709 programmes</b><span>By specialty, country, training type or keyword.</span></div></div>
+    <div class="step"><span class="num">2</span><div><b>Check eligibility and visa</b><span>See who can apply, visa routes, funding and deadlines.</span></div></div>
+    <div class="step"><span class="num">3</span><div><b>Apply at the source</b><span>Every programme links to its official page. Save and compare your favourites.</span></div></div>
+  </div>
+
+  <section aria-labelledby="cl-h" id="closingsec">
+    <div class="sechead"><h2 id="cl-h">Closing soon</h2><a class="morelink" href="deadlines/">All upcoming deadlines →</a></div>
+    <div class="closing" id="closing"><a class="cl" data-d="2026-10-06" href="programs/clinical-fellow-in-interventional-cardiology-st3-equivalent-nhs-jobs-advert-newcastle/"><span class="date"><b>6</b>Oct</span><span><span class="t">Clinical Fellow in Interventional Cardiology – ST3+ Equivalent (NHS Jobs advert)</span><span class="i">The Newcastle upon Tyne Hospitals NHS Foundation Trust (Freeman Hospital) · United Kingdom</span></span></a><a class="cl" data-d="2026-10-06" href="programs/escmid-funded-observership-escmid/"><span class="date"><b>6</b>Oct</span><span><span class="t">ESCMID Funded Observership</span><span class="i">European Society of Clinical Microbiology and Infectious Diseases (ESCMID) – ESCMID Collaborative Centres (ECCs) · Europe (multi-country)</span></span></a><a class="cl" data-d="2026-10-06" href="programs/oculoplastic-senior-clinical-fellow-nhs-jobs-advert-maidstone-tunbridge-wells/"><span class="date"><b>6</b>Oct</span><span><span class="t">Oculoplastic Senior Clinical Fellow (NHS Jobs advert)</span><span class="i">Maidstone and Tunbridge Wells NHS Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-08" href="programs/clinical-fellow-in-vitreoretinal-surgery-nhs-jobs-advert-st-pauls-eye-unit-liverpool/"><span class="date"><b>8</b>Oct</span><span><span class="t">Clinical Fellow in Vitreoretinal Surgery (NHS Jobs advert)</span><span class="i">St Paul's Eye Unit, Liverpool University Hospitals NHS Foundation Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-08" href="programs/glaucoma-surgical-trials-fellow-nhs-jobs-advert-moorfields-eye-hospital-nhs-foundation-trust/"><span class="date"><b>8</b>Oct</span><span><span class="t">Glaucoma Surgical Trials Fellow (NHS Jobs advert)</span><span class="i">Moorfields Eye Hospital NHS Foundation Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-09" href="programs/clinical-fellow-in-glaucoma-nhs-jobs-advert-kings-college-hospital/"><span class="date"><b>9</b>Oct</span><span><span class="t">Clinical Fellow in Glaucoma (NHS Jobs advert)</span><span class="i">King's College Hospital NHS Foundation Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-09" href="programs/fellow-in-inherited-cardiac-conditions-nhs-jobs-advert-oxford/"><span class="date"><b>9</b>Oct</span><span><span class="t">Fellow in Inherited Cardiac Conditions (NHS Jobs advert)</span><span class="i">Oxford University Hospitals NHS Foundation Trust (John Radcliffe Hospital) · United Kingdom</span></span></a><a class="cl" data-d="2026-10-09" href="programs/weill-cornell-aga-khan-global-emergency-medicine-research-fellowship-weill-cornell/"><span class="date"><b>9</b>Oct</span><span><span class="t">Weill Cornell–Aga Khan Global Emergency Medicine Research Fellowship</span><span class="i">Weill Cornell Medicine / NewYork-Presbyterian · United States</span></span></a><a class="cl" data-d="2026-10-11" href="programs/endometriosis-surgical-fellowship-st6-equivalent-nhs-jobs-advert-norfolk-and-norwich-university-hospitals-nhs-foundation-trust/"><span class="date"><b>11</b>Oct</span><span><span class="t">Endometriosis Surgical Fellowship (ST6 equivalent) (NHS Jobs advert)</span><span class="i">Norfolk and Norwich University Hospitals NHS Foundation Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-12" href="programs/clinical-fellow-in-gynaecological-oncology-nhs-jobs-advert-somerset-nhs-foundation-trust-musgrove-park-hospital/"><span class="date"><b>12</b>Oct</span><span><span class="t">Clinical Fellow in Gynaecological Oncology (NHS Jobs advert)</span><span class="i">Somerset NHS Foundation Trust – Musgrove Park Hospital · United Kingdom</span></span></a><a class="cl" data-d="2026-10-12" href="programs/clinical-fellow-in-medical-retina-surgical-retina-nhs-jobs-advert-ashford-st-peters/"><span class="date"><b>12</b>Oct</span><span><span class="t">Clinical Fellow in Medical Retina &amp; Surgical Retina (NHS Jobs advert)</span><span class="i">Ashford and St Peter's Hospitals NHS Foundation Trust · United Kingdom</span></span></a><a class="cl" data-d="2026-10-13" href="programs/advanced-trainee-clinical-toxicology-job-advert-calvary-mater-newcastle/"><span class="date"><b>13</b>Oct</span><span><span class="t">Advanced Trainee – Clinical Toxicology (job advert)</span><span class="i">Calvary Mater Newcastle (Hunter Area Toxicology Service) · Australia</span></span></a></div>
+  </section>
+
   <section aria-labelledby="spec-h">
     <div class="sechead"><h2 id="spec-h">Browse by specialty</h2><span class="hint">Tap a specialty to filter the list below</span></div>
     <div class="specs" id="specs"></div>
   </section>
 
   <section aria-labelledby="co-h">
-    <div class="sechead"><h2 id="co-h">Where do you want to train?</h2></div>
+    <div class="sechead"><h2 id="co-h">Where do you want to train?</h2><a class="morelink" href="countries/">All countries →</a></div>
     <div class="chips" id="countries"></div>
   </section>
 
@@ -238,6 +290,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
         <label><input type="checkbox" id="savedOnly"> Saved only</label>
         <label><input type="checkbox" id="onlyNew"> Recently added</label>
         <select id="sort" aria-label="Sort">
+          <option value="best">Most complete first</option>
           <option value="title">Programme A–Z</option>
           <option value="inst">Institution A–Z</option>
           <option value="country">Country</option>
@@ -292,20 +345,28 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     $('board').innerHTML = items.map(([n,l]) => '<div><b>' + n.toLocaleString() + '</b><span>' + l + '</span></div>').join('');
   }
 
+  const imgShare = {};
+  (function(){ const t = count(DATA, r => r.f.Specialty), o = count(DATA.filter(r => r.im === 1), r => r.f.Specialty);
+    Object.keys(t).forEach(k => imgShare[k] = Math.round(100 * (o[k] || 0) / t[k])); })();
+  let allCountries = false;
   function specs(){
     const c = count(DATA, r => r.f.Specialty);
     const cur = $('sp').value;
     $('specs').innerHTML = Object.keys(c).sort((a,b) => c[b]-c[a]).map(s =>
       '<button class="spec" type="button" data-sp="' + esc(s) + '" aria-pressed="' + (s===cur) + '"><span class="row"><span class="name">' + esc(s) +
       '</span><span class="n">' + c[s].toLocaleString() + '</span></span>' +
+      '<span class="imgp">' + imgShare[s] + '% open to IMGs</span><span class="bar"><i style="width:' + imgShare[s] + '%"></i></span>' +
       (SITES[s] ? '<span class="site">+ ' + SITE_NAMES[SITES[s]] + (s === 'General Surgery' ? ' · VascFellow' : '') + '</span>' : '') + '</button>').join('');
   }
 
   function countries(){
     const c = count(DATA, r => r.co);
     const cur = $('co').value;
-    $('countries').innerHTML = Object.keys(c).sort((a,b) => c[b]-c[a]).map(k =>
-      '<button class="chip" type="button" data-co="' + esc(k) + '" aria-pressed="' + (k===cur) + '"><span class="mono">' + iso(k) + '</span>' + esc(k) + ' <span class="mono">' + c[k] + '</span></button>').join('');
+    const keys = Object.keys(c).sort((a,b) => c[b]-c[a]);
+    const showK = allCountries ? keys : keys.filter((k, i) => i < 14 || k === cur);
+    $('countries').innerHTML = showK.map(k =>
+      '<button class="chip" type="button" data-co="' + esc(k) + '" aria-pressed="' + (k===cur) + '"><span class="mono">' + iso(k) + '</span>' + esc(k) + ' <span class="mono">' + c[k] + '</span></button>').join('') +
+      (keys.length > showK.length ? '<button class="chip allc" type="button" id="allc">+ ' + (keys.length - showK.length) + ' more countries</button>' : '');
   }
 
   function opts(sel, label, values){
@@ -382,7 +443,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     opts($('tt'), 'All training types', base('tt').map(r => r.g));
     const s = $('sort').value;
     const key = s === 'inst' ? r => r.i + r.t : s === 'country' ? r => r.co + r.i + r.t : r => r.t + r.i;
-    filtered = base().sort((a,b) => key(a).localeCompare(key(b)));
+    filtered = base().sort((a,b) => s === 'best' ? (b.sc - a.sc) || (b.im - a.im) || key(a).localeCompare(key(b)) : key(a).localeCompare(key(b)));
     shown = PAGE; specs(); countries(); render(); syncUrl();
   }
 
@@ -423,6 +484,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   ['sp','sub','co','tt','sort','onlyNew','hideClosed','img','visa','savedOnly'].forEach(id => $(id).addEventListener('change', apply));
   $('specs').addEventListener('click', e => { const b = e.target.closest('[data-sp]'); if (!b) return;
     $('sp').value = $('sp').value === b.dataset.sp ? '' : b.dataset.sp; $('sub').value = ''; apply(); jump(); });
+  $('countries').addEventListener('click', e => { if (e.target.closest('#allc')) { allCountries = true; countries(); return; } });
   $('countries').addEventListener('click', e => { const b = e.target.closest('[data-co]'); if (!b) return;
     $('co').value = $('co').value === b.dataset.co ? '' : b.dataset.co; apply(); jump(); });
   $('reset').onclick = () => { ['sp','sub','co','tt'].forEach(id => $(id).value = ''); $('q').value = ''; ['onlyNew','img','visa','savedOnly'].forEach(id => $(id).checked = false); apply(); };
@@ -448,6 +510,9 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     '</span><span class="pi">' + esc(r.i) + ' · ' + esc(r.f.Specialty) + '</span></span></button>').join('');
   $('depart').addEventListener('click', e => { const b = e.target.closest('[data-i]'); if (!b) return;
     const r = picks[+b.dataset.i]; ['sp','sub','co','tt'].forEach(id => $(id).value = ''); $('q').value = r.t; apply(); jump(); });
+  (function(){ const t = new Date().toISOString().slice(0,10); let n = 0;
+    document.querySelectorAll('#closing [data-d]').forEach(a => { if (a.dataset.d < t || n >= (innerWidth < 560 ? 4 : 6)) a.hidden = true; else n++; });
+    if (!n) $('closingsec').hidden = true; })();
   board();
   if (fromUrl()) { if (location.hash === '#results') setTimeout(jump, 50); } else apply();
   }).catch(err => { console.error(err); document.getElementById('list').innerHTML = '<p class="empty">Programmes could not load. Refresh the page to try again.</p>'; });

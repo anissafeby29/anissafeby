@@ -105,7 +105,23 @@ def main():
         page = fh.read()
     with open(os.path.join(HERE, "logo.svg"), encoding="utf-8") as fh:
         logo = fh.read().strip()
-    page = (page.replace("__FAVICON__", "data:image/svg+xml," + urllib.parse.quote(logo))
+    import pages
+    import datetime as _dt
+    today, seen, soon = _dt.date.today(), set(), []
+    for r in sorted(records, key=lambda r: r["t"]):
+        got = None if r["_closed"] else pages.parse_deadline(r["f"].get("Deadline"), today)
+        if got and got[1] == "dated":
+            soon.append((got[0], r))
+    soon.sort(key=lambda x: x[0])
+    cards = []
+    for d, r in soon:
+        if r["org"] in seen or len(cards) >= 12:
+            continue
+        seen.add(r["org"])
+        esc = lambda v: str(v or "").replace("&", "&amp;").replace("<", "&lt;").replace('"', "&quot;")
+        cards.append(f'<a class="cl" data-d="{d.isoformat()}" href="programs/{esc(r["s"])}/"><span class="date"><b>{d.day}</b>{d.strftime("%b")}</span>'
+                     f'<span><span class="t">{esc(r["t"])}</span><span class="i">{esc(r["i"])} · {esc(r["co"])}</span></span></a>')
+    page = (page.replace("__CLOSING__", "".join(cards)).replace("__FAVICON__", "data:image/svg+xml," + urllib.parse.quote(logo))
             .replace("__LOGO__", logo.replace("<svg ", '<svg aria-hidden="true" ', 1))
             .replace("__COUNT__", f"{len(records):,}")
             .replace("__SPECS__", str(len({r["f"]["Specialty"] for r in records})))

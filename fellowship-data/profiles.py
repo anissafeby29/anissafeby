@@ -103,7 +103,7 @@ def page(r, logo_svg, related, same_inst):
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(r["t"])}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}">
+<meta property="og:type" content="website"><meta property="og:title" content="{e(r["t"])}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="../../assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -153,6 +153,7 @@ def write_all(records, logo, root, here):
         shutil.rmtree(out)
     os.makedirs(os.path.join(root, "assets"), exist_ok=True)
     shutil.copy(os.path.join(here, "profile.css"), os.path.join(root, "assets", "profile.css"))
+    shutil.copy(os.path.join(here, "og.png"), os.path.join(root, "assets", "og.png"))
     with open(os.path.join(root, "assets", "logo.svg"), "w", encoding="utf-8") as fh:
         fh.write(logo)
     logo_svg = logo.replace("<svg ", '<svg aria-hidden="true" ', 1)
@@ -190,7 +191,7 @@ def static_page(title, desc, slug, body, logo_svg):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)} | The Fellowship Portal</title>
 <meta name="description" content="{e(desc)}">
-<link rel="canonical" href="{url}">
+<link rel="canonical" href="{url}"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
