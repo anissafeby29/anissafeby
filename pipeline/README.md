@@ -11,6 +11,7 @@ pipeline/
   prompts/new_programmes.txt   brief for agents that add programmes (24-key schema)
   prompts/gap_fill.txt         brief for agents that fill missing fields
   merge.py                     sources -> fellowship-data/{programs,new_programs,changes}.*
+  fetch.py                     page fetcher for agents: HTTP -> Crawl4AI (headless browser) -> Wayback; prints BLOCKED otherwise
   publish.sh                   merge + build index.html, profiles, landing pages, sitemap -> push both repos
 ```
 
@@ -35,3 +36,8 @@ pipeline/
 2. Run gap-fill agents with `prompts/gap_fill.txt` (paths: replace `<PIPELINE>` with this folder); save to `sources/patches/refresh-YYYY-MM.json`.
 3. Re-check adverts marked "(NHS Jobs advert)" / "(job advert)" and update their Deadline.
 4. `pipeline/publish.sh "Monthly refresh YYYY-MM"`.
+
+## Fetching pages
+`python3 pipeline/fetch.py URL ...` saves page text to `pipeline/work/fetch/`. It needs `pip install crawl4ai` once and uses the
+Chromium at `/opt/pw-browsers/chromium` (or `$CHROMIUM`). Sites behind Cloudflare/anti-bot walls (Johns Hopkins, UCSF, U Michigan, Mount Sinai)
+block cloud servers; for those use Tavily/Firecrawl sparingly or run `fetch.py` from a home or office computer.
