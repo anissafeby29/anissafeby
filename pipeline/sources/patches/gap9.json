@@ -1119,7 +1119,211 @@
    "value": "Institution policy: medical degree acceptable to the CPSA; completed residency (in Canada or elsewhere) acceptable to the supporting department; pursuing advanced training beyond residency certification; must meet all CPSA requirements (credentials of non-Canadian graduates verified via Physiciansapply.ca)",
    "source": "https://cumming.ucalgary.ca/sites/default/files/teams/6/fellowships/2026%20PGME%20Fellows%20Policy-%20August%202026.pdf",
    "level": "institution"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-adult-reconstructive-surgery-fellowship-arizona",
+   "field": "Deadline",
+   "value": "End of October, approximately two years before the programme start date (via SF Match)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-arizona/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-adult-reconstructive-surgery-fellowship-arizona",
+   "field": "Eligibility",
+   "value": "Completed approved orthopaedic residency; eligible for ABOS certification exams; eligible for an Arizona medical licence",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-arizona/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-adult-reconstructive-surgery-fellowship-arizona",
+   "field": "Application method",
+   "value": "SF Match Central Application Service; Adult Hip and Knee/Tumor Fellowship Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-arizona/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-florida-adult-reconstructive-orthopedic-surgery-lower-fellowship-florida",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited orthopaedic residency; eligible for full Florida medical licence; international applicants need equivalent training and ECFMG certification",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-florida/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-florida-adult-reconstructive-orthopedic-surgery-lower-fellowship-florida",
+   "field": "Application method",
+   "value": "SF Match Central Application Service (AAHKS match)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-florida/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-adult-reconstructive-orthopedic-surgery-lower-fellowship-minnesota",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3, COMLEX 1-3 or MCCQE 1-2; able to obtain Minnesota licence; completed ACGME/AOA/RCPSC/CFPC-accredited orthopaedic residency by appointment date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-lower-extremity-hip-and-knee-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-adult-reconstructive-orthopedic-surgery-lower-fellowship-minnesota",
+   "field": "Application method",
+   "value": "SF Match Central Application Service (AAHKS match)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-lower-extremity-hip-and-knee-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-adult-reconstructive-orthopedic-surgery-upper-fellowship-minnesota",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3; able to obtain Minnesota licence; completed ACGME/RCPSC/CFPC-accredited orthopaedic residency by appointment date",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-upper-extremity-shoulder-and-elbow-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-hand-surgery-fellowship-minnesota",
+   "field": "Deadline",
+   "value": "15 November",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hand-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-hand-surgery-fellowship-minnesota",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3 or MCCQE; ECFMG certification for non-US/Canadian graduates; able to obtain Minnesota licence; completed approved residency in orthopaedics or plastic surgery (ACGME/AOA/ACGME-I/RCPSC)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hand-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-hand-surgery-fellowship-minnesota",
+   "field": "Application method",
+   "value": "ASSH Hand Surgery Fellowship Application Platform; NRMP match registration required",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hand-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-musculoskeletal-oncology-fellowship-minnesota",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3; ECFMG certification for non-US/Canadian graduates; able to obtain Minnesota licence; completed approved orthopaedic residency (ACGME/AOA/ACGME-I/RCPSC/CFPC)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/musculoskeletal-oncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-musculoskeletal-oncology-fellowship-minnesota",
+   "field": "Application method",
+   "value": "SF Match (interviews 18 February 2027)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/musculoskeletal-oncology-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-orthopedic-sports-medicine-and-arthroscopy-fellowship-arizona",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3; able to obtain Arizona licence; completed approved orthopaedic surgery residency",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-arizona/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-orthopedic-sports-medicine-and-arthroscopy-fellowship-arizona",
+   "field": "Application method",
+   "value": "SF Match Central Application Service; Orthopaedic Sports Medicine Fellowship Match",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-arizona/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-sports-medicine-and-arthroscopy-fellowship-minnesota",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3; able to obtain Minnesota licence; board eligible; completed approved orthopaedic surgery residency (ACGME/AOA/ACGME-I/RCPSC/CFPC)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-sports-medicine-and-arthroscopy-fellowship-minnesota",
+   "field": "Application method",
+   "value": "SF Match Central Application Service; Orthopaedic Sports Medicine Fellowship Match (in-person interviews 15 March 2027)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-surgery-of-the-spine-fellowship-minnesota",
+   "field": "Duration",
+   "value": "1 year (academic year 1 August - 31 July)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/spine-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-surgery-of-the-spine-fellowship-minnesota",
+   "field": "Application method",
+   "value": "SF Match Central Application Service; Spine Surgery Fellowship Match (NASS)",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/spine-surgery-fellowship-minnesota/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-arizona-mayo-clinic-arizona-phoenix-childrens",
+   "field": "Deadline",
+   "value": "SF Match: match open April-October; Match Day in November",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pediatric-dermatology-fellowship-arizona/",
+   "level": "programme"
   }
  ],
- "conflicts": []
+ "conflicts": [
+  {
+   "slug": "/programs/mayo-clinic-arizona-adult-reconstructive-surgery-fellowship-arizona",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins August 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-arizona/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-florida-adult-reconstructive-orthopedic-surgery-lower-fellowship-florida",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins Aug. 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-fellowship-florida/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-adult-reconstructive-orthopedic-surgery-lower-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins on August 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-lower-extremity-hip-and-knee-fellowship-minnesota/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-adult-reconstructive-orthopedic-surgery-upper-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins on August 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/adult-reconstructive-surgery-upper-extremity-shoulder-and-elbow-fellowship-minnesota/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-hand-surgery-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins Aug. 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/hand-surgery-fellowship-minnesota/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-musculoskeletal-oncology-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins Aug. 1",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/musculoskeletal-oncology-fellowship-minnesota/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-arizona-orthopedic-sports-medicine-and-arthroscopy-fellowship-arizona",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins in August",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-arizona/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-sports-medicine-and-arthroscopy-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins in August",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/orthopedic-sports-medicine-fellowship-minnesota/application-process/"
+  },
+  {
+   "slug": "/programs/mayo-clinic-rochester-orthopedic-surgery-of-the-spine-fellowship-minnesota",
+   "field": "Start",
+   "existing": "Institution policy: Mayo Clinic School of GME academic year begins 1 July (matched trainees report to MCSGME orientation on 1 July)",
+   "found": "Programme page: the academic year begins on August 1 and ends on July 31",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/spine-surgery-fellowship-minnesota/application-process/"
+  }
+ ]
 }

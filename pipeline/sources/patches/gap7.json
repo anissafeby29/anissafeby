@@ -489,6 +489,48 @@
    "value": "FMGs accepted if USMLE Steps I and II passed, ECFMG certificate held and US permanent residency status; must be available for 1 July orientation and licensed in Iowa by 30 June",
    "source": "https://eye.medicine.uiowa.edu/education/fellowships/ophthalmic-pathology-fellowship/how-apply",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/rhinology-and-endoscopic-skull-base-surgery-fellowship-duke-university-school-of-medicine",
+   "field": "Application method",
+   "value": "SF Match (applications submitted through the San Francisco Match; interviews in winter-spring per SF Match guidelines)",
+   "source": "https://headnecksurgery.duke.edu/education-and-training/fellowship-programs/rhinology-and-endoscopic-skull-base-surgery-fellowship/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/addiction-psychiatry-fellowship-nyu-langone",
+   "field": "Eligibility",
+   "value": "Successful completion of an ACGME-accredited general psychiatry residency; IMGs also submit a valid ECFMG certificate and proof of visa status or US citizenship (J-1 via ECFMG available)",
+   "source": "https://med.nyu.edu/departments-institutes/psychiatry/education/fellowships/addiction-psychiatry",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/consultation-liaison-psychiatry-fellowship-nyu-langone",
+   "field": "Eligibility",
+   "value": "Successful completion of an ACGME-accredited general psychiatry residency; international applicants also submit a valid ECFMG certificate and proof of visa status or US citizenship",
+   "source": "https://med.nyu.edu/departments-institutes/psychiatry/education/fellowships/consultation-liaison-psychiatry",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/medical-education-fellowship-nyu-langone",
+   "field": "Deadline",
+   "value": "1 November (applications accepted 1 July to 1 November for a 1 July start the following year)",
+   "source": "https://med.nyu.edu/departments-institutes/emergency-medicine/education/fellowships/medical-education",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neurocritical-care-fellowship-nyu-langone",
+   "field": "Duration",
+   "value": "2 years (ACGME-accredited)",
+   "source": "https://med.nyu.edu/departments-institutes/neurology/education/fellowships/neurocritical-care",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/body-mri-fellowship-indiana-university",
+   "field": "Deadline",
+   "value": "Not accepting external applications for the 2027-2028 academic year (position filled internally)",
+   "source": "https://medicine.iu.edu/radiology/education/fellowship/body-mri",
+   "level": "programme"
   }
  ],
  "conflicts": [
