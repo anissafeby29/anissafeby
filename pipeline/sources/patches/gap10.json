@@ -1665,6 +1665,27 @@
    "value": "Not open for applications for the 2027-2028 academic year (listed as closed by McGill PGME)",
    "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
    "level": "institution"
+  },
+  {
+   "slug": "/programs/ages-accredited-training-program-aatp-fellowship-in-advanced-gynaecological-endoscopy-royal-prince-alfred-hospital-royal-prince-alfred-hospital-sydney-local-health-district",
+   "field": "Eligibility",
+   "value": "Institution policy: AGES Accredited Training Program positions open to both local and international graduates; central AGES application with interviews at the March AGES Annual Scientific Meeting (applicants must be registered delegates); units appoint trainees directly",
+   "source": "https://ages.com.au/training/trainee-information/overview-of-the-aatp/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ages-accredited-training-program-aatp-fellowship-in-advanced-gynaecological-endoscopy-townsville-university-hospital-townsville-university-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: AGES Accredited Training Program positions open to both local and international graduates; central AGES application with interviews at the March AGES Annual Scientific Meeting (applicants must be registered delegates); units appoint trainees directly",
+   "source": "https://ages.com.au/training/trainee-information/overview-of-the-aatp/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ages-accredited-training-program-aatp-fellowship-in-advanced-gynaecological-endoscopy-king-edward-memorial-hospital-king-edward-memorial-hospital-for-women",
+   "field": "Eligibility",
+   "value": "Institution policy: AGES Accredited Training Program positions open to both local and international graduates; central AGES application with interviews at the March AGES Annual Scientific Meeting (applicants must be registered delegates); units appoint trainees directly",
+   "source": "https://ages.com.au/training/trainee-information/overview-of-the-aatp/",
+   "level": "institution"
   }
  ],
  "conflicts": []
