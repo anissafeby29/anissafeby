@@ -1063,6 +1063,384 @@
    "value": "Must have completed a US-accredited residency programme",
    "source": "https://www.mcw.edu/departments/pediatrics/divisions/pulmonary-and-sleep-medicine/fellowship-program",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uh-rainbow-babies-case-western",
+   "field": "Positions",
+   "value": "2 per year (NRMP)",
+   "source": "https://www.uhhospitals.org/rainbow/the-center-of-pediatric-education/pediatric-fellowship-training-programs/pediatric-cardiology-fellowship/application-process",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-uh-rainbow-babies-case-western",
+   "field": "Deadline",
+   "value": "ERAS applications uploaded no later than 15 August for the upcoming interview season",
+   "source": "https://www.uhhospitals.org/rainbow/the-center-of-pediatric-education/pediatric-fellowship-training-programs/pediatric-emergency-medicine-fellowship/application-process",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-uh-rainbow-babies-case-western",
+   "field": "Positions",
+   "value": "1-2 positions most years",
+   "source": "https://www.uhhospitals.org/rainbow/the-center-of-pediatric-education/pediatric-fellowship-training-programs/pediatric-gastroenterology-fellowship/application-process",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-sickle-cell-disease-and-hemostasis-thrombosis-advanced-fellowship-uh-rainbow-babies-case-western",
+   "field": "Application method",
+   "value": "Email CV, short personal statement and 3 letters of recommendation to the Division Chief (John Letterio, MD), copying the administrative assistant",
+   "source": "https://www.uhhospitals.org/rainbow/the-center-of-pediatric-education/pediatric-fellowship-training-programs/pediatric-hematology-oncology-fellowship/education-and-training/pediatric-sickle-cell-disease-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-uh-rainbow-babies-case-western",
+   "field": "Start",
+   "value": "July (page currently advertises a July 2026 start)",
+   "source": "https://www.uhhospitals.org/rainbow/the-center-of-pediatric-education/pediatric-fellowship-training-programs/pediatric-developmental-behavioral-fellowship/application-process",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/micrographic-surgery-and-dermatologic-oncology-fellowship-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/bryan-hemming-endowed-fellowship-in-head-and-neck-cancer-university-of-california-san-francisco",
+   "field": "Deadline",
+   "value": "No fixed deadline; apply preferably two years in advance of proposed start date",
+   "source": "https://ohns.ucsf.edu/fellowships/bryan-hemming-endowed-fellowship-head-and-neck-cancer",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neurotology-fellowship-university-of-california-san-francisco",
+   "field": "Duration",
+   "value": "2 years",
+   "source": "https://ohns.ucsf.edu/fellowships/neurotology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/facial-plastic-and-reconstructive-surgery-fellowship-university-of-california-san-francisco",
+   "field": "Application method",
+   "value": "AAFPRS fellowship application process (fellowships.aafprs.org)",
+   "source": "https://ohns.ucsf.edu/fellowships/facial-plastic-and-reconstructive-surgery-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-hepatology-and-nutrition-fellowship-children-s-colorado-cu-anschutz",
+   "field": "Positions",
+   "value": "3 per year (three first-year fellows)",
+   "source": "https://medschool.cuanschutz.edu/pediatrics/sections/gastroenterology-hepatology-and-nutrition/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/child-abuse-pediatrics-fellowship-children-s-colorado-cu-anschutz",
+   "field": "Application method",
+   "value": "ERAS (common application form, CV, USMLE/COMLEX/ECFMG transcript, personal statement, letters) and NRMP match",
+   "source": "https://medschool.cuanschutz.edu/pediatrics/sections/kempe-center/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-program-childrens-hospital-colorado-university-of-colorado-school-of-medicine-cu-anschutz",
+   "field": "Start",
+   "value": "Institution policy: CU School of Medicine GME training agreements run 1 July - 30 June (sample 2025-26 agreement: 7/1/2025 - 6/30/2026)",
+   "source": "https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/2025-26-required-applicant-materials/2025-26-som-training-agreement-sample.pdf?sfvrsn=8335f5b4_1",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "ERAS (applications accepted each July); NRMP fellowship match",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/developmental-behavioral/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-uams-arkansas-childrens",
+   "field": "Eligibility",
+   "value": "Preference for applicants who have completed an accredited three-year pediatric residency by fellowship start and are ABP board certified or eligible",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/developmental-behavioral/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "ERAS and NRMP",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/emergency/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-uams-arkansas-childrens",
+   "field": "Deadline",
+   "value": "Applications considered through November for interviews (ERAS participation deadlines per NRMP); review begins each July",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/emergency/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "ERAS (personal statement, three letters incl. residency director, USMLE transcripts, ECFMG certificate for IMGs); NRMP",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/endocrinology/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-uams-arkansas-childrens",
+   "field": "Eligibility",
+   "value": "Completed three-year pediatric or four-year med-peds residency at an ACGME-accredited programme before start and passed all USMLE steps (exceptions per ACGME/UAMS GME)",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/endocrinology/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-uams-arkansas-childrens",
+   "field": "Eligibility",
+   "value": "Graduates of an ACGME-approved residency in the United States",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/hematology-oncology/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "ERAS only; positions filled through NRMP",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/hematology-oncology/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "NRMP Match (Program ID 3340432001) with PHM standardized personal statement; virtual interviews",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/hospital-medicine/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uams-arkansas-childrens",
+   "field": "Application method",
+   "value": "ERAS only; NRMP Pediatric Specialties Fall Match",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/neonatal/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-uams-arkansas-childrens",
+   "field": "Eligibility",
+   "value": "MD or DO with completed three-year ACGME-accredited pediatric residency in the United States",
+   "source": "https://medicine.uams.edu/pediatrics/education-training/fellowships/pulmonology/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/fellowship-in-neuroradiology-and-head-and-neck-imaging-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-neuroradiology-and-head-and-neck-imaging-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-musculoskeletal-radiology-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-musculoskeletal-radiology-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-cardiothoracic-and-abdominal-imaging-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-cardiothoracic-and-abdominal-imaging-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-breast-imaging-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-breast-imaging-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-ultrasound-imaging-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-ultrasound-imaging-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/nuclear-medicine-and-molecular-imaging-fellowship-singapore-general-hospital-singhealth",
+   "field": "Deadline",
+   "value": "Institution policy: rolling - SGH PGMI reviews applications monthly; cut-off is the last day of each month (Singapore time)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/nuclear-medicine-and-molecular-imaging-fellowship-singapore-general-hospital-singhealth",
+   "field": "Start",
+   "value": "Institution policy: commencement subject to SMC registration and work pass approval (clinical fellowship processing approx. 6-9 months after the review outcome)",
+   "source": "https://www.sgh.com.sg/pgmi/fellowship-attachments/how-to-apply.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/training-programme-in-advanced-womens-imaging-kk-womens-and-childrens-hospital-kkh",
+   "field": "Start",
+   "value": "No specific month of intake (1 trainee at any one time)",
+   "source": "https://www.kkh.com.sg/education/training-fellowships/medical/clinical-support-services/diagnostic-interventional-imaging",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/training-programme-in-advanced-womens-imaging-kk-womens-and-childrens-hospital-kkh",
+   "field": "Eligibility",
+   "value": "FRCR or equivalent",
+   "source": "https://www.kkh.com.sg/education/training-fellowships/medical/clinical-support-services/diagnostic-interventional-imaging",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/training-programme-in-advanced-womens-imaging-kk-womens-and-childrens-hospital-kkh",
+   "field": "Deadline",
+   "value": "Institution policy: no fixed deadline - apply by email to Education.Office@KKH.com.sg at least 12 months before the intended start (processing time at least 12 months)",
+   "source": "https://www.kkh.com.sg/education/training-fellowships/medical",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/head-and-neck-oncologic-surgery-fellowship-memorial-sloan-kettering-cancer-center",
+   "field": "Start",
+   "value": "1 July (off-cycle starts occasionally considered)",
+   "source": "https://www.mskcc.org/hcp-education-training/fellowships/head-and-neck",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatology-clinical-research-fellowship-in-cutaneous-oncology-memorial-sloan-kettering-cancer-center",
+   "field": "Application method",
+   "value": "Online via MSK Embark portal (mskcc.embark.com/apply/medicine); accepting applications for 2026-27",
+   "source": "https://www.mskcc.org/hcp-education-training/fellowships/dermatology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/central-nervous-system-and-stereotactic-radiosurgery-fellowship-memorial-sloan-kettering-cancer-center",
+   "field": "Start",
+   "value": "1 July (tentative and negotiable)",
+   "source": "https://www.mskcc.org/hcp-education-training/fellowships/central-nervous-system-and-stereotactic-radiosurgery-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ocular-genetics-fellowship-flaum-eye-rochester",
+   "field": "Deadline",
+   "value": "No fixed deadline; send all documents electronically at least 6 months before the desired start date",
+   "source": "https://www.urmc.rochester.edu/eye-institute/education/fellowships/ocular-genetics-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/oculofacial-plastic-surgery-fellowship-cleveland-clinic-cole-eye-institute",
+   "field": "Start",
+   "value": "Even-numbered years (two-year fellowship; interviews held in odd years)",
+   "source": "https://my.clevelandclinic.org/departments/eye/medical-professionals/fellowships/oculofacial",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/micrographic-surgery-and-dermatologic-oncology-fellowship-the-university-of-texas-md-anderson-cancer-center",
+   "field": "Application method",
+   "value": "SF Match plus MD Anderson DISCOVER system (both required)",
+   "source": "https://www.mdanderson.org/education-training/clinical-training/graduate-medical-education/residencies-fellowships/micrographic-surgery-dermatologic-oncology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/area-of-focused-competence-afc-diploma-in-cytopathology-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/bone-and-soft-tissue-pathology-fellowship-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/gastrointestinal-and-liver-pathology-fellowship-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/gynecologic-pathology-fellowship-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/hematopathology-fellowship-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuromuscular-pathology-fellowship-mcgill-university-mcgill-university-health-centre-jewish-general-hospital",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-fellowship-upmc-pitt",
+   "field": "Positions",
+   "value": "2",
+   "source": "https://www.ophthalmology.pitt.edu/education/fellowships/pediatric-ophthalmology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/stroke-fellowship-st-michaels",
+   "field": "Deadline",
+   "value": "Applications open/close 1 year prior to start of fellowship (anticipated start 1 July)",
+   "source": "https://deptmedicine.utoronto.ca/stroke-smh",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/international-fellowships-in-vitreoretina-paediatric-ophthalmology-and-glaucoma-narayana-nethralaya",
+   "field": "Eligibility",
+   "value": "Postgraduate qualification in ophthalmology (MS Ophthalmology or equivalent; DO/DOMS diploma holders may apply) and registration to practise ophthalmology independently in home country",
+   "source": "https://www.narayananethralaya.org/international-fellowship/",
+   "level": "programme"
   }
  ],
  "conflicts": [

@@ -1259,6 +1259,706 @@
    "value": "SF Match: match open April-October; Match Day in November",
    "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pediatric-dermatology-fellowship-arizona/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-nyu",
+   "field": "Start",
+   "value": "August (applicants for an August 2027 start interviewed summer 2026)",
+   "source": "https://med.nyu.edu/departments-institutes/obstetrics-gynecology/education/fellowships/complex-benign-gynecology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/uropathology-fellowship-nyu-langone-health",
+   "field": "Positions",
+   "value": "1 (one-year post-residency fellowship position)",
+   "source": "https://med.nyu.edu/departments-institutes/pathology/education/fellowships/uropathology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-and-adolescent-gynecology-fellowship-cu-anschutz",
+   "field": "Start",
+   "value": "Institution policy: CU School of Medicine GME training agreements run 1 July - 30 June (sample 2025-26 agreement: 7/1/2025 - 6/30/2026)",
+   "source": "https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/2025-26-required-applicant-materials/2025-26-som-training-agreement-sample.pdf?sfvrsn=8335f5b4_1",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/maternal-fetal-medicine-fellowship-cu-anschutz",
+   "field": "Start",
+   "value": "Institution policy: CU School of Medicine GME training agreements run 1 July - 30 June (sample 2025-26 agreement: 7/1/2025 - 6/30/2026)",
+   "source": "https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/2025-26-required-applicant-materials/2025-26-som-training-agreement-sample.pdf?sfvrsn=8335f5b4_1",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/body-imaging-fellowship-mass-general-brigham",
+   "field": "Application method",
+   "value": "Online application (Apply Now) following SCARD guidelines; virtual interviews (applications expected from early November 2026 for the 2028-2029 class)",
+   "source": "https://radedu.massgeneralbrigham.org/clinical-fellowship-in-body-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-and-intervention-fellowship-mass-general-brigham",
+   "field": "Application method",
+   "value": "Online application (Apply Now) following SCARD/SAR guidelines; virtual interviews from January 2027",
+   "source": "https://radedu.massgeneralbrigham.org/clinical-fellowship-in-abdominal-imaging-and-intervention/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-general-surgical-oncology-fellowship-stanford-university-school-of-medicine",
+   "field": "Eligibility",
+   "value": "By fellowship start, completed accredited general surgery residency in the US or Canada and qualified to sit the American Board of Surgery examination",
+   "source": "https://med.stanford.edu/gensurg/education/surgonc-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-stanford-university-school-of-medicine",
+   "field": "Eligibility",
+   "value": "Generally at least 4 years of an ACGME-approved general surgery training programme completed before enrolling",
+   "source": "https://vascular.stanford.edu/education/fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/maternal-fetal-medicine-fellowship-umich",
+   "field": "Deadline",
+   "value": "27 April 2026 for August 2027 start (closed; next cycle not yet posted)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/maternal-fetal-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/maternal-fetal-medicine-fellowship-umich",
+   "field": "Start",
+   "value": "August (August 2027 start for the current cycle)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/maternal-fetal-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/maternal-fetal-medicine-fellowship-umich",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/maternal-fetal-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/reproductive-endocrinology-and-infertility-fellowship-umich",
+   "field": "Start",
+   "value": "August",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/reproductive-endocrinology-infertility",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/reproductive-endocrinology-and-infertility-fellowship-umich",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/reproductive-endocrinology-infertility",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-umich",
+   "field": "Deadline",
+   "value": "1 May 2026 for August 2027 start (closed; next cycle not yet posted)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/complex-benign-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-umich",
+   "field": "Start",
+   "value": "August (August 2027 start for the current cycle)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/complex-benign-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-umich",
+   "field": "Application method",
+   "value": "FellowshipsCAS only",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/complex-benign-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cancer-genetics-and-breast-health-fellowship-umich",
+   "field": "Deadline",
+   "value": "Applications currently accepted; no deadline stated",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/cancer-genetics-breast-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cancer-genetics-and-breast-health-fellowship-umich",
+   "field": "Application method",
+   "value": "Download application form; contact the fellowship manager to arrange a virtual meeting with the programme director",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/cancer-genetics-breast-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-and-adolescent-gynecology-fellowship-umich",
+   "field": "Deadline",
+   "value": "5 July 2026 for August 2027 start (closed)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/pediatric-adolescent-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-and-adolescent-gynecology-fellowship-umich",
+   "field": "Start",
+   "value": "August (August 2027 start for the current cycle)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/pediatric-adolescent-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-and-adolescent-gynecology-fellowship-umich",
+   "field": "Application method",
+   "value": "NASPAG common application",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/pediatric-adolescent-gynecology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/lgbtq-reproductive-and-sexual-health-fellowship-umich",
+   "field": "Deadline",
+   "value": "15 September 2026 for August 2027 start (closed)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/lgbtq-reproductive-sexual-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/lgbtq-reproductive-and-sexual-health-fellowship-umich",
+   "field": "Start",
+   "value": "August (August 2027 start for the current cycle)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/lgbtq-reproductive-sexual-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/lgbtq-reproductive-and-sexual-health-fellowship-umich",
+   "field": "Duration",
+   "value": "12 months",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/lgbtq-reproductive-sexual-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/lgbtq-reproductive-and-sexual-health-fellowship-umich",
+   "field": "Application method",
+   "value": "FellowshipsCAS portal",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/lgbtq-reproductive-sexual-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/women-s-health-fellowship-umich",
+   "field": "Deadline",
+   "value": "31 August 2026 for August 2027 start (closed)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/womens-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/women-s-health-fellowship-umich",
+   "field": "Start",
+   "value": "August (August 2027 start for the current cycle)",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/womens-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/women-s-health-fellowship-umich",
+   "field": "Application method",
+   "value": "Download and submit the programme application form",
+   "source": "https://medschool.umich.edu/departments/obstetrics-gynecology/education/fellowships/womens-health",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "Applications reviewed July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Positions",
+   "value": "3 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Must be eligible for the American Board of Pediatrics Certifying Examination during the first fellowship year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "14 August (ERAS); interviews September-November",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-cardiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-cardiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-critical-care-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-endocrinology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-and-hepatology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Positions",
+   "value": "2 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-gastro",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-and-hepatology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Pediatrics board eligible before beginning fellowship; passing General Pediatrics Certifying Examination required to complete clinical training",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-gastro",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-and-hepatology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-gastro",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Positions",
+   "value": "2 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Pediatrics board-eligible before fellowship start",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hospital-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Must be eligible for the American Board of Pediatrics Certifying Examination during the first fellowship year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hospital-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application; NRMP match",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hospital-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "Apply via ERAS in July of the year before appointment; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Prior ACGME residency preferred; non-ACGME (overseas) residency considered case by case; J-1 and H-1 visa holders eligible; ECFMG certificate for international applicants",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-infectious",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-and-hypertension-fellowship-mount-sinai-kravis-children-s",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-and-hypertension-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Generally board-eligible pediatricians (MD or MD/PhD) meeting ACGME pediatric nephrology eligibility requirements",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-nephrology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-pulmonology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Eligibility",
+   "value": "Pediatrics board eligible",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-pulmonology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-mount-sinai-kravis-children-s",
+   "field": "Application method",
+   "value": "ERAS application",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-pulmonology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-icahn-school-of-medicine-at-mount-sinai",
+   "field": "Deadline",
+   "value": "1 July 2026 for 2028-2029 positions (closed)",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-dermatopathology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cosmetic-dermatologic-surgery-fellowship-icahn-school-of-medicine-at-mount-sinai",
+   "field": "Deadline",
+   "value": "1 September of the prior fall (annual)",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/ismms-cosmetic-derma-surgery-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-and-interventional-radiology-fellowship-western-university-schulich-school-of-medicine-and-dentistry",
+   "field": "Positions",
+   "value": "Up to two fellows simultaneously",
+   "source": "https://www.schulich.uwo.ca/medimaging/education/fellowship_programs/vascular_interventional.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/international-neuro-ophthalmology-clinical-research-fellowship-emory-eye-center",
+   "field": "Deadline",
+   "value": "No fixed deadline; candidates reviewed case by case",
+   "source": "https://med.emory.edu/departments/ophthalmology/ophthalmic-education/fellowships/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/international-neuro-ophthalmology-clinical-research-fellowship-emory-eye-center",
+   "field": "Eligibility",
+   "value": "International ophthalmologists and neurologists fluent in English who do not hold ECFMG certificates (unfunded position)",
+   "source": "https://med.emory.edu/departments/ophthalmology/ophthalmic-education/fellowships/neuro-ophthalmology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ophthalmology-inpatient-hospital-medicine-fellowship-emory-eye-center",
+   "field": "Deadline",
+   "value": "Institution policy: Emory Eye Center fellowship applications via SF Match Central Application Service by 31 August",
+   "source": "https://med.emory.edu/departments/ophthalmology/ophthalmic-education/fellowships/index.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ophthalmology-inpatient-hospital-medicine-fellowship-emory-eye-center",
+   "field": "Eligibility",
+   "value": "Completed ophthalmology residency; US graduates need unrestricted Georgia licence before start; IMGs must have completed USMLE requirements, ECFMG certification and be eligible for J-1/H-1B (at fellow's expense) or hold permanent residency",
+   "source": "https://med.emory.edu/departments/ophthalmology/ophthalmic-education/fellowships/ophthalmology-inpatient-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ems-fellowship-washu",
+   "field": "Deadline",
+   "value": "4 September 2026 for the upcoming fellowship year (now passed)",
+   "source": "https://emergencymedicine.wustl.edu/education/fellowships/how-to-apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ems-fellowship-washu",
+   "field": "Start",
+   "value": "Institution policy: WashU/BJH consortium stipend year runs 1 July - 30 June (standard start 1 July)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuropathology-fellowship-washington-university-school-of-medicine-in-st-louis",
+   "field": "Deadline",
+   "value": "Rolling: online applications open 1 October 2026; review November-December 2026; offers until the position is filled",
+   "source": "https://pathology.wustl.edu/education/clinical-fellowships/neuropathology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuropathology-fellowship-washington-university-school-of-medicine-in-st-louis",
+   "field": "Eligibility",
+   "value": "At least two years of anatomic pathology residency completed",
+   "source": "https://pathology.wustl.edu/education/clinical-fellowships/neuropathology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/stereotactic-functional-and-epilepsy-surgery-fellowship-washington-university-school-of-medicine-in-st-louis",
+   "field": "Start",
+   "value": "Institution policy: WashU/BJH consortium stipend year runs 1 July - 30 June (standard start 1 July)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/emergency-medicine-simulation-fellowship-weill-cornell",
+   "field": "Application method",
+   "value": "Email cover letter (simulation experience and interests), CV and two letters of recommendation to simulation@med.cornell.edu; interview",
+   "source": "https://emed.weill.cornell.edu/education/fellowship/emergency-medicine-simulation-fellowship-0",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/medical-education-fellowship-weill-cornell",
+   "field": "Application method",
+   "value": "Email cover letter and CV to the programme director (Dr Christie Lech)",
+   "source": "https://emed.weill.cornell.edu/education/fellowship/medical-education-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-weill-cornell",
+   "field": "Eligibility",
+   "value": "Board-certified or board-eligible in pediatrics and/or emergency medicine at fellowship start; current New York State licence or limited permit required",
+   "source": "https://emed.weill.cornell.edu/education/fellowship/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-weill-cornell",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/oculoplastics-international-pediatrics-fellowship-asoprs-shiley-eye-ucsd",
+   "field": "Application method",
+   "value": "Download and submit the programme application form (California Medical Board Section 2111 appointment on acceptance)",
+   "source": "https://shileyeye.ucsd.edu/physicians/fellowships/oculoplastics-international-pediatrics-asoprs",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-medical-college-of-wisconsin",
+   "field": "Eligibility",
+   "value": "Completed ACGME, RCPSC or AOA (ACGME pre-accreditation) diagnostic radiology residency; board eligible; valid Wisconsin medical licence before fellowship start",
+   "source": "https://www.mcw.edu/departments/radiology-medical-imaging/education/fellowship-programs/neuroradiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-scanlon-fellowship-medical-college-of-wisconsin",
+   "field": "Eligibility",
+   "value": "Must be eligible for Wisconsin medical licensure; valid Wisconsin licence required before start of fellowship year",
+   "source": "https://www.mcw.edu/departments/radiology-medical-imaging/education/fellowship-programs/cardiothoracic-imaging-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adolescent-medicine-fellowship-columbia-morgan-stanley-children-s",
+   "field": "Positions",
+   "value": "1",
+   "source": "https://www.pediatrics.columbia.edu/education/fellowship-training/adolescent-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-columbia-morgan-stanley-children-s",
+   "field": "Positions",
+   "value": "4",
+   "source": "https://www.pediatrics.columbia.edu/education/fellowship-training/critical-care-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-columbia-morgan-stanley-children-s",
+   "field": "Positions",
+   "value": "5",
+   "source": "https://www.pediatrics.columbia.edu/education/fellowship-training/neonatology-and-perinatology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/reproductive-endocrinology-and-infertility-fellowship-utah",
+   "field": "Start",
+   "value": "Institution policy: University of Utah GME academic year begins 1 July",
+   "source": "https://medicine.utah.edu/sites/g/files/zrelqx296/files/media/documents/2026/fy27-trainee-stipend-memo.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/reproductive-endocrinology-and-infertility-fellowship-utah",
+   "field": "Eligibility",
+   "value": "Institution policy: graduate of LCME/AOA-accredited school or ECFMG-certified IMG; PGY2+ must have passed USMLE Steps 1, 2CK (2CS) and 3 (or COMLEX/LMCC) and be eligible for a Utah medical licence by hire date",
+   "source": "https://medicine.utah.edu/gme/trainee-resources/prospective",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-utah",
+   "field": "Start",
+   "value": "Positions starting now through July 2027 (rolling)",
+   "source": "https://medicine.utah.edu/radiology/education/fellowships/cardiothoracic",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/paediatric-pain-medicine-fellowship-the-hospital-for-sick-children-sickkids",
+   "field": "Positions",
+   "value": "1 (one-year pain fellowship position)",
+   "source": "https://www.sickkids.ca/en/care-services/clinical-departments/anesthesia-pain-medicine/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/international-emergency-department-quality-and-management-fellowship-bidmc",
+   "field": "Start",
+   "value": "Rolling: fellowship begins 4-6 months after acceptance",
+   "source": "https://research.bidmc.org/emergencymedicine-gme/international-emergency-department-quality-management-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-subspecialty-program-childrens-hospital-of-eastern-ontario-cheo-university-of-ottawa",
+   "field": "Start",
+   "value": "1 July entry (CaRMS subspecialty match; applications due the preceding year)",
+   "source": "https://www.uottawa.ca/faculty-medicine/pediatrics/pgme/emergency-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-gi-abdominal-wall-fellowship-vancouver-general-hospital-ubc",
+   "field": "Deadline",
+   "value": "Not participating in the Fellowship Council match for the 2027-2030 academic years",
+   "source": "https://surgery.med.ubc.ca/advanced-mis-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/consultation-liaison-psychiatry-fellowship-one-year-clinical-stream-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for complete files for most fellowship programmes 1 September 2026 (programme-specific dates on PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/womens-mental-health-fellowship-tri-site-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for complete files for most fellowship programmes 1 September 2026 (programme-specific dates on PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-adult-reconstruction-joint-replacement-fellowship-jewish-general-hospital",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for complete files for most fellowship programmes 1 September 2026 (programme-specific dates on PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-orthopaedic-foot-and-ankle-fellowship",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for complete files for most fellowship programmes 1 September 2026 (programme-specific dates on PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/complex-adult-cardiac-and-valve-surgery-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for complete files for most fellowship programmes 1 September 2026 (programme-specific dates on PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuro-oncology-fellowship-uhn-toronto",
+   "field": "Positions",
+   "value": "1 per year, depending on funding",
+   "source": "https://deptmedicine.utoronto.ca/neuro-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-washu",
+   "field": "Eligibility",
+   "value": "American board-eligible or board-certified in dermatology before starting the fellowship",
+   "source": "https://dermatology.wustl.edu/education/fellowship-programs/ped-derm-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-washu",
+   "field": "Start",
+   "value": "Institution policy: WashU/BJH consortium stipend year runs 1 July - 30 June (standard start 1 July)",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-university-of-colorado",
+   "field": "Start",
+   "value": "Institution policy: CU School of Medicine GME training agreements run 1 July - 30 June (sample 2025-26 agreement: 7/1/2025 - 6/30/2026)",
+   "source": "https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/2025-26-required-applicant-materials/2025-26-som-training-agreement-sample.pdf?sfvrsn=8335f5b4_1",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uoft-michael-garron-general-orthopaedics-and-lower-extremity-arthroplasty-fellowship-michael-garron-hospital",
+   "field": "Deadline",
+   "value": "Applications due 18 months before the 1 July start",
+   "source": "https://uoftorthopaedics.ca/education/fellowships/fellowship-positions/arthroplasty-lower-extremity-reconstruction/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/sleep-medicine-fellowship-stanford",
+   "field": "Deadline",
+   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
+   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/advanced-cardiac-surgery-fellowship-heart-failure-transplantation-and-mechanical-circulatory-support-track-northwestern",
+   "field": "Deadline",
+   "value": "Rolling: open positions posted each year on CTSNet; complete applications reviewed as received",
+   "source": "https://www.surgery.northwestern.edu/education/fellowships/advanced-cardiac/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/advanced-cardiac-surgery-fellowship-aortic-surgery-and-endovascular-procedures-track-northwestern",
+   "field": "Deadline",
+   "value": "Rolling: open positions posted each year on CTSNet; complete applications reviewed as received",
+   "source": "https://www.surgery.northwestern.edu/education/fellowships/advanced-cardiac/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/advanced-cardiac-surgery-fellowship-minimally-invasive-and-robotic-surgery-track-northwestern",
+   "field": "Deadline",
+   "value": "Rolling: open positions posted each year on CTSNet; complete applications reviewed as received",
+   "source": "https://www.surgery.northwestern.edu/education/fellowships/advanced-cardiac/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/northwestern-university-feinberg-school-of-medicine-gynecologic-oncology-fellowship",
+   "field": "Positions",
+   "value": "1 (one fellowship position beginning 2027 in the current cycle)",
+   "source": "https://www.feinberg.northwestern.edu/sites/obgyn/education/fellowships/oncology/index.html",
+   "level": "programme"
   }
  ],
  "conflicts": [

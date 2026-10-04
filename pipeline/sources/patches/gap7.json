@@ -213,9 +213,9 @@
   {
    "slug": "/programs/sleep-neurology-fellowship-sunnybrook",
    "field": "Application method",
-   "value": "Institution policy: apply to the departmental Fellowship Program Director; sponsored international applicants apply through their sponsoring agency to the PGME Office",
-   "source": "https://pgme.utoronto.ca/fellowship-training",
-   "level": "institution"
+   "value": "Send CV and cover letter (interest, clinical and research experience) to the fellowship contact; approved candidates then register via U of T PGME (OATS for non-sponsored fellows)",
+   "source": "https://deptmedicine.utoronto.ca/sleep-neurology",
+   "level": "programme"
   },
   {
    "slug": "/programs/academic-fellowship-in-family-medicine-university-of-toronto-dfcm",
@@ -530,6 +530,594 @@
    "field": "Deadline",
    "value": "Not accepting external applications for the 2027-2028 academic year (position filled internally)",
    "source": "https://medicine.iu.edu/radiology/education/fellowship/body-mri",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/sports-and-performance-psychiatry-fellowship-stanford",
+   "field": "Deadline",
+   "value": "12 October 2026 (call for applications opened 7 July 2026) for programme start 7 July 2027",
+   "source": "https://med.stanford.edu/psychiatry/education/clinicalfellows/sports.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/sports-and-performance-psychiatry-fellowship-stanford",
+   "field": "Eligibility",
+   "value": "Completed (before entry) an ACGME-accredited, AOA-approved or RCPSC-accredited psychiatry residency; US citizen or documentation allowing legal training at Stanford per GME policy; eligible for California medical licensure",
+   "source": "https://med.stanford.edu/psychiatry/education/clinicalfellows/sports.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuropsychiatry-fellowship-stanford",
+   "field": "Duration",
+   "value": "1 year (one-year curriculum; start dates and schedule flexible)",
+   "source": "https://med.stanford.edu/psychiatry/education/clinicalfellows/neuropsychiatry.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited pediatric residency; US citizens or green card holders preferentially considered (federal training-grant funding); foreign medical graduates with ECFMG certificate may also apply",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/developmental-behavioral-pediatrics/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "Fall Match timeline: ERAS open July-early November; interviews September-October; NRMP rank list deadline late November; Match Day December",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/neonatal-perinatal-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Currently enrolled in, or completed, an ACGME-accredited pediatric residency; IMGs provide ECFMG certificate",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/neonatal-perinatal-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS (opens July) with NRMP Fall Match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/neonatal-perinatal-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "30 April of the calendar year before the desired July start (e.g. 30 April 2026 for July 2027 start; next: 30 April 2027 for July 2028)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/neonatal-hemodynamics/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "Hemodynamics Fellowship application form with CV, personal statement, letter of support and letter of recommendation; shortlisted candidates interviewed (in person or Zoom)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/neonatal-hemodynamics/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "14 August 2026 (2026 ERAS/NRMP cycle; interviews late August-early October)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-cardiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS (reviewed from July) with NRMP Subspecialty Match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-cardiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "US allopathic graduates: passed all three USMLE levels with no more than one failure; IMGs provide ECFMG certificate (and permanent visa copy if applicable)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-cardiology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS (reviewed from July) with NRMP Subspecialty Match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-critical-care-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Currently enrolled in, or completed, an ACGME-accredited pediatric residency; IMGs provide ECFMG certificate",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-critical-care-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "1 September (applications via ERAS reviewed from July; interviews late August-late October; NRMP Fall Subspecialty Match)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-endocrinology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS with NRMP Fall Subspecialty Match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-endocrinology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Currently enrolled in, or completed, an ACGME-accredited pediatric residency; IMGs provide ECFMG certificate",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-endocrinology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "Applications accepted July to November via ERAS; NRMP rank list deadline typically end of November, match in December",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-gastroenterology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS with NRMP Subspecialty Match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-gastroenterology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Currently enrolled in, or completed, an ACGME-accredited pediatric residency; IMGs provide ECFMG certificate",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-gastroenterology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-bone-marrow-transplant-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "1 August annually (ERAS opens July; NRMP fall match)",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-hematology-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-bone-marrow-transplant-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS with NRMP fall match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-hematology-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-bone-marrow-transplant-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Completed or current participation in an ABP-certified/ACGME-accredited pediatric residency; ECFMG certificate for IMGs; proof of US citizenship or permanent residency requested; Iowa licence by 30 June",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-hematology-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS with NRMP",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-nephrology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "Currently enrolled in, or completed, an ACGME-accredited pediatric residency; IMGs provide ECFMG certificate",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-nephrology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-university-of-iowa-stead",
+   "field": "Deadline",
+   "value": "July application cycle: ERAS applications from July; interviews August-October; NRMP rank order deadline in November",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-pulmonary-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-university-of-iowa-stead",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-pulmonary-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-university-of-iowa-stead",
+   "field": "Eligibility",
+   "value": "LCME or AOA graduate, or non-US/Canadian graduate with valid ECFMG certificate and passing USMLE Steps 1-2 who is a US citizen, permanent resident or J-1 holder; meet Iowa Board of Medicine licensure requirements",
+   "source": "https://pediatrics.medicine.uiowa.edu/education/fellowships/pediatric-pulmonary-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-uc-san-diego-rady-childrens",
+   "field": "Eligibility",
+   "value": "Board certified/eligible in pediatrics by the beginning of the fellowship",
+   "source": "https://pediatrics.ucsd.edu/divisions/hospital-medicine/education/fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/diagnostic-neuroradiology-fellowship-ucla-health",
+   "field": "Positions",
+   "value": "5 fellows",
+   "source": "https://www.uclahealth.org/departments/radiology/education/fellowship-programs/diagnostic-neuroradiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-and-hypertension-fellowship-university-of-miami-holtz-children-s",
+   "field": "Eligibility",
+   "value": "All positions filled through NRMP; applicants must pass USMLE Steps 1, 2 and 3 before the start of the programme",
+   "source": "https://graduate.jacksonhealth.org/program/pediatrics-nephrology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonology-fellowship-university-of-miami-holtz-children-s",
+   "field": "Eligibility",
+   "value": "Valid current unrestricted or training licence (exemption possible for subspecialists practising abroad with proof of licensure); USMLE Steps 1, 2 and 3 passed before programme start; positions via NRMP or direct application to Jackson Health System",
+   "source": "https://graduate.jacksonhealth.org/program/pediatrics-pediatric-pulmonology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adult-congenital-heart-disease-fellowship-maude-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-heart-failure-and-transplantation-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/chip-pci-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cmr-cardiovascular-imaging-research-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-cardiology-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/integrated-cardiac-imaging-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-cardiology-structural-heart-disease-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/general-surgery-trauma-fellowship-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-mcgill-integrated-spine-fellowship",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-orthopedic-sports-medicine-arthroscopy-clinical-fellowship",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/multidisciplinary-heart-failure-cardiac-transplantation-and-mechanical-circulatory-support-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/andrology-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/male-genito-urinary-dysfunction-and-reconstructive-urology-fellowship-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME fellowship applications for the 2027-2028 academic year opened 15 May 2026; deadline for a complete file for most fellowship programmes 1 September 2026 (see PGME list for exceptions)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (all applications must be submitted to ERAS by 1 October)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/allergy-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/allergy-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-uc-davis-children-s",
+   "field": "Eligibility",
+   "value": "Completed residency in internal medicine, pediatrics or med-peds; board eligible/certified per ABP/ACGME; IMGs must meet California PTL/licence requirements and hold a clinical J-1 (ECFMG-sponsored)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/allergy-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatric-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (all applications must be submitted to ERAS by 1 October)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/developmental-behavioral-pediatric-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatric-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/developmental-behavioral-pediatric-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (all applications must be submitted to ERAS by 1 October)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/neonatal-perinatal-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/neonatal-perinatal-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uc-davis-children-s",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited pediatrics residency and valid California medical licence; IMGs must meet California PTL/licence requirements and hold a clinical J-1 (ECFMG-sponsored)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/neonatal-perinatal-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (all applications must be submitted to ERAS by 1 October)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-cardiology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-cardiology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uc-davis-children-s",
+   "field": "Eligibility",
+   "value": "Board eligible or certified in pediatrics or internal medicine-pediatrics (ABP/ACGME criteria); IMGs must meet California PTL/licence requirements and hold a clinical J-1 (ECFMG-sponsored)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-cardiology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (all applications must be submitted to ERAS by 1 October)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-critical-care-medicine-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-critical-care-medicine-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-uc-davis-children-s",
+   "field": "Eligibility",
+   "value": "Board eligible or certified in pediatrics or internal medicine-pediatrics (ABP/ACGME criteria); IMGs must meet California PTL/licence requirements and hold a clinical J-1 (ECFMG-sponsored)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-critical-care-medicine-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-uc-davis-children-s",
+   "field": "Deadline",
+   "value": "1 October (ERAS opens July; rolling interviews; match in December)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-endocrinology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP match (3 letters incl. residency programme director)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-endocrinology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-uc-davis-children-s",
+   "field": "Application method",
+   "value": "ERAS with NRMP Pediatric Specialties Fall Match",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-hospital-medicine/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-uc-davis-children-s",
+   "field": "Eligibility",
+   "value": "Board eligible or certified in pediatrics or internal medicine-pediatrics (ABP/ACGME criteria); IMGs must meet California PTL/licence requirements and hold a clinical J-1 (ECFMG-sponsored)",
+   "source": "https://health.ucdavis.edu/pediatrics/academic-programs/pediatric-hospital-medicine/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "Applications reviewed from 1 November 2026 for 2028-2029 positions (SCARD timeline, non-match); unfilled positions also available for 2027-2028",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/abdominal-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-fellowship-university-of-virginia",
+   "field": "Start",
+   "value": "2028-2029 academic year positions (current recruitment cycle); unfilled 2027-2028 positions also offered",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/abdominal-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "Applications not accepted before 1 November 2026 for 2028-2029 positions (SCARD); interviews 11 January-31 March 2027",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/breast-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-university-of-virginia",
+   "field": "Start",
+   "value": "2028-2029 academic year positions (current recruitment cycle)",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/breast-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "Applications accepted/reviewed from 1 November 2026 for 2028-2029 positions (SCARD timeline, non-match); interviews 11 January-31 March 2027; rolling offers from noon ET 25 January 2027",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/cardiothoracic-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-virginia",
+   "field": "Start",
+   "value": "2028-2029 academic year positions (current recruitment cycle)",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/cardiothoracic-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-virginia",
+   "field": "Eligibility",
+   "value": "Successful completion of a diagnostic radiology residency at an ACGME-accredited institution or an RCPSC/CFPC-accredited programme; IMGs need a valid ECFMG certificate (J-1 clinical visa sponsored institutionally)",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/cardiothoracic-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/diagnostic-neuroradiology-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "ERAS timeline: application submission begins 12 November 2026",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/diagnostic-neuroradiology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-imaging-fellowship-university-of-virginia",
+   "field": "Start",
+   "value": "2028-2029 academic year positions (current recruitment cycle) (an unexpected vacancy for 2027-2028 is also advertised)",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/musculoskeletal-imaging/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/nuclear-radiology-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "Applications accepted/reviewed from 1 November 2026 for 2028-2029 positions (SCARD timeline, non-match); interviews 11 January-31 March 2027; rolling offers from noon ET 25 January 2027",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/nuclear-radiology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/nuclear-radiology-fellowship-university-of-virginia",
+   "field": "Application method",
+   "value": "Non-match (SCARD timeline): email required documents to the programme administrator (Alison Peterson); residents should apply in late fall/early winter of radiology residency year 3",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/nuclear-radiology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-university-of-virginia",
+   "field": "Deadline",
+   "value": "Applications accepted/reviewed from 1 November 2026 for 2028-2029 positions (SCARD timeline, non-match); interviews 11 January-31 March 2027; rolling offers from noon ET 25 January 2027",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/pediatric-radiology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-university-of-virginia",
+   "field": "Eligibility",
+   "value": "Completed diagnostic radiology residency at an ACGME-accredited institution or RCPSC/CFPC-accredited programme; IMGs need a valid ECFMG certificate (J-1 clinical visa sponsored institutionally)",
+   "source": "https://med.virginia.edu/radiology/education/fellowship-program/pediatric-radiology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-unc",
+   "field": "Application method",
+   "value": "NRMP match (for programmes starting July 2028); application submission dates and links to be announced",
+   "source": "https://www.med.unc.edu/derm/medical-education/postdoctoral-training/dermatopathology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-unc",
+   "field": "Deadline",
+   "value": "Positions for 2026-2027 and 2027-2028 already filled; NRMP application dates for July 2028 start to be announced",
+   "source": "https://www.med.unc.edu/derm/medical-education/postdoctoral-training/dermatopathology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/facial-plastic-and-reconstructive-surgery-fellowship-university-of-north-carolina-at-chapel-hill",
+   "field": "Positions",
+   "value": "1 (one-year clinical fellow position)",
+   "source": "https://www.med.unc.edu/ent/education/fellowships/facial-plastic-and-reconstructive-surgery-fellowship-3/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-program-st-jude",
+   "field": "Eligibility",
+   "value": "Passed USMLE Steps 1-3, COMLEX 1-3 or MCCQE I-II; completed pediatrics or med-peds residency accredited by ACGME, ACGME-I or RCPSC (exceptionally qualified applicant exception per ACGME); IMGs need ECFMG certification and J-1 eligibility",
+   "source": "https://www.stjude.org/education-training/clinical-training/clinical-fellowships/pediatric-infectious-diseases-fellowship-program.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/independent-interventional-radiology-residency-ucsf-health",
+   "field": "Deadline",
+   "value": "30 December 2026 for residents entering July 2028 (ERAS December fellowship cycle; applications from 1 November)",
+   "source": "https://radiology.ucsf.edu/education/independent-interventional-radiology-residency-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiovascular-disease-fellowship-michigan",
+   "field": "Start",
+   "value": "July (page refers to fellowship starting July 2026)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/cardiovascular-medicine/education/fellowships-training-programs/general-cardiology-disease",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-cardiac-electrophysiology-fellowship-michigan",
+   "field": "Application method",
+   "value": "ERAS only (no paper applications); questions to programme coordinator",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/cardiovascular-medicine/education/fellowships-training-programs/clinical-cardiac-electrophysiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-nephrology-fellowship-columbia",
+   "field": "Deadline",
+   "value": "No fixed deadline: applications accepted from July of the year before the anticipated 1 July start and reviewed on a rolling basis (interviews early fall)",
+   "source": "https://columbianephrology.org/transplant-fellowship/",
    "level": "programme"
   }
  ],

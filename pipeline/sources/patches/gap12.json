@@ -818,7 +818,386 @@
    "value": "ERAS (personal statement, USMLE transcript, etc.); AMIA Clinical Informatics Fellowship Match",
    "source": "https://dom.pitt.edu/dgim/fellowship/clinical-informatics/apply/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/international-oculoplastic-and-reconstructive-surgery-fellowship-siriraj-hospital",
+   "field": "Deadline",
+   "value": "Apply at least six months before the start date (acceptance typically confirmed 6–12 months before commencement)",
+   "source": "https://apsoprs.org/page/Siriraj-Hospital",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/siriraj-scholarship-for-asean-and-developing-countries-2026-2028-short-term-observership-faculty-of-medicine-siriraj-hospital-mahidol-university",
+   "field": "Application method",
+   "value": "Online application with SIAD1/STAD1 forms per Siriraj International Relations instructions; Scholarship Committee review, then forwarded to the department for final consideration",
+   "source": "https://www2.si.mahidol.ac.th/en/siriraj-scholarship-for-asean-and-developing-countries/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-transplantation-anaesthesia-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Eligibility",
+   "value": "Institution policy: minimum 36 months training in clinical anaesthesia and passed all certification exams required for the specialty in own country",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/anaesthesia-for-cancer-surgery-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Eligibility",
+   "value": "Institution policy: minimum 36 months training in clinical anaesthesia and passed all certification exams required for the specialty in own country",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-anaesthesia-and-intensive-care-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Eligibility",
+   "value": "Institution policy: minimum 36 months training in clinical anaesthesia and passed all certification exams required for the specialty in own country",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/upper-gastrointestinal-anaesthesia-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Eligibility",
+   "value": "Institution policy: minimum 36 months training in clinical anaesthesia and passed all certification exams required for the specialty in own country",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/abdominal-transplantation-anaesthesia-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Duration",
+   "value": "Institution policy: NDA fellowships ordinarily range from six months to two years (minimum one year preferred)",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/anaesthesia-for-cancer-surgery-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Duration",
+   "value": "Institution policy: NDA fellowships ordinarily range from six months to two years (minimum one year preferred)",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-anaesthesia-and-intensive-care-fellowship-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Duration",
+   "value": "Institution policy: NDA fellowships ordinarily range from six months to two years (minimum one year preferred)",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-quality-improvement-oxford-university-hospitals-nhs-foundation-trust",
+   "field": "Application method",
+   "value": "Institution policy: applications completed via the central NHS Jobs and/or Trac websites; overseas candidates may apply through the RCoA Medical Training Initiative (MTI)",
+   "source": "https://www.ouh.nhs.uk/anaesthetic-fellowships/applying-programme/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cornea-external-disease-and-refractive-surgery-fellowship-duke-eye-center",
+   "field": "Deadline",
+   "value": "Per the deadlines posted on the SF Match site (all applications submitted by SF Match deadlines considered)",
+   "source": "https://dukeeyecenter.duke.edu/education-and-training/fellowship-programs/cornea-external-disease-refractive-surgery-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/glaucoma-fellowship-duke-eye-center",
+   "field": "Deadline",
+   "value": "Per the deadlines posted on the SF Match site (all applications submitted by SF Match deadlines considered)",
+   "source": "https://dukeeyecenter.duke.edu/education-and-training/fellowship-programs/glaucoma-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/ophthalmic-oncology-and-pathology-fellowship-duke-eye-center",
+   "field": "Deadline",
+   "value": "Per the deadlines posted on the SF Match site (CAS application)",
+   "source": "https://dukeeyecenter.duke.edu/education-and-training/fellowship-programs/ophthalmic-oncology-fellowship-program",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/global-ophthalmology-cornea-fellowship-duke-eye-center",
+   "field": "Application method",
+   "value": "SF Match (cornea fellowship match)",
+   "source": "https://dukeeyecenter.duke.edu/duke-go-fellowship-curriculum-and-application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/global-ophthalmology-cornea-fellowship-duke-eye-center",
+   "field": "Deadline",
+   "value": "By the deadlines set by SF Match (listed on the SF Match website)",
+   "source": "https://dukeeyecenter.duke.edu/duke-go-fellowship-curriculum-and-application",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-ohsu-doernbecher",
+   "field": "Start",
+   "value": "July (page refers to the application cycle for July appointments)",
+   "source": "https://www.ohsu.edu/doernbecher/pediatric-cardiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ohsu-doernbecher",
+   "field": "Duration",
+   "value": "2–3 years (ABEM requires a minimum of 2 years of fellowship training; 3 years strongly encouraged)",
+   "source": "https://www.ohsu.edu/school-of-medicine/emergency/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/advanced-head-and-neck-oncology-and-microvascular-reconstruction-fellowship-university-of-alberta",
+   "field": "Deadline",
+   "value": "1 February of the year prior to beginning the fellowship",
+   "source": "https://www.ualberta.ca/en/surgery/divisions/otolaryngology-head-and-neck-surgery/otolaryngology-head-and-neck-surgery-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endocrine-surgery-fellowship-nyu-langone-health-nyu-grossman-school-of-medicine",
+   "field": "Eligibility",
+   "value": "On track to complete an ACGME-accredited general surgery training programme and eligible to sit the American Board of Surgery examinations",
+   "source": "https://med.nyu.edu/departments-institutes/surgery/education/endocrine-surgery-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-nyu-langone-health-nyu-grossman-school-of-medicine",
+   "field": "Eligibility",
+   "value": "On track to complete an ACGME-accredited general surgery training programme and eligible to sit the American Board of Surgery examinations",
+   "source": "https://med.nyu.edu/departments-institutes/surgery/education/surgical-critical-care-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pet-ct-imaging-fellowship-university-hospital-zurich",
+   "field": "Deadline",
+   "value": "Applications must be submitted at least 2 months before the planned start",
+   "source": "https://www.usz.ch/en/department/nuclear-medicine/about-us/education-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cardiac-electrophysiology-fellowship-usz-zurich",
+   "field": "Eligibility",
+   "value": "German language certificate (at least level B2) required at the beginning of the fellowship; USZ provides administrative support for visa and work permit",
+   "source": "https://www.usz.ch/en/department/cardiology/about-us/cardiac-electrophysiology-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/glaucoma-fellowship-unc-chapel-hill",
+   "field": "Eligibility",
+   "value": "Must obtain an unrestricted North Carolina medical licence before beginning the fellowship (all 3 parts of USMLE must be passed)",
+   "source": "https://www.med.unc.edu/ophth/education-programs/fellowship-training-programs/glaucoma-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vitreoretinal-fellowship-unc-chapel-hill",
+   "field": "Eligibility",
+   "value": "Must obtain an unrestricted North Carolina medical licence before beginning the fellowship (all 3 parts of USMLE must be passed)",
+   "source": "https://www.med.unc.edu/ophth/education-programs/fellowship-training-programs/vitreo-retinal-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-psychiatry-fellowship-douglas-mcgill",
+   "field": "Positions",
+   "value": "2 (programme description, June 2020)",
+   "source": "https://www.mcgill.ca/pgme/files/pgme/geriatric_psychiatrydouglas_june2020.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-imaging-and-intervention-fellowship-uw-madison",
+   "field": "Deadline",
+   "value": "No closing date stated; for the 2028–2029 fellowship application review begins 1 September 2026, interview invitations from 1 November 2026, Match Day 5 May 2027",
+   "source": "https://www.radiology.wisc.edu/education/fellowships/musculoskeletal-imaging-and-intervention-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/oslo-hpb-fellowship-oslo",
+   "field": "Eligibility",
+   "value": "Fellow must be proficient in one of the Nordic languages (daily MDTs, ward rounds and clinics)",
+   "source": "https://www.ihpba.org/fellowship/item.php?id=17361",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mohs-surgery-and-dermatologic-oncology-fellowship-urmc",
+   "field": "Eligibility",
+   "value": "Institution policy: MD or DO (or recognised equivalent) from an approved school; must meet ACGME eligibility and ABMS/AOA board-certification criteria; University of Rochester sponsors J-1 visas only",
+   "source": "https://www.urmc.rochester.edu/education/graduate-medical-education/prospective-fellows/hand/how-to-apply/applicant-eligibility-requirements",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-medicine-fellowship-ucla",
+   "field": "Positions",
+   "value": "11 fellows each year",
+   "source": "https://www.uclahealth.org/departments/medicine/geriatrics/fellowship/overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hss-spine-surgery-fellowship",
+   "field": "Eligibility",
+   "value": "Institution policy: current New York State licence and registration required (non-US citizens may work with a NYS Limited Permit); immigration/limited-permit process must begin at least six months in advance (J-1 via ECFMG)",
+   "source": "https://www.hss.edu/education-institute/academic-training/fellowships/fellowship-application-information",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/fellowship-in-oncopathology-kasturba-medical-college-manipal-manipal-academy-of-higher-education",
+   "field": "Positions",
+   "value": "2 seats",
+   "source": "https://www.manipal.edu/kmc-manipal/program-list/fellowship-in-oncopathology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/interventional-cardiology-fellowship-pcr-host-centre-aalst",
+   "field": "Eligibility",
+   "value": "Must be eligible to obtain official recognition as an MD in Belgium under Belgian legislation to undertake a clinical fellowship rotation (may entail language proficiency requirements)",
+   "source": "https://www.pcronline.com/Courses/PCR-Fellowship-Programmes/Host-Centres/Cardiovascular-Centre-of-Aalst",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-childrens-mercy",
+   "field": "Application method",
+   "value": "Contact the Pediatric Dermatology Fellowship Program Director (Dr Kimberly Horii); interviews offered on set dates (virtual/in person)",
+   "source": "https://www.cmh.edu/professional-education/training-programs/fellowship/pediatric-dermatology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endocrine-surgery-fellowship-foothills-medical-centre-and-alberta-childrens-hospital-university-of-calgary",
+   "field": "Eligibility",
+   "value": "Completed (or completing) an RCPSC (or equivalent) accredited General Surgery residency; eligible for a CPSA Educational or Independent licence; IELTS Academic required if medical school was outside an English-speaking country; must meet Canadian work-permit/immigration requirements",
+   "source": "https://cumming.ucalgary.ca/sites/default/files/teams/276/GS%20Endocrine%20Fellowship%20Summary_Feb2026.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/perinatal-mental-health-fellowship-sinai-health",
+   "field": "Deadline",
+   "value": "Institution policy: U of T Psychiatry accepts applications on a rolling basis; complete applications due 6–8 months before start for applicants needing a work permit (e.g. by 1 January for a 1 July start) or 4 months before for Canadian citizens/PRs",
+   "source": "https://psychiatry.utoronto.ca/about-fellowship-program",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/brisbane-brisbane-foot-and-ankle-fellowship-qld2402683",
+   "field": "Application method",
+   "value": "Submit a cover letter and CV including at least 2 referee contacts to boss@boss.net.au / reception@millerortho.com.au",
+   "source": "https://aoa.org.au/docs/default-source/aoa-accredited-fellowships-(l3)/brisbane-foot-and-ankle-fellowship-(qld2402683).pdf?sfvrsn=fedda804_4",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-surgery-fellowship-mayo-clinic-arizona-phoenix-childrens-hospital",
+   "field": "Eligibility",
+   "value": "Institution policy: fellowship interviewees must hold a valid ECFMG certificate before appointment (IMGs) or a full unrestricted licence in the programme's US jurisdiction; Canadian graduates after 1 July 2025 need ECFMG certification",
+   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/admissions-and-benefits/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/anesthesiology-critical-care-medicine-fellowship-weill-cornell",
+   "field": "Deadline",
+   "value": "No fixed closing date; SF Match registration opens in November and applications are reviewed with interviews offered on a rolling basis (January–March)",
+   "source": "https://anesthesiology.weill.cornell.edu/education/fellowships/anesthesiology-critical-care-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adult-cardiothoracic-anesthesiology-fellowship-weill-cornell",
+   "field": "Deadline",
+   "value": "15 March on SF Match (projected annual timeline; registration opens in November)",
+   "source": "https://anesthesiology.weill.cornell.edu/education/fellowships/adult-cardiothoracic-anesthesiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/obstetric-anesthesiology-fellowship-weill-cornell",
+   "field": "Deadline",
+   "value": "Applications accepted January–March via SF Match (SOAP common application plus supplementary questions)",
+   "source": "https://anesthesiology.weill.cornell.edu/education/fellowships/obstetric-anesthesiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-general-pediatrics-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-vanderbilt-monroe-carell",
+   "field": "Start",
+   "value": "Institution policy: VUMC GME academic year begins 1 July in all GME programmes (the date most new residents and fellows begin training)",
+   "source": "https://www.vumc.org/gme/sites/default/files/public_files/pdf_updates/Program-Administrator-Manual_Updated-July-2026_rb-version.pdf",
+   "level": "institution"
   }
  ],
- "conflicts": []
+ "conflicts": [
+  {
+   "slug": "/programs/pediatric-hematology-and-oncology-fellowship-ohsu-doernbecher",
+   "field": "Positions",
+   "existing": "2-3 per year",
+   "found": "\"We match one to two fellows each year\"",
+   "source": "https://www.ohsu.edu/doernbecher/pediatric-hematology-and-oncology-fellowship"
+  }
+ ]
 }

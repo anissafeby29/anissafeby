@@ -573,6 +573,559 @@
    "value": "1 year (non-ACGME)",
    "source": "https://medschool.umich.edu/departments/anesthesiology/education/fellowships",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-duke-children-s",
+   "field": "Application method",
+   "value": "ERAS; NRMP Match",
+   "source": "https://pediatrics.duke.edu/education/fellowship-programs/gastroenterology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-duke-children-s",
+   "field": "Application method",
+   "value": "ERAS; NRMP Match (combined adult/pediatric ID applicants apply to both programmes)",
+   "source": "https://pediatrics.duke.edu/education/fellowship-programs/infectious-diseases/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-duke-children-s",
+   "field": "Application method",
+   "value": "ERAS; NRMP Match",
+   "source": "https://pediatrics.duke.edu/education/fellowship-programs/hospital-medicine/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-duke-children-s",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://pediatrics.duke.edu/education/fellowship-programs/nephrology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-duke-children-s",
+   "field": "Deadline",
+   "value": "1 September (application review begins 1 August; virtual interviews early September to late November)",
+   "source": "https://pediatrics.duke.edu/education/fellowship-programs/hematology-oncology/how-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/critical-care-medicine/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-endocrinology-fellowship-program/admissions-and-application/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/gastroenterology/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-hematology-oncology-fellowship/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-unc-north-carolina-childrens",
+   "field": "Eligibility",
+   "value": "Physicians who will have completed three years of training in an accredited residency programme so as to sit the American Board of Pediatrics certifying examination",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-hematology-oncology-fellowship/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-unc-north-carolina-childrens",
+   "field": "Duration",
+   "value": "3 years",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-hematology-oncology-fellowship/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/infectious-disease/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-disease-fellowship-unc-north-carolina-childrens",
+   "field": "Eligibility",
+   "value": "Physicians who will have completed three years of training in an accredited residency programme so as to sit the American Board of Pediatrics certifying examination",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/infectious-disease/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS; NRMP Match",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/neonatal-perinatal/applicants/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-unc-north-carolina-childrens",
+   "field": "Eligibility",
+   "value": "Foreign medical graduates must complete a three-year US residency and hold ECFMG certification before starting; J-1 visas accepted, H-1B not sponsored",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/neonatal-perinatal/applicants/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS; NRMP pediatric specialty fellowship match (review from 15 July 2026; interviews early September – late October)",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-hospital-medicine-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-nephrology-fellowship-unc-north-carolina-childrens",
+   "field": "Application method",
+   "value": "ERAS (interviews late July – end of October)",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/nephrology-and-hypertension/application-guidelines/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-unc-north-carolina-childrens",
+   "field": "Eligibility",
+   "value": "Graduate of an ACGME pediatrics (or medicine-pediatrics) programme; board-eligible/certified in General Pediatrics (ABP); visa applicants considered only if J-1 (ECFMG) eligible",
+   "source": "https://www.med.unc.edu/pediatrics/education/fellowships/pediatric-hospital-medicine-fellowship/apply/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adult-neurogenetics-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cognitive-neurology-and-neuropsychiatry-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/frederick-andermann-clinical-research-fellowship-in-epileptology-and-eeg-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/multiple-sclerosis-and-neuroinflammatory-disorders-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neurocritical-care-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuromuscular-medicine-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/rehabilitation-in-neuromuscular-medicine-and-emg-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/parkinsons-disease-clinical-movement-disorders-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/stroke-and-cerebrovascular-disease-fellowship-mcgill-the-neuro",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-echocardiography-level-iii-fellowship-jewish-general-hospital-mcgill-jgh",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/addiction-psychiatry-fellowship-muhc",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/icu-psychiatry-and-chronic-pain-fellowship-muhc",
+   "field": "Deadline",
+   "value": "Institution policy: McGill PGME applications for the 2027–2028 academic year open 15 May 2026; deadline 1 September 2026 for the majority of fellowship programmes (programme exceptions on the PGME Key Dates page)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/admissions",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neurocritical-care-fellowship-mcgill-the-neuro",
+   "field": "Positions",
+   "value": "3 to 4 per year (1-year fellowship)",
+   "source": "https://www.mcgill.ca/pgme/files/pgme/neurocritical_care_fellowship_1_year_2026.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuromuscular-medicine-fellowship-mcgill-the-neuro",
+   "field": "Positions",
+   "value": "1–2",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/neurology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/stroke-and-cerebrovascular-disease-fellowship-mcgill-the-neuro",
+   "field": "Positions",
+   "value": "2 (positions requested)",
+   "source": "https://www.mcgill.ca/pgme/files/pgme/stroke_cerebrovascular_disease_fellowship_may2021.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/icu-psychiatry-and-chronic-pain-fellowship-muhc",
+   "field": "Duration",
+   "value": "12 months",
+   "source": "https://www.mcgill.ca/pgme/files/pgme/icu_psychiatry_chronic_pain_fellowship_lt_002.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/icu-psychiatry-and-chronic-pain-fellowship-muhc",
+   "field": "Positions",
+   "value": "1 (position requested)",
+   "source": "https://www.mcgill.ca/pgme/files/pgme/icu_psychiatry_chronic_pain_fellowship_lt_002.pdf",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/washu-adult-cardiothoracic-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-critical-care-medicine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-abdominal-organ-transplant-anesthesia-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-neuroanesthesia-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-obstetric-anesthesia-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-adult-pediatric-pain-dual-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-pediatric-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-regional-ambulatory-anesthesia-fellowship",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/breast-surgical-oncology-fellowship-washington-university-school-of-medicine",
+   "field": "Start",
+   "value": "Institution policy: WashU GME appointment (stipend) year runs 1 July – 30 June",
+   "source": "https://gme.wustl.edu/policies-procedures/stipends/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/washu-neuroanesthesia-fellowship",
+   "field": "Eligibility",
+   "value": "All applicants must be ECFMG certified",
+   "source": "https://anesthesiology.wustl.edu/patient-care/general-anesthesia/neuroanesthesia-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endovascular-interventions-fellowship-yale",
+   "field": "Positions",
+   "value": "4 trainees (twelve-month programme)",
+   "source": "https://medicine.yale.edu/internal-medicine/cardio/fellowships/endo-interventions/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-emergency-medicine-fellowship-unc",
+   "field": "Deadline",
+   "value": "30 September each year (all application materials)",
+   "source": "https://www.med.unc.edu/emergmed/education/fellowships/geriatrics/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/education-fellowship-unc",
+   "field": "Deadline",
+   "value": "1 September each year (all application materials)",
+   "source": "https://www.med.unc.edu/emergmed/education/fellowships/education-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cerebrovascular-disease-stroke-fellowship-western-university",
+   "field": "Start",
+   "value": "Preferred start 1 July or 1 January (other dates considered individually)",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/Cerebrovascular_DiseaseStroke_Fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cerebrovascular-disease-stroke-fellowship-western-university",
+   "field": "Duration",
+   "value": "12 months (Stroke Expert) or 24 months (Stroke Scholar, academic track)",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/Cerebrovascular_DiseaseStroke_Fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cerebrovascular-disease-stroke-fellowship-western-university",
+   "field": "Eligibility",
+   "value": "Canadian and international candidates eligible; graduates of non-neurology residencies may be considered",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/Cerebrovascular_DiseaseStroke_Fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cognitive-neurology-clinical-research-fellowship-western-university",
+   "field": "Duration",
+   "value": "2 years",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/cognitive_neurology__dementia_fellowship_application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/cognitive-neurology-clinical-research-fellowship-western-university",
+   "field": "Positions",
+   "value": "1 (a 2-year fellowship position)",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/cognitive_neurology__dementia_fellowship_application.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/epilepsy-eeg-fellowship-adult-western-university",
+   "field": "Start",
+   "value": "July (applications due 31 August of the preceding year for a July start)",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/EpilepsyEEG_Fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/headache-fellowship-western-university",
+   "field": "Start",
+   "value": "July (IMG deadline 31 August of the preceding year for a July start)",
+   "source": "https://www.schulich.uwo.ca/cns/education/future_students/fellowships/Headache_Fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rural-obstetrics-and-gynecology-fellowship-unc",
+   "field": "Eligibility",
+   "value": "MD/DO; completed an approved obstetrics and gynecology residency and eligible for independent licensure by the North Carolina Medical Board; eligible for ABOG oral board certification",
+   "source": "https://www.med.unc.edu/obgyn/education/fellowship/unc-rural-obstetrics-and-gynecology-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/general-obstetrics-and-gynecology-research-fellowship-unc",
+   "field": "Eligibility",
+   "value": "MD/DO; completed an approved obstetrics and gynecology residency and eligible for independent licensure by the North Carolina Medical Board; eligible for ABOG oral board certification",
+   "source": "https://www.med.unc.edu/obgyn/education/fellowship/general-obstetrics-and-gynecology-research-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/global-women-s-health-fellowship-unc",
+   "field": "Eligibility",
+   "value": "US citizens or permanent residents only; must be willing to relocate to Lusaka, Lilongwe or Johannesburg (NIH-scale stipends)",
+   "source": "https://www.med.unc.edu/obgyn/education/fellowship/global-womens-health-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-nyu-langone-hassenfeld",
+   "field": "Eligibility",
+   "value": "All applicants must be eligible to obtain a New York State medical licence by the start of the fellowship",
+   "source": "https://med.nyu.edu/departments-institutes/emergency-medicine/divisions/pediatric-emergency-medicine/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/campbell-clinic-foot-and-ankle-surgery-fellowship",
+   "field": "Deadline",
+   "value": "1 December (departmental fellowship deadlines list)",
+   "source": "https://www.uthsc.edu/medicine/orthopaedic-surgery/education/fellowship/application.php",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/campbell-clinic-hand-surgery-fellowship",
+   "field": "Deadline",
+   "value": "1 March (departmental fellowship deadlines list)",
+   "source": "https://www.uthsc.edu/medicine/orthopaedic-surgery/education/fellowship/application.php",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/campbell-clinic-trauma-fellowship",
+   "field": "Eligibility",
+   "value": "Graduate of an ACGME-accredited orthopaedic surgery residency (DOs: AOA-accredited); foreign graduates are non-qualified unless they completed an ACGME/AOA-accredited US residency",
+   "source": "https://www.uthsc.edu/medicine/orthopaedic-surgery/education/fellowship/application.php",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-operations-and-administration-fellowship-university-of-cincinnati",
+   "field": "Eligibility",
+   "value": "Institution policy: USMLE Step 1 and Step 2 CK (or COMLEX) passed, Step 3 required for PGY-4+ entry; Ohio licensure; foreign medical graduates need valid ECFMG certification; non-US citizens need a training visa (new entrants J-1; no new H-1B sponsorship since October 2025)",
+   "source": "https://www.med.uc.edu/education/gme/prospective/how-to-apply",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ems-fellowship-university-of-cincinnati",
+   "field": "Eligibility",
+   "value": "Institution policy: USMLE Step 1 and Step 2 CK (or COMLEX) passed, Step 3 required for PGY-4+ entry; Ohio licensure; foreign medical graduates need valid ECFMG certification; non-US citizens need a training visa (new entrants J-1; no new H-1B sponsorship since October 2025)",
+   "source": "https://www.med.uc.edu/education/gme/prospective/how-to-apply",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/emergency-medicine-ultrasound-fellowship-university-of-cincinnati",
+   "field": "Eligibility",
+   "value": "Institution policy: USMLE Step 1 and Step 2 CK (or COMLEX) passed, Step 3 required for PGY-4+ entry; Ohio licensure; foreign medical graduates need valid ECFMG certification; non-US citizens need a training visa (new entrants J-1; no new H-1B sponsorship since October 2025)",
+   "source": "https://www.med.uc.edu/education/gme/prospective/how-to-apply",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/laryngology-fellowship-university-of-cincinnati-college-of-medicine",
+   "field": "Eligibility",
+   "value": "Institution policy: USMLE Step 1 and Step 2 CK (or COMLEX) passed, Step 3 required for PGY-4+ entry; Ohio licensure; foreign medical graduates need valid ECFMG certification; non-US citizens need a training visa (new entrants J-1; no new H-1B sponsorship since October 2025)",
+   "source": "https://www.med.uc.edu/education/gme/prospective/how-to-apply",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-and-strabismus-fellowship-baylor-cullen",
+   "field": "Eligibility",
+   "value": "Completed 36 months of ACGME-accredited US ophthalmology residency (or RCPSC-approved Canadian/equivalent programme) by appointment; Texas medical licence required before the July start",
+   "source": "https://www.bcm.edu/departments/ophthalmology/education/pediatric-ophthalmology-strabismus-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rush-spine-surgery-fellowship",
+   "field": "Positions",
+   "value": "3 fellowship positions",
+   "source": "https://www.rushortho.com/orthopedic-residency-fellowships/spine-surgery-fellowship/application-process/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rush-foot-ankle-fellowship",
+   "field": "Eligibility",
+   "value": "Completed an accredited orthopaedic surgery residency and at the appropriate level of training",
+   "source": "https://www.rushortho.com/orthopedic-residency-fellowships/foot-ankle-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/university-of-utah-complex-family-planning-fellowship",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://medicine.utah.edu/obgyn/academics-education/fellowship-family-planning/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rhinology-and-skull-base-surgery-fellowship-university-of-utah",
+   "field": "Eligibility",
+   "value": "Board-eligible/board-certified; must satisfy requirements for appointment to University of Utah faculty and the VA hospital, including Utah medical licensure",
+   "source": "https://www.american-rhinologic.org/index.php?option=com_content&view=article&id=121:university-of-utah&catid=41:fellowship-programs&Itemid=188",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/memorial-sloan-kettering-gynecologic-oncology-fellowship",
+   "field": "Positions",
+   "value": "3",
+   "source": "https://www.mskcc.org/hcp-education-training/fellowships/gynecologic-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-clinical-fellowship-wills-eye-hospital-thomas-jefferson-university",
+   "field": "Deadline",
+   "value": "26 February (deadline for receipt of completed applications)",
+   "source": "https://www.willseye.org/pediatric-ophthalmology-fellowships/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/trauma-rehabilitation-fellowship-university-of-toronto",
+   "field": "Positions",
+   "value": "Number of positions may vary year to year",
+   "source": "https://deptmedicine.utoronto.ca/trauma-rehabilitation",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/epilepsy-genetics-fellowship-toronto-western-uhn",
+   "field": "Positions",
+   "value": "1–2 per year depending on funding",
+   "source": "https://deptmedicine.utoronto.ca/adult-genetic-epilepsy-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-subspecialty-program-mcmaster-children-s",
+   "field": "Deadline",
+   "value": "IMGs: 5 July 2026, 12:00 PM EST for the academic year 1 July 2027 – 30 June 2028 (now closed); Canadian citizens/PRs: CaRMS deadlines",
+   "source": "https://pediatrics.healthsci.mcmaster.ca/education/fellowships/fellowship-programs/pediatric-neonatology/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-imaging-fellowship-johns-hopkins",
+   "field": "Deadline",
+   "value": "Applications for the 2028–2029 fellowship accepted from 1 November 2026; virtual interviews 12 January – 31 March 2027 (no closing date stated)",
+   "source": "https://www.hopkinsmedicine.org/radiology/education/fellowships/musculoskeletal-imaging/clinical",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-imaging-fellowship-johns-hopkins",
+   "field": "Duration",
+   "value": "1 year (clinical and research programme)",
+   "source": "https://www.hopkinsmedicine.org/radiology/education/fellowships/musculoskeletal-imaging/clinical",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/musculoskeletal-imaging-fellowship-johns-hopkins",
+   "field": "Application method",
+   "value": "SSR Musculoskeletal Imaging Fellowship Match (NRMP); emailed common application form, CV, personal statement and three letters",
+   "source": "https://www.hopkinsmedicine.org/radiology/education/fellowships/musculoskeletal-imaging/clinical",
+   "level": "programme"
   }
  ],
  "conflicts": [
@@ -589,6 +1142,20 @@
    "existing": "August 2027 (next available)",
    "found": "Department page now advertises the Hand and Microsurgery fellowship as commencing August 2028",
    "source": "https://www.rch.org.au/plastic/education_training/"
+  },
+  {
+   "slug": "/programs/campbell-clinic-sports-medicine-fellowship",
+   "field": "Deadline",
+   "existing": "1 December (programme page)",
+   "found": "Departmental application page lists Sports Medicine deadline as 1 November",
+   "source": "https://www.uthsc.edu/medicine/orthopaedic-surgery/education/fellowship/application.php"
+  },
+  {
+   "slug": "/programs/campbell-clinic-trauma-fellowship",
+   "field": "Deadline",
+   "existing": "30 November (programme page)",
+   "found": "Departmental application page lists Trauma Surgery deadline as 1 December",
+   "source": "https://www.uthsc.edu/medicine/orthopaedic-surgery/education/fellowship/application.php"
   }
  ]
 }

@@ -43,7 +43,7 @@ def build_records():
     fix = {"Hong Kong SAR, China": "Hong Kong SAR"}
     for r in records:
         r["co"] = fix.get(r["co"], r["co"])
-        if r["co"].startswith("International"):
+        if r["co"].startswith(("International", "Multiple countries", "Global")):
             r["co"] = "International (multi-country)"
         if r["co"].startswith("Hong Kong"):
             r["co"] = "Hong Kong SAR"
