@@ -1133,6 +1133,125 @@
    "value": "No fixed date stated: job advertisements usually open February-April each year via careers.petermac.org (two fellow intakes annually, February and August)",
    "source": "https://www.arganz.org/resources-overview/abdominal-fellowships/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hematology-oncology-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-hepatology-and-nutrition-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-fellowship-bradley-peterson-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-pulmonary-medicine-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-rheumatology-fellowship-uc-san-diego-rady-childrens",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-trauma-and-burn-tracks-university-of-washington-harborview-medical-center",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-adult-reconstruction-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-foot-and-ankle-advanced-clinical-experience-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-shoulder-elbow-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-spine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-orthopaedic-traumatology-advanced-clinical-experience-trauma-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/uw-orthopaedic-sports-medicine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: UW GME appointments are 12 months; most residents and fellows start 1 July or later (some fellows 1 August), with GME orientation in late June",
+   "source": "https://sites.uw.edu/uwgme/resident-and-fellow-onboarding-handbook-for-programs",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-uc-san-diego-rady",
+   "field": "Start",
+   "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
+   "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
+   "level": "institution"
   }
  ],
  "conflicts": [
