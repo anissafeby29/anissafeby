@@ -27,7 +27,7 @@ MONTHS = {m.lower(): i for i, m in enumerate(calendar.month_name) if m}
 MONTHS.update({m.lower(): i for i, m in enumerate(calendar.month_abbr) if m})
 MONTHS["sept"] = 9
 MON = r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
-CLOSED = re.compile(r"closed|has passed|expired|past cycle", re.I)
+CLOSED = re.compile(r"closed|passed|expired|past cycle", re.I)
 
 
 def shell(title, desc, path, body, logo_svg, crumbs=(), lede=None, ld=None):

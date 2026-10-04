@@ -239,13 +239,6 @@
    "level": "institution"
   },
   {
-   "slug": "/programs/columbia-neurosurgical-anesthesia",
-   "field": "Start",
-   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
-   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
-   "level": "institution"
-  },
-  {
    "slug": "/programs/sports-cardiology-fellowship-st-michaels-toronto",
    "field": "Start",
    "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
@@ -379,27 +372,6 @@
    "level": "institution"
   },
   {
-   "slug": "/programs/emergency-ultrasound-fellowship-columbia",
-   "field": "Start",
-   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
-   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
-   "level": "institution"
-  },
-  {
-   "slug": "/programs/global-emergency-medicine-fellowship-columbia",
-   "field": "Start",
-   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
-   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
-   "level": "institution"
-  },
-  {
-   "slug": "/programs/simulation-fellowship-columbia",
-   "field": "Start",
-   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
-   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
-   "level": "institution"
-  },
-  {
    "slug": "/programs/first-episode-psychosis-fellowship-douglas-mcgill",
    "field": "Start",
    "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
@@ -460,13 +432,6 @@
    "field": "Start",
    "value": "Institution policy: Mount Sinai house staff appointments commence 1 July (house staff contract)",
    "source": "https://icahn.mssm.edu/files/ISMMS/Assets/Education/Grad%20School/MSHSContract.pdf",
-   "level": "institution"
-  },
-  {
-   "slug": "/programs/multidisciplinary-breast-surgery-fellowship-columbia-university-irving-medical-center-newyork-presbyterian-hospital",
-   "field": "Start",
-   "value": "Institution policy: NYP GME appointment year generally runs 1 July to 30 June",
-   "source": "https://psychiatry.weill.cornell.edu/sites/default/files/cornell_2027_recruitment_packet.pdf",
    "level": "institution"
   },
   {

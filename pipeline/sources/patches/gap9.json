@@ -72,22 +72,8 @@
   },
   {
    "slug": "/programs/academic-general-pediatrics-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/academic-general-pediatrics-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/adolescent-medicine-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -114,13 +100,6 @@
   },
   {
    "slug": "/programs/allergy-and-immunology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/allergy-and-immunology-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -135,13 +114,6 @@
   },
   {
    "slug": "/programs/developmental-behavioral-pediatrics-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -149,22 +121,8 @@
   },
   {
    "slug": "/programs/hospice-and-palliative-medicine-fellowship-pediatric-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/hospice-and-palliative-medicine-fellowship-pediatric-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/neonatal-perinatal-medicine-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -180,13 +138,6 @@
    "field": "Positions",
    "value": "1 per year (via San Francisco Match)",
    "source": "https://www.childrensmercy.org/professional-education/training-programs/fellowship/pediatric-advanced-cardiac-imaging-fellowship/how-to-apply/",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-cardiology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -212,13 +163,6 @@
   },
   {
    "slug": "/programs/pediatric-critical-care-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-critical-care-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -235,13 +179,6 @@
    "slug": "/programs/pediatric-emergency-medicine-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-endocrinology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -282,22 +219,8 @@
   },
   {
    "slug": "/programs/pediatric-hematology-oncology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hematology-oncology-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hospital-medicine-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -310,22 +233,8 @@
   },
   {
    "slug": "/programs/pediatric-infectious-diseases-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-infectious-diseases-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-nephrology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -338,13 +247,6 @@
   },
   {
    "slug": "/programs/pediatric-pulmonology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-pulmonology-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -352,22 +254,8 @@
   },
   {
    "slug": "/programs/pediatric-transplant-hepatology-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-transplant-hepatology-fellowship-childrens-mercy-kansas-city",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/sleep-medicine-fellowship-childrens-mercy-kansas-city",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -443,13 +331,6 @@
   },
   {
    "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "15 September (application and all supplementary material via ERAS); NRMP match results December",
-   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/cardiology/education/fellowship/apply.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-cardiology-fellowship-ut-southwestern-children-s-health-dallas",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -467,13 +348,6 @@
    "field": "Application method",
    "value": "ERAS application; NRMP match",
    "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/cardiology/education/fellowship/apply.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "Submit ERAS application July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/critical-care-medicine/education/fellowship/apply.html",
    "level": "programme"
   },
   {
@@ -499,13 +373,6 @@
   },
   {
    "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "Standard ERAS/NRMP timeline; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/adolescent-medicine-fellowship-ut-southwestern-children-s-health-dallas",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -527,13 +394,6 @@
   },
   {
    "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026 (one position every other year)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/child-abuse-pediatrics-fellowship-ut-southwestern-children-s-health-dallas",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -551,13 +411,6 @@
    "field": "Application method",
    "value": "ERAS application; NRMP Fall Match",
    "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/developmental-behavioral/education/fellowship/child-abuse/application-process.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-emergency-medicine-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "ERAS applications generally submitted in summer (review from July); NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -600,13 +453,6 @@
    "field": "Application method",
    "value": "ERAS application; NRMP Pediatric Specialties Fall Match",
    "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/endocrinology/education/fellowship/application-process.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-gastroenterology-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "ERAS opens July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -660,13 +506,6 @@
   },
   {
    "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "Apply via ERAS from early July; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hospital-medicine-fellowship-ut-southwestern-children-s-health-dallas",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -688,13 +527,6 @@
   },
   {
    "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-infectious-disease-fellowship-ut-southwestern-children-s-health-dallas",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
@@ -712,13 +544,6 @@
    "field": "Application method",
    "value": "ERAS application; NRMP match",
    "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/infectious-disease/education/fellowship/apply.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/neonatal-perinatal-medicine-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -754,13 +579,6 @@
    "field": "Start",
    "value": "1 July",
    "source": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/neonatal-perinatal/education/fellowship/fetal-neonatal-neurology/application-process.html",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-pulmonology-fellowship-ut-southwestern-children-s-health-dallas",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -821,22 +639,8 @@
   },
   {
    "slug": "/programs/pediatric-critical-care-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-critical-care-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-pulmonology-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -849,22 +653,8 @@
   },
   {
    "slug": "/programs/pediatric-emergency-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
-   "field": "Deadline",
-   "value": "ERAS applications accepted from July each year; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-emergency-medicine-fellowship-ann-and-robert-h-lurie-childrens-hospital-of-chicago-northwestern-university-feinberg-school-of-medicine",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/neonatal-perinatal-medicine-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -877,22 +667,8 @@
   },
   {
    "slug": "/programs/child-abuse-pediatrics-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/child-abuse-pediatrics-fellowship-university-of-minnesota-masonic",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/developmental-behavioral-pediatrics-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -905,22 +681,8 @@
   },
   {
    "slug": "/programs/pediatric-cardiology-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-cardiology-fellowship-university-of-minnesota-masonic",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-critical-care-medicine-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -933,22 +695,8 @@
   },
   {
    "slug": "/programs/pediatric-endocrinology-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-endocrinology-fellowship-university-of-minnesota-masonic",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-gastroenterology-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -961,22 +709,8 @@
   },
   {
    "slug": "/programs/pediatric-hospital-medicine-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hospital-medicine-fellowship-university-of-minnesota-masonic",
    "field": "Start",
    "value": "July 2027 (NRMP Medicine and Pediatric Specialties Match July 2027 appointments)",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-nephrology-fellowship-university-of-minnesota-masonic",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
    "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
@@ -999,13 +733,6 @@
    "field": "Positions",
    "value": "Generally match 3 candidates each year",
    "source": "https://med.umn.edu/pediatrics/education/fellowships/medical-fellowships/neonatal-perinatal-medicine",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-transplant-hepatology-fellowship-columbia-morgan-stanley-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -1254,13 +981,6 @@
    "level": "programme"
   },
   {
-   "slug": "/programs/pediatric-dermatology-fellowship-arizona-mayo-clinic-arizona-phoenix-childrens",
-   "field": "Deadline",
-   "value": "SF Match: match open April-October; Match Day in November",
-   "source": "https://college.mayo.edu/academics/residencies-and-fellowships/pediatric-dermatology-fellowship-arizona/",
-   "level": "programme"
-  },
-  {
    "slug": "/programs/complex-benign-gynecology-fellowship-nyu",
    "field": "Start",
    "value": "August (applicants for an August 2027 start interviewed summer 2026)",
@@ -1458,13 +1178,6 @@
   },
   {
    "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "Applications reviewed July-August; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/neonatal-perinatal-medicine-fellowship-mount-sinai-kravis-children-s",
    "field": "Positions",
    "value": "3 per year",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/neonatal-perinatal-fellowship",
@@ -1500,23 +1213,9 @@
   },
   {
    "slug": "/programs/pediatric-critical-care-medicine-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-critical-care-medicine-fellowship-mount-sinai-kravis-children-s",
    "field": "Application method",
    "value": "ERAS application; NRMP match",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-critical-care-medicine-fellowship",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-endocrinology-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -1549,13 +1248,6 @@
   },
   {
    "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hematology-oncology-fellowship-mount-sinai-kravis-children-s",
    "field": "Positions",
    "value": "2 per year",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hematology-oncology-fellowship",
@@ -1573,13 +1265,6 @@
    "field": "Application method",
    "value": "ERAS application; NRMP match",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/pediatric-hematology-oncology-fellowship",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-hospital-medicine-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -1605,23 +1290,9 @@
   },
   {
    "slug": "/programs/pediatric-infectious-diseases-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "Apply via ERAS in July of the year before appointment; NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-infectious-diseases-fellowship-mount-sinai-kravis-children-s",
    "field": "Eligibility",
    "value": "Prior ACGME residency preferred; non-ACGME (overseas) residency considered case by case; J-1 and H-1 visa holders eligible; ECFMG certificate for international applicants",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-pediatric-infectious",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-nephrology-and-hypertension-fellowship-mount-sinai-kravis-children-s",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -1755,13 +1426,6 @@
    "field": "Eligibility",
    "value": "Board-certified or board-eligible in pediatrics and/or emergency medicine at fellowship start; current New York State licence or limited permit required",
    "source": "https://emed.weill.cornell.edu/education/fellowship/pediatric-emergency-medicine-fellowship",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/pediatric-emergency-medicine-fellowship-weill-cornell",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {
@@ -1923,13 +1587,6 @@
    "field": "Deadline",
    "value": "Applications due 18 months before the 1 July start",
    "source": "https://uoftorthopaedics.ca/education/fellowships/fellowship-positions/arthroplasty-lower-extremity-reconstruction/",
-   "level": "programme"
-  },
-  {
-   "slug": "/programs/sleep-medicine-fellowship-stanford",
-   "field": "Deadline",
-   "value": "NRMP Medicine and Pediatric Specialties Match (July 2027 appointments): rank order list certification deadline 18 November 2026; Match Day 2 December 2026",
-   "source": "https://www.nrmp.org/fellowship/medicine-and-pediatric-specialties-match",
    "level": "programme"
   },
   {

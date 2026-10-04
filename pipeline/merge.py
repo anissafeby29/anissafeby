@@ -65,7 +65,7 @@ if patches:
     idx={r['slug']:r for r in P+Nw}; plog=[]; applied=0
     for p in patches:
         r=idx.get(p.get('slug')); k=p.get('field'); v=(p.get('value') or '').strip()
-        if not r or k not in ALLOWED or not v or not VAGUE.match(str(r.get(k,'')).strip()): continue
+        if not r or k not in ALLOWED or not v or not (p.get('override') or VAGUE.match(str(r.get(k,'')).strip())): continue
         plog.append({"slug":r['slug'],"title":r['title'],"institution":r.get('institution') or r.get('inst'),"field":k,"old":r.get(k,''),"new":v,"source":p.get('source','')})
         r[k]=v; applied+=1
         if p.get('source') and p['source'] not in r['official_urls']: r['official_urls']+=' | '+p['source']

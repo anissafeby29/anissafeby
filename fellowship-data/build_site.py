@@ -36,7 +36,7 @@ def build_records():
         records.append({
             "t": r["title"], "i": r["inst"], "co": r.get("Country", ""),
             "ci": r.get("City", ""), "su": r.get("Summary", ""),
-            "f": {k: r.get(k, "") for k in FIELDS},
+            "f": {k: "" if r.get(k) is None else str(r.get(k)) for k in FIELDS},
             "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
             "n": "", "new": True, "p": r.get("profile_url", ""), "s": r["slug"],
         })
@@ -53,7 +53,7 @@ def build_records():
     def group(r):
         t = (r["f"].get("Training type") or "").lower() + " " + r["t"].lower()
         if "advert" in t or "vacancy" in t: return "Job advert / vacancy"
-        if re.search(r"observ|visiting|travell|exchange|short course|scholarship|grant|elective", t): return "Observership / visiting / short course"
+        if re.search(r"observ|visiting|travell|exchange|short course|training course|certificate course|scholarship|grant|award|elective|attachment", t): return "Observership / visiting / short course"
         if re.search(r"residency|subspecialty training|training programme|program\b|af[cn]|area of focused", t) and "fellow" not in t: return "Subspecialty training programme"
         if "research" in t and "clinical" in t: return "Clinical + research fellowship"
         if "research" in t or "postdoc" in t or "t32" in t: return "Research fellowship"
