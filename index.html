@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Medical Fellowships Worldwide | The Fellowship Portal</title>
-<meta name="description" content="Search 7,469 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
+<meta name="description" content="Search 8,620 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
 <meta property="og:type" content="website"><meta property="og:site_name" content="The Fellowship Portal">
 <meta property="og:title" content="The Fellowship Portal: medical fellowships worldwide">
-<meta property="og:description" content="7,469 clinical and research fellowships in 25 specialties and 54 countries, with visa and deadline details from official pages.">
+<meta property="og:description" content="8,620 clinical and research fellowships in 25 specialties and 54 countries, with visa and deadline details from official pages.">
 <meta property="og:url" content="https://thefellowshipportal.com/"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0f2638">
-<link rel="preload" href="assets/programmes.json?v=db0e2e6659" as="fetch" crossorigin>
+<link rel="preload" href="assets/programmes.json?v=030b9e3af2" as="fetch" crossorigin>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%231f5f8b%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.5%22/%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%227.5%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M15%2032h34%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M40%2019l9-5-3%2010%22%20fill%3D%22none%22%20stroke%3D%22%23f2c14e%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -254,7 +254,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
 
 <main class="wrap">
   <div class="steps">
-    <div class="step"><span class="num">1</span><div><b>Search 7,469 programmes</b><span>By specialty, country, training type or keyword.</span></div></div>
+    <div class="step"><span class="num">1</span><div><b>Search 8,620 programmes</b><span>By specialty, country, training type or keyword.</span></div></div>
     <div class="step"><span class="num">2</span><div><b>Check eligibility and visa</b><span>See who can apply, visa routes, funding and deadlines.</span></div></div>
     <div class="step"><span class="num">3</span><div><b>Apply at the source</b><span>Every programme links to its official page. Save and compare your favourites.</span></div></div>
   </div>
@@ -309,15 +309,15 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   </section>
 
   <footer>
-    7,469 programmes, researched from official institution sources and last checked October 2026. “Not stated on official page” means the page was checked and does not give that detail. Requirements and dates change, so always confirm on the official page before applying. <a href="about/">About</a> · <a href="contact/">Contact</a>
+    8,620 programmes, researched from official institution sources and last checked October 2026. “Not stated on official page” means the page was checked and does not give that detail. Requirements and dates change, so always confirm on the official page before applying. <a href="about/">About</a> · <a href="contact/">Contact</a>
   </footer>
 </main>
 
-<script src="assets/save.js?v=db0e2e6659" defer></script>
+<script src="assets/save.js?v=030b9e3af2" defer></script>
 <script>
 (function(){
   document.getElementById('list').innerHTML = '<p class="empty">Loading programmes…</p>';
-  fetch('assets/programmes.json?v=db0e2e6659').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
+  fetch('assets/programmes.json?v=030b9e3af2').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
   const PAGE = 30;
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
