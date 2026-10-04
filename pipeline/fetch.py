@@ -31,7 +31,6 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 BLOCK = re.compile(r"you have been blocked|access denied|attention required|just a moment|enable (javascript|cookies)|"
                    r"verify you are human|cf-chl|captcha|request unsuccessful|incapsula", re.I)
 MIN_TEXT = 400  # shorter pages are usually JavaScript shells or error stubs
-CDP_PORT = 9222
 
 
 def html_to_text(html):
@@ -82,30 +81,38 @@ def chromium_path():
     return None
 
 
-def ensure_chromium():
-    """Start a local headless Chromium for Crawl4AI to attach to (avoids Playwright version mismatches)."""
-    with socket.socket() as s:
-        if s.connect_ex(("127.0.0.1", CDP_PORT)) == 0:
-            return True
+def start_chromium():
+    """Start a private headless Chromium for this run only (agents run in parallel; a shared browser mixes up pages).
+    Returns (process, port, profile) or (None, None, None)."""
     exe = chromium_path()
     if not exe:
-        return False
-    args = [exe, "--headless=new", "--no-sandbox", f"--remote-debugging-port={CDP_PORT}", "--user-data-dir=/tmp/fetch-chromium"]
+        return None, None, None
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        port = s.getsockname()[1]
+    profile = f"/tmp/fetch-chromium-{os.getpid()}-{port}"
+    args = [exe, "--headless=new", "--no-sandbox", f"--remote-debugging-port={port}", f"--user-data-dir={profile}"]
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy:
         args += [f"--proxy-server={proxy}", "--ignore-certificate-errors"]
-    subprocess.Popen(args + ["about:blank"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+    proc = subprocess.Popen(args + ["about:blank"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
     for _ in range(30):
         time.sleep(0.5)
         with socket.socket() as s:
-            if s.connect_ex(("127.0.0.1", CDP_PORT)) == 0:
-                return True
-    return False
+            if s.connect_ex(("127.0.0.1", port)) == 0:
+                return proc, port, profile
+    proc.kill()
+    return None, None, None
 
 
-async def _crawl(urls):
+def same_site(requested, final):
+    host = lambda u: ".".join((urllib.parse.urlparse(u or "").hostname or "").split(".")[-2:])
+    return not final or host(requested) == host(final)
+
+
+async def _crawl(urls, port):
     from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
-    bc = BrowserConfig(browser_mode="cdp", cdp_url=f"http://127.0.0.1:{CDP_PORT}", use_managed_browser=False,
+    bc = BrowserConfig(browser_mode="cdp", cdp_url=f"http://127.0.0.1:{port}", use_managed_browser=False,
                        verbose=False, enable_stealth=True)
     rc = CrawlerRunConfig(cache_mode=CacheMode.BYPASS, page_timeout=45000, verbose=False)
     out = {}
@@ -113,7 +120,7 @@ async def _crawl(urls):
         for u in urls:
             try:
                 r = await asyncio.wait_for(c.arun(u, config=rc), timeout=75)
-                md = str(r.markdown or "") if r.success else ""
+                md = str(r.markdown or "") if r.success and same_site(u, getattr(r, "url", "")) else ""
                 out[u] = (r.status_code or 0, md)
             except Exception as ex:
                 out[u] = (0, f"ERROR {ex}")
@@ -125,14 +132,20 @@ def via_crawl4ai(urls):
         import crawl4ai  # noqa: F401
     except ImportError:
         return {u: (0, "ERROR crawl4ai not installed (pip install crawl4ai)") for u in urls}
-    if not ensure_chromium():
+    proc, port, profile = start_chromium()
+    if not proc:
         return {u: (0, "ERROR no Chromium found") for u in urls}
+
     async def bounded():
         try:
-            return await asyncio.wait_for(_crawl(urls), timeout=60 + 80 * len(urls))
+            return await asyncio.wait_for(_crawl(urls, port), timeout=60 + 80 * len(urls))
         except asyncio.TimeoutError:
             return {u: (0, "ERROR crawl4ai timed out") for u in urls}
-    return asyncio.run(bounded())
+    try:
+        return asyncio.run(bounded())
+    finally:
+        proc.kill()
+        shutil.rmtree(profile, ignore_errors=True)
 
 
 def via_wayback(url):
