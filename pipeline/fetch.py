@@ -112,7 +112,7 @@ async def _crawl(urls):
     async with AsyncWebCrawler(config=bc) as c:
         for u in urls:
             try:
-                r = await c.arun(u, config=rc)
+                r = await asyncio.wait_for(c.arun(u, config=rc), timeout=75)
                 md = str(r.markdown or "") if r.success else ""
                 out[u] = (r.status_code or 0, md)
             except Exception as ex:
@@ -127,7 +127,12 @@ def via_crawl4ai(urls):
         return {u: (0, "ERROR crawl4ai not installed (pip install crawl4ai)") for u in urls}
     if not ensure_chromium():
         return {u: (0, "ERROR no Chromium found") for u in urls}
-    return asyncio.run(_crawl(urls))
+    async def bounded():
+        try:
+            return await asyncio.wait_for(_crawl(urls), timeout=60 + 80 * len(urls))
+        except asyncio.TimeoutError:
+            return {u: (0, "ERROR crawl4ai timed out") for u in urls}
+    return asyncio.run(bounded())
 
 
 def via_wayback(url):
