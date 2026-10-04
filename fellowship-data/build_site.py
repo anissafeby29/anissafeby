@@ -61,7 +61,7 @@ def build_records():
         return "Clinical fellowship"
     import sys
     sys.path.insert(0, HERE)
-    from normalize import canon_sub, canon_org
+    from normalize import canon_sub, canon_org, split_specialty
     from flags import flags
     for r in records:
         r["g"] = group(r)
@@ -69,6 +69,7 @@ def build_records():
         r["_closed"] = bool(re.search(r"advert", r["t"], re.I) and re.search(r"closed|past|expired", f'{r["f"].get("Deadline", "")} {r["f"].get("Start", "")}', re.I))
         raw = r["f"].get("Subspecialty") or ""
         canon = canon_sub(r["f"].get("Specialty"), raw)
+        r["f"]["Specialty"], canon = split_specialty(r["f"].get("Specialty"), raw, canon)
         r["focus"] = raw if raw and raw != canon else ""
         r["f"]["Subspecialty"] = canon
         r["org"] = canon_org(r["i"], r["co"])

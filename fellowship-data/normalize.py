@@ -198,3 +198,37 @@ def canon_org(inst, country=""):
         if re.search(rx, low):
             return label
     return inst
+
+
+# Internal Medicine subspecialties that have their own specialty pages.
+SPLIT = [
+    ("Gastroenterology & Hepatology", r"gastro|hepat|liver|endoscop|\beus\b|ercp|\bibd\b|inflammatory bowel|motility|pancrea", [
+        (r"transplant hepat|liver transplant", "Transplant hepatology"), (r"hepat|liver", "Hepatology"),
+        (r"endoscop|\beus\b|ercp", "Advanced endoscopy (EUS/ERCP)"), (r"\bibd\b|inflammatory bowel", "Inflammatory bowel disease"),
+        (r"motility|neurogastro", "Neurogastroenterology & motility"), (r"nutrition", "Clinical nutrition"), (r"pancrea", "Pancreatobiliary")],
+     "General gastroenterology"),
+    ("Haematology & Medical Oncology", r"haemat|hemat|oncolog|\bbmt\b|stem cell|marrow|cellular therap|leuk|lymphoma|myeloma|thromb", [
+        (r"\bbmt\b|stem cell|marrow|cellular therap", "Bone marrow transplant & cellular therapy"),
+        (r"thromb|haemostasis|hemostasis", "Thrombosis & haemostasis"), (r"leuk|lymphoma|myeloma|malignan", "Haematological malignancies"),
+        (r"breast", "Breast oncology"), (r"thoracic|lung", "Thoracic oncology"), (r"genitourinary|\bgu\b|prostate", "Genitourinary oncology"),
+        (r"gastrointestinal|\bgi\b", "GI oncology"), (r"genetic", "Cancer genetics"),
+        (r"^(?!.*hemat)(?!.*haemat).*medical oncology", "Medical oncology"), (r"^(?!.*onco).*(haemat|hemat)", "Haematology")],
+     "Hematology & oncology"),
+    ("Nephrology", r"nephro|kidney|renal|dialysis|glomerul", [
+        (r"transplant", "Transplant nephrology"), (r"interventional", "Interventional nephrology"), (r"critical", "Critical care nephrology"),
+        (r"glomerul", "Glomerular disease"), (r"dialysis|home therap", "Dialysis & home therapies"), (r"onco", "Onconephrology")],
+     "General nephrology"),
+]
+
+
+def split_specialty(specialty, raw, canon):
+    """Move Internal Medicine GI / haem-onc / nephrology programmes to their own specialty; tidy their subspecialty."""
+    text = f"{raw} {canon}".lower()
+    for new, rx, subs, default in SPLIT:
+        if specialty == new or (specialty == "Internal Medicine" and re.search(rx, text)):
+            sub_text = (raw or canon or "").lower()
+            for srx, label in subs:
+                if re.search(srx, sub_text):
+                    return new, label
+            return new, default
+    return specialty, canon
