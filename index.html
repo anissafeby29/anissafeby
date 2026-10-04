@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Fellowship Portal</title>
 <meta name="description" content="Search 5,709 medical and surgical fellowships worldwide. Every programme links to its official institution page.">
-<link rel="preload" href="assets/programmes.json?v=08ce0545d8" as="fetch" crossorigin>
+<link rel="preload" href="assets/programmes.json?v=5884023825" as="fetch" crossorigin>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%231f5f8b%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223.5%22/%3E%3Cellipse%20cx%3D%2232%22%20cy%3D%2232%22%20rx%3D%227.5%22%20ry%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M15%2032h34%22%20stroke%3D%22%23fff%22%20stroke-width%3D%223%22/%3E%3Cpath%20d%3D%22M40%2019l9-5-3%2010%22%20fill%3D%22none%22%20stroke%3D%22%23f2c14e%22%20stroke-width%3D%223.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +53,11 @@ a{color:var(--brand)}
 .nav{display:flex;gap:18px;margin-left:auto;margin-right:14px}
 .nav a{color:var(--hero-muted);text-decoration:none;font-size:14px;font-weight:500}
 .nav a:hover{color:var(--gold)}
+.nav .savedlink span{font:500 12px var(--f-mono);background:var(--gold);color:#1d1600;border-radius:99px;padding:1px 7px;margin-left:4px}
+@media (max-width:760px){.top{flex-wrap:wrap}.nav{order:3;width:100%;margin:6px 0 0;gap:14px;flex-wrap:wrap}}
+.save{font:600 13px var(--f-body);background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:4px 11px;cursor:pointer}
+.save[aria-pressed="true"]{border-color:var(--gold);color:var(--gold-ink);background:var(--gold-soft, transparent)}
+.tag.visa{background:var(--brand-soft);color:var(--brand)}
 .iconbtn{display:grid;place-items:center;background:transparent;border:1px solid rgba(255,255,255,.22);color:var(--hero-ink);border-radius:999px;width:38px;height:38px;cursor:pointer;font-size:16px}
 .iconbtn:hover{border-color:var(--gold)}
 .hero h1{font:800 clamp(34px,5vw,58px)/1.04 var(--f-display);letter-spacing:-.025em;margin:0 0 14px;max-width:18ch;text-wrap:balance}
@@ -186,7 +191,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   <div class="wrap">
     <div class="top">
       <a class="brand" href="./"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#1f5f8b"/><circle cx="32" cy="32" r="17" fill="none" stroke="#fff" stroke-width="3.5"/><ellipse cx="32" cy="32" rx="7.5" ry="17" fill="none" stroke="#fff" stroke-width="3"/><path d="M15 32h34" stroke="#fff" stroke-width="3"/><path d="M40 19l9-5-3 10" fill="none" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The Fellowship Portal</span></a>
-      <nav class="nav"><a href="about/">About</a><a href="contact/">Contact</a></nav>
+      <nav class="nav"><a href="specialties/">Specialties</a><a href="countries/">Countries</a><a href="deadlines/">Deadlines</a><a href="compare/" class="savedlink">Saved<span data-saved-count>0</span></a><a href="about/">About</a><a href="contact/">Contact</a></nav>
       <button class="iconbtn" id="theme" type="button" aria-label="Switch light or dark theme"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
     </div>
     <div class="herogrid"><div>
@@ -228,6 +233,9 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
       <span class="count"><span id="count"></span><span id="vert"></span></span>
       <div class="toggles">
         <label><input type="checkbox" id="hideClosed" checked> Hide closed adverts</label>
+        <label><input type="checkbox" id="img"> Open to IMGs</label>
+        <label><input type="checkbox" id="visa"> Visa route stated</label>
+        <label><input type="checkbox" id="savedOnly"> Saved only</label>
         <label><input type="checkbox" id="onlyNew"> Recently added</label>
         <select id="sort" aria-label="Sort">
           <option value="title">Programme A–Z</option>
@@ -251,10 +259,11 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   </footer>
 </main>
 
+<script src="assets/save.js?v=5884023825" defer></script>
 <script>
 (function(){
   document.getElementById('list').innerHTML = '<p class="empty">Loading programmes…</p>';
-  fetch('assets/programmes.json?v=08ce0545d8').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
+  fetch('assets/programmes.json?v=5884023825').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(DATA => {
   const PAGE = 30;
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -310,9 +319,10 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   function base(except){
     const q = $('q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const f = {sp:$('sp').value, sub:$('sub').value, co:$('co').value, tt:$('tt').value};
-    const onlyNew = $('onlyNew').checked, hideClosed = $('hideClosed').checked;
+    const onlyNew = $('onlyNew').checked, hideClosed = $('hideClosed').checked, img = $('img').checked, visa = $('visa').checked;
+    const saved = $('savedOnly').checked ? new Set(window.Shortlist ? Shortlist.get() : []) : null;
     return DATA.filter(r =>
-      (!onlyNew || r.new) && (!hideClosed || !r._closed) &&
+      (!onlyNew || r.new) && (!hideClosed || !r._closed) && (!img || r.im === 1) && (!visa || r.vs === 1) && (!saved || saved.has(r.s)) &&
       (except==='sp' || !f.sp || r.f.Specialty === f.sp) &&
       (except==='sub' || !f.sub || r.f.Subspecialty === f.sub) &&
       (except==='co' || !f.co || r.co === f.co) &&
@@ -329,10 +339,8 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   const SCORED = ['Duration','Start','Positions','Accreditation','Eligibility','International applicants','Visa support','Licence requirement','Deadline','Application method','Funding','Department'];
   
   function intl(r){
-    const v = r.f['International applicants'] || '';
-    if (/citizens?|permanent residents?/i.test(v) && /only|must be|required|limited to/i.test(v) && !/^yes/i.test(v)) return '<span class="tag warn">Citizens/PR only</span>';
-    if (/^(yes|open|accepted|welcome|international)/i.test(v)) return '<span class="tag new">Open to IMGs</span>';
-    return '';
+    return (r.im === 1 ? '<span class="tag new">Open to IMGs</span>' : r.im === 0 ? '<span class="tag warn">Citizens/PR only</span>' : '') +
+      (r.vs === 1 ? '<span class="tag visa">Visa route</span>' : '');
   }
   function card(r){
     const f = r.f;
@@ -348,7 +356,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
         '<h3><a class="tlink" href="programs/' + esc(r.s) + '/">' + esc(r.t) + '</a></h3><p class="inst">' + esc(r.i) + '</p>' +
         (r.su ? '<p class="summary">' + esc(r.su) + '</p>' : '') +
         '<dl class="facts">' + facts + '</dl>' +
-        '<div class="actions"><a class="profile" href="programs/' + esc(r.s) + '/">Full profile →</a><span class="score" title="Key details published on the official page">' + r.sc + '/12 details</span>' + (r.u[0] ? '<a class="official" href="' + esc(r.u[0]) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
+        '<div class="actions"><a class="profile" href="programs/' + esc(r.s) + '/">Full profile →</a><span class="score" title="Key details published on the official page">' + r.sc + '/12 details</span><button class="save" type="button" data-save="' + esc(r.s) + '">☆ Save</button>' + (r.u[0] ? '<a class="official" href="' + esc(r.u[0]) + '" target="_blank" rel="noopener">Official page ↗</a>' : '') +
           '</div>' +
       '</div></article>';
   }
@@ -361,6 +369,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
         (filtered.length > shown ? '<button class="btn more" id="more" type="button">Show ' + Math.min(PAGE, filtered.length - shown) + ' more · ' + (filtered.length - shown).toLocaleString() + ' left</button>' : '');
       const m = $('more'); if (m) m.onclick = () => { shown += PAGE; render(); };
     }
+    if (window.Shortlist) Shortlist.paint();
     $('count').textContent = filtered.length.toLocaleString() + ' of ' + DATA.length.toLocaleString() + ' programmes';
     const site = /vascular/i.test($('sub').value) ? 'vascfellow.com' : SITES[$('sp').value];
     $('vert').innerHTML = site ? '<a href="https://' + site + '" target="_blank" rel="noopener">More on ' + SITE_NAMES[site] + ' ↗</a>' : '';
@@ -374,7 +383,27 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     const s = $('sort').value;
     const key = s === 'inst' ? r => r.i + r.t : s === 'country' ? r => r.co + r.i + r.t : r => r.t + r.i;
     filtered = base().sort((a,b) => key(a).localeCompare(key(b)));
-    shown = PAGE; specs(); countries(); render();
+    shown = PAGE; specs(); countries(); render(); syncUrl();
+  }
+
+  const PARAMS = ['sp','sub','co','tt','q'], FLAGS = ['img','visa','savedOnly','onlyNew'];
+  function syncUrl(){
+    const u = new URLSearchParams();
+    PARAMS.forEach(id => { const v = $(id).value.trim(); if (v) u.set(id, v); });
+    FLAGS.forEach(id => { if ($(id).checked) u.set(id, '1'); });
+    const s = u.toString();
+    try { history.replaceState(null, '', location.pathname + (s ? '?' + s : '') + location.hash); } catch(e) {}
+  }
+  function fromUrl(){
+    const u = new URLSearchParams(location.search);
+    if (![...u.keys()].length) return false;
+    FLAGS.forEach(id => { if (u.get(id) === '1') $(id).checked = true; });
+    if (u.get('q')) $('q').value = u.get('q');
+    apply();
+    ['sp','co','tt'].forEach(id => { if (u.get(id)) $(id).value = u.get(id); });
+    apply();
+    if (u.get('sub')) { $('sub').value = u.get('sub'); apply(); }
+    return true;
   }
 
   function jump(){ $('results').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'}); }
@@ -391,12 +420,13 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
   let t;
   $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(apply, 180); });
   $('searchform').addEventListener('submit', e => { e.preventDefault(); apply(); jump(); });
-  ['sp','sub','co','tt','sort','onlyNew','hideClosed'].forEach(id => $(id).addEventListener('change', apply));
+  ['sp','sub','co','tt','sort','onlyNew','hideClosed','img','visa','savedOnly'].forEach(id => $(id).addEventListener('change', apply));
   $('specs').addEventListener('click', e => { const b = e.target.closest('[data-sp]'); if (!b) return;
     $('sp').value = $('sp').value === b.dataset.sp ? '' : b.dataset.sp; $('sub').value = ''; apply(); jump(); });
   $('countries').addEventListener('click', e => { const b = e.target.closest('[data-co]'); if (!b) return;
     $('co').value = $('co').value === b.dataset.co ? '' : b.dataset.co; apply(); jump(); });
-  $('reset').onclick = () => { ['sp','sub','co','tt'].forEach(id => $(id).value = ''); $('q').value = ''; $('onlyNew').checked = false; apply(); };
+  $('reset').onclick = () => { ['sp','sub','co','tt'].forEach(id => $(id).value = ''); $('q').value = ''; ['onlyNew','img','visa','savedOnly'].forEach(id => $(id).checked = false); apply(); };
+  document.addEventListener('click', e => { if (e.target.closest('[data-save]') && $('savedOnly').checked) setTimeout(apply, 0); });
   $('csv').onclick = csv;
   $('theme').onclick = () => {
     const root = document.documentElement;
@@ -418,7 +448,8 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
     '</span><span class="pi">' + esc(r.i) + ' · ' + esc(r.f.Specialty) + '</span></span></button>').join('');
   $('depart').addEventListener('click', e => { const b = e.target.closest('[data-i]'); if (!b) return;
     const r = picks[+b.dataset.i]; ['sp','sub','co','tt'].forEach(id => $(id).value = ''); $('q').value = r.t; apply(); jump(); });
-  board(); apply();
+  board();
+  if (fromUrl()) { if (location.hash === '#results') setTimeout(jump, 50); } else apply();
   }).catch(err => { console.error(err); document.getElementById('list').innerHTML = '<p class="empty">Programmes could not load. Refresh the page to try again.</p>'; });
 })();
 </script>

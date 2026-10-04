@@ -25,6 +25,24 @@ SCORED = ["Duration", "Start", "Positions", "Accreditation", "Eligibility", "Int
 e = lambda s: html.escape(str(s or ""), quote=True)
 
 
+# Slugs used by the original site; new specialties fall back to slugify().
+SPEC_SLUGS = {"Obstetrics & Gynaecology": "obgyn", "ENT / Otolaryngology": "ent", "Physical Medicine & Rehabilitation": "physical-medicine-rehabilitation"}
+
+
+def slugify(s):
+    s = re.sub(r"[^a-z0-9]+", "-", (s or "").lower().replace("&", " and ").replace("ü", "u").replace("é", "e")).strip("-")
+    return s or "other"
+
+
+def spec_slug(s):
+    return SPEC_SLUGS.get(s) or slugify(s)
+
+
+def nav(p):
+    return (f'<nav class="toplinks"><a href="{p}specialties/">Specialties</a><a href="{p}countries/">Countries</a>'
+            f'<a href="{p}deadlines/">Deadlines</a><a href="{p}compare/" class="savedlink">Saved <span data-saved-count>0</span></a></nav>')
+
+
 def iso(c):
     return ISO.get(c, (c or "")[:3].upper() or "—")
 
@@ -95,17 +113,17 @@ def page(r, logo_svg, related, same_inst):
 </head>
 <body>
 <header class="hero"><div class="wrap">
-  <div class="top"><a class="brand" href="../../">{logo_svg}<span>The Fellowship Portal</span></a><a class="back" href="../../#results">← All programmes</a></div>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><span>{e(f.get("Specialty"))}</span><span>›</span><span>{e(r["co"])}</span></nav>
+  <div class="top"><a class="brand" href="../../">{logo_svg}<span>The Fellowship Portal</span></a><a class="back" href="../../#results">← All programmes</a>{nav("../../")}</div>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../../specialties/{spec_slug(f.get("Specialty"))}/">{e(f.get("Specialty"))}</a><span>›</span>{f'<a href="../../countries/{slugify(r["co"])}/">{e(r["co"])}</a>' if r["co"] else ""}</nav>
   <div class="headrow">
     <div>
       <h1>{e(r["t"])}</h1>
-      <p class="inst">{e(r["i"])}</p>
+      <p class="inst"><a href="../../institutions/{r.get("inst_slug", "")}/" style="color:inherit">{e(r["i"])}</a></p>
       <div class="chips"><span class="chip">{e(f.get("Specialty"))}</span>{f'<span class="chip">{e(f["Subspecialty"])}</span>' if f.get("Subspecialty") else ""}{f'<span class="chip gold">{e(f["Training type"])}</span>' if f.get("Training type") else ""}</div>
     </div>
     <div class="dest"><div class="label">Destination</div><div class="code">{iso(r["co"])}</div><div class="where">{e(place)}</div></div>
   </div>
-  <div class="cta">{f'<a class="btn primary" href="{e(r["u"][0])}" target="_blank" rel="noopener">Open official programme page ↗</a>' if r["u"] else ""}{f'<a class="btn ghost" href="{e(r["p"])}" target="_blank" rel="noopener">Specialist directory profile ↗</a>' if r.get("p") else ""}</div>
+  <div class="cta">{f'<a class="btn primary" href="{e(r["u"][0])}" target="_blank" rel="noopener">Open official programme page ↗</a>' if r["u"] else ""}{f'<a class="btn ghost" href="{e(r["p"])}" target="_blank" rel="noopener">Specialist directory profile ↗</a>' if r.get("p") else ""}<button class="btn save" type="button" data-save="{e(r["s"])}">☆ Save</button><a class="btn ghost" href="../../compare/">Compare saved →</a></div>
 </div></header>
 <main class="wrap">
   <div class="grid">
@@ -124,6 +142,7 @@ def page(r, logo_svg, related, same_inst):
   {rel(same_inst, "More at " + e(r.get("org") or r["i"]))}
   <footer>The Fellowship Portal lists fellowships from official institution sources. Spotted an error? <a href="../../contact/">Contact us</a> so we can update this profile. · <a href="../../about/">About</a></footer>
 </main>
+<script src="../../assets/save.js" defer></script>
 </body>
 </html>'''
 
@@ -137,6 +156,8 @@ def write_all(records, logo, root, here):
     with open(os.path.join(root, "assets", "logo.svg"), "w", encoding="utf-8") as fh:
         fh.write(logo)
     logo_svg = logo.replace("<svg ", '<svg aria-hidden="true" ', 1)
+    import pages
+    pages.assign_inst_slugs(records)
     by_sub, by_inst = defaultdict(list), defaultdict(list)
     for r in records:
         by_sub[(r["f"].get("Specialty"), r["f"].get("Subspecialty"))].append(r)
@@ -150,7 +171,8 @@ def write_all(records, logo, root, here):
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
             fh.write(page(r, logo_svg, sims[:6], inst))
     write_static(records, logo, root)
-    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/contact/"] + [f'{SITE}/programs/{r["s"]}/' for r in records]
+    landing = pages.write_pages(records, logo, root, here)
+    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/contact/"] + landing + [f'{SITE}/programs/{r["s"]}/' for r in records]
     with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as fh:
         fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
                  "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
@@ -177,14 +199,15 @@ def static_page(title, desc, slug, body, logo_svg):
 </head>
 <body>
 <header class="hero"><div class="wrap">
-  <div class="top"><a class="brand" href="../">{logo_svg}<span>The Fellowship Portal</span></a><a class="back" href="../#results">← All programmes</a></div>
+  <div class="top"><a class="brand" href="../">{logo_svg}<span>The Fellowship Portal</span></a><a class="back" href="../#results">← All programmes</a>{nav("../")}</div>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>›</span><span>{e(title)}</span></nav>
   <h1>{e(title)}</h1>
   <p class="inst">{e(desc)}</p>
 </div></header>
 <main class="wrap"><div class="grid">{body}</div>
-<footer>The Fellowship Portal · <a href="../about/">About</a> · <a href="../contact/">Contact</a></footer>
+<footer>The Fellowship Portal · <a href="../specialties/">Specialties</a> · <a href="../countries/">Countries</a> · <a href="../deadlines/">Deadlines</a> · <a href="../about/">About</a> · <a href="../contact/">Contact</a></footer>
 </main>
+<script src="../assets/save.js" defer></script>
 </body>
 </html>'''
 

@@ -62,8 +62,11 @@ def build_records():
     import sys
     sys.path.insert(0, HERE)
     from normalize import canon_sub, canon_org
+    from flags import flags
     for r in records:
         r["g"] = group(r)
+        r["im"], r["vs"] = flags(r["f"].get("International applicants"), r["f"].get("Visa support"))
+        r["_closed"] = bool(re.search(r"advert", r["t"], re.I) and re.search(r"closed|past|expired", f'{r["f"].get("Deadline", "")} {r["f"].get("Start", "")}', re.I))
         raw = r["f"].get("Subspecialty") or ""
         canon = canon_sub(r["f"].get("Specialty"), raw)
         r["focus"] = raw if raw and raw != canon else ""
@@ -90,7 +93,7 @@ def main():
     KEEP = ["Specialty", "Subspecialty", "State or region", "Training type", "Duration", "Deadline", "Positions",
             "International applicants", "Visa support", "Funding", "Start"]
     slim = [{"t": r["t"], "i": r["i"], "o": r["org"], "co": r["co"], "ci": r["ci"], "su": r["su"], "s": r["s"], "g": r["g"],
-             "new": r["new"], "u": r["u"][:1], "sc": sum(1 for k in SCORED if r["f"].get(k) and not NS.match(str(r["f"][k]))),
+             "new": r["new"], "im": r["im"], "vs": r["vs"], "u": r["u"][:1], "sc": sum(1 for k in SCORED if r["f"].get(k) and not NS.match(str(r["f"][k]))),
              "f": {k: r["f"].get(k, "") for k in KEEP}} for r in records]
     data = json.dumps(slim, ensure_ascii=False, separators=(",", ":"))
     import hashlib

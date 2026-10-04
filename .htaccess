@@ -9,3 +9,18 @@
   ExpiresByType image/svg+xml "access plus 30 days"
   ExpiresByType text/html "access plus 1 hour"
 </IfModule>
+
+# Old site URLs
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^fellowships/?$ /#results [R=301,NE,L]
+  RewriteRule ^marketplace/?$ / [R=301,L]
+  RewriteRule ^training/visiting-fellowship/?$ /training/observership/ [R=301,L]
+  RewriteRule ^training/clinical-research/?$ /training/clinical-research-fellowship/ [R=301,L]
+  RewriteRule ^specialties/(obstetrics-gynaecology|obstetrics-and-gynaecology)/?$ /specialties/obgyn/ [R=301,L]
+  RewriteRule ^specialties/(otolaryngology|ent-otolaryngology)/?$ /specialties/ent/ [R=301,L]
+  RewriteRule ^countries/hong-kong/?$ /countries/hong-kong-sar/ [R=301,L]
+  RewriteRule ^countries/usa/?$ /countries/united-states/ [R=301,L]
+  RewriteRule ^countries/uk/?$ /countries/united-kingdom/ [R=301,L]
+</IfModule>
+ErrorDocument 404 /404.html

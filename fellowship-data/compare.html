@@ -1,0 +1,51 @@
+<div id="cmp"><p class="summary">Loading your saved programmes…</p></div>
+<script>
+(function(){
+  var esc = function(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); };
+  var NS = /^(not stated|check with|confirm current|not specified|contact programme)/i;
+  var val = function(v){ return !v || NS.test(v) ? '<span class="ns">Not stated</span>' : esc(v); };
+  var ROWS = [['Institution', function(r){ return esc(r.i); }], ['Location', function(r){ return esc([r.ci, r.co].filter(Boolean).join(', ')); }],
+    ['Specialty', function(r){ return esc(r.f.Specialty) + (r.f.Subspecialty ? ' · ' + esc(r.f.Subspecialty) : ''); }],
+    ['Training type', function(r){ return val(r.f['Training type']); }], ['Duration', function(r){ return val(r.f.Duration); }],
+    ['Start', function(r){ return val(r.f.Start); }], ['Deadline', function(r){ return val(r.f.Deadline); }], ['Positions', function(r){ return val(r.f.Positions); }],
+    ['International applicants', function(r){ return val(r.f['International applicants']); }], ['Visa support', function(r){ return val(r.f['Visa support']); }],
+    ['Funding', function(r){ return val(r.f.Funding); }], ['Details published', function(r){ return r.sc + '/12'; }],
+    ['Official page', function(r){ return r.u[0] ? '<a href="' + esc(r.u[0]) + '" target="_blank" rel="noopener">Open ↗</a>' : '—'; }]];
+  var pick = null, DATA = null;
+  function draw(){
+    var saved = Shortlist.get(), by = {};
+    DATA.forEach(function(r){ by[r.s] = r; });
+    var items = saved.map(function(s){ return by[s]; }).filter(Boolean);
+    var el = document.getElementById('cmp');
+    if (!items.length) { el.innerHTML = '<section class="panel"><h2>No saved programmes yet</h2><p class="summary">Tap <b>☆ Save</b> on any programme in the <a href="../#results">search</a> or on a programme profile. Your shortlist stays in this browser.</p></section>'; return; }
+    if (!pick) pick = items.slice(0, 4).map(function(r){ return r.s; });
+    pick = pick.filter(function(s){ return saved.indexOf(s) > -1; });
+    var cols = items.filter(function(r){ return pick.indexOf(r.s) > -1; });
+    var list = '<section class="panel plist"><h2>Your shortlist <span class="n">' + items.length + '</span></h2><p class="side-note">Tick up to four to compare.</p>' + items.map(function(r){
+      return '<div class="prow"><input type="checkbox" data-pick="' + esc(r.s) + '"' + (pick.indexOf(r.s) > -1 ? ' checked' : '') + ' aria-label="Compare ' + esc(r.t) + '">' +
+        '<a class="pt" href="../programs/' + esc(r.s) + '/"><b>' + esc(r.t) + '</b><span>' + esc(r.i) + ' · ' + esc(r.co) + '</span></a>' +
+        '<button class="btn small" type="button" data-save="' + esc(r.s) + '">★ Saved</button></div>'; }).join('') +
+      '<p style="margin-top:12px"><button class="btn small" type="button" id="clear">Clear shortlist</button></p></section>';
+    var table = cols.length ? '<section class="panel cmpwrap"><h2>Side by side</h2><div class="scroll"><table class="cmp"><thead><tr><th></th>' +
+      cols.map(function(r){ return '<th><a href="../programs/' + esc(r.s) + '/">' + esc(r.t) + '</a></th>'; }).join('') + '</tr></thead><tbody>' +
+      ROWS.map(function(row){ return '<tr><th>' + row[0] + '</th>' + cols.map(function(r){ return '<td>' + row[1](r) + '</td>'; }).join('') + '</tr>'; }).join('') +
+      '</tbody></table></div></section>' : '';
+    el.innerHTML = table + list;
+    Shortlist.paint();
+  }
+  document.addEventListener('change', function(e){
+    var s = e.target.dataset && e.target.dataset.pick; if (!s) return;
+    if (e.target.checked) { if (pick.length >= 4) { e.target.checked = false; return; } pick.push(s); } else pick = pick.filter(function(x){ return x !== s; });
+    draw();
+  });
+  document.addEventListener('click', function(e){
+    if (e.target.id === 'clear' && confirm('Remove all saved programmes?')) { Shortlist.set([]); draw(); }
+    else if (e.target.closest && e.target.closest('[data-save]')) setTimeout(draw, 0);
+  });
+  function start(){
+    fetch('../assets/programmes.json').then(function(r){ return r.json(); }).then(function(d){ DATA = d; draw(); })
+      .catch(function(){ document.getElementById('cmp').innerHTML = '<p class="summary">Programmes could not load. Refresh to try again.</p>'; });
+  }
+  if (window.Shortlist) start(); else window.addEventListener('load', start);
+})();
+</script>
