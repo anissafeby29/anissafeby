@@ -1,0 +1,320 @@
+{
+ "patches": [
+  {
+   "slug": "/programs/duke-pain-medicine",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/duke-pediatric-cardiothoracic-anesthesiology",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/duke-regional-acute-pain",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/duke-university-complex-family-planning-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-duke-university",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/congenital-cardiac-surgery-fellowship-duke-university",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/adult-blood-and-marrow-transplant-and-cellular-therapy-fellowship-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/micrographic-surgery-and-dermatologic-oncology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/breast-imaging-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiothoracic-imaging-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endovascular-surgical-neuroradiology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-radiology-independent-residency-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/musculoskeletal-radiology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/nuclear-oncology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/visiting-musculoskeletal-radiology-fellowship-university-of-iowa",
+   "field": "Start",
+   "value": "Institution policy: University of Iowa GME appointments typically begin 1 July",
+   "source": "https://gme.uihealthcare.org/stipends",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-duke-university-school-of-medicine",
+   "field": "Start",
+   "value": "Institution policy: Duke GME appointments run 1 July - 30 June, with a few exceptions",
+   "source": "https://medicine.bulletins.duke.edu/about/graduate",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/rhinology-and-neuro-rhinology-fellowship-indiana-university-school-of-medicine",
+   "field": "Eligibility",
+   "value": "Institution policy: LCME/AOA graduate or IMG with ECFMG certification/unrestricted US licence/Fifth Pathway; satisfactory USMLE Steps 1-2 (programme-specific requirements); background check, licensure and employment eligibility",
+   "source": "https://policies.medicine.iu.edu/policies/gme-adm-0007/index.html",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/global-health-equity-clinical-instructor-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/obstetric-anesthesia-fellowship-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/regional-anesthesia-acute-pain-fellowship-ucsf",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ucsf-health-gynecologic-oncology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ucsf-pediatric-cardiac-anesthesia-clinical-instructor",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ucsf-trauma-acute-care-surgery-anesthesia-clinical-instructor",
+   "field": "Start",
+   "value": "Institution policy: Most UCSF residents/fellows are appointed for June-August start dates (off-cycle starts possible)",
+   "source": "https://meded.ucsf.edu/sites/meded.ucsf.edu/files/Housestaff%20Info%20Booklet%2003_19_2026.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/glaucoma-fellowship-indiana-university-glick",
+   "field": "Start",
+   "value": "Institution policy: IU School of Medicine GME appointment/stipend year runs July - June (standard start 1 July)",
+   "source": "https://medicine.iu.edu/gme/employment-terms-benefits",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-and-adult-strabismus-fellowship-indiana-university-glick",
+   "field": "Start",
+   "value": "Institution policy: IU School of Medicine GME appointment/stipend year runs July - June (standard start 1 July)",
+   "source": "https://medicine.iu.edu/gme/employment-terms-benefits",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/international-retina-fellowship-indiana-university-glick",
+   "field": "Start",
+   "value": "Institution policy: IU School of Medicine GME appointment/stipend year runs July - June (standard start 1 July)",
+   "source": "https://medicine.iu.edu/gme/employment-terms-benefits",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/vitreoretinal-surgery-fellowship-indiana-university-glick",
+   "field": "Start",
+   "value": "Institution policy: IU School of Medicine GME appointment/stipend year runs July - June (standard start 1 July)",
+   "source": "https://medicine.iu.edu/gme/employment-terms-benefits",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/stroke-neurology-fellowship-sunnybrook",
+   "field": "Application method",
+   "value": "Institution policy: apply to the departmental Fellowship Program Director; sponsored international applicants apply through their sponsoring agency to the PGME Office",
+   "source": "https://pgme.utoronto.ca/fellowship-training",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/sleep-neurology-fellowship-sunnybrook",
+   "field": "Application method",
+   "value": "Institution policy: apply to the departmental Fellowship Program Director; sponsored international applicants apply through their sponsoring agency to the PGME Office",
+   "source": "https://pgme.utoronto.ca/fellowship-training",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-fellowship-in-family-medicine-university-of-toronto-dfcm",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/medical-education-fellowship-university-of-toronto-dfcm",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-neuroradiology-spine-fellowship-toronto-western-hospital-toronto-western-hospital-uhn-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-neuroimaging-fellowship-toronto-western-hospital-toronto-western-hospital-uhn-university-of-toronto",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-dermatology-fellowship-indiana-university",
+   "field": "Start",
+   "value": "Institution policy: IU School of Medicine GME appointment/stipend year runs July - June (standard start 1 July)",
+   "source": "https://medicine.iu.edu/gme/employment-terms-benefits",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cardiac-surgery-clinical-fellowship-st-michaels-hospital-st-michaels",
+   "field": "Start",
+   "value": "Institution policy: University of Toronto PGME academic year runs 1 July - 30 June (letters of appointment issued per academic year; off-cycle starts possible)",
+   "source": "https://pgme.utoronto.ca/faqs-registration-process",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/nuh-hands-off-observership-nuh",
+   "field": "Start",
+   "value": "Flexible: applicant-proposed start date, which must be at least 8 weeks after the application (minimum processing lead time)",
+   "source": "https://www.nuh.com.sg/research-and-education/hands-off-observership",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/yale-cardiac-anesthesiology-fellowship",
+   "field": "Application method",
+   "value": "National match system (formal applications submitted via the match website); enquiries to anesthesiafellowship@yale.edu",
+   "source": "https://medicine.yale.edu/anesthesiology/education/fellowships/clinicalfellowships/cardiothoracic/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/yale-neuroanesthesia-fellowship",
+   "field": "Application method",
+   "value": "Contact Program Director (shilpa.rao@yale.edu) or anesthesiafellowship@yale.edu",
+   "source": "https://medicine.yale.edu/anesthesiology/education/fellowships/clinicalfellowships/neuroanesthesia/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/yale-pain-medicine-fellowship",
+   "field": "Eligibility",
+   "value": "Currently enrolled in or completed an ACGME-accredited anesthesiology, psychiatry, PM&R, neurology and/or emergency medicine residency; board certified or in the board examination process; eligible for a Connecticut medical licence",
+   "source": "https://medicine.yale.edu/anesthesiology/education/fellowships/clinicalfellowships/pain-medicine/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/wilderness-medicine-fellowship-yale",
+   "field": "Deadline",
+   "value": "1 September (CV, letter of intent and 3 references to the Fellowship Director)",
+   "source": "https://medicine.yale.edu/emergencymed/education/fellowships/wilderness/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/nuclear-radiology-fellowship-yale",
+   "field": "Duration",
+   "value": "1 year (academic year 1 July 2028 – 30 June 2029 for the current cycle)",
+   "source": "https://medicine.yale.edu/radiology-biomedical-imaging/education/fellowships/nuclear-radiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Application method",
+   "value": "Contact the Program Director (linda.maerz@yale.edu) / assistant (louise.salvati@yale.edu)",
+   "source": "https://medicine.yale.edu/surgery/education/fellowships/critical-care/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endocrine-surgery-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Application method",
+   "value": "Enquiries/applications via the Endocrine Surgery Fellowship Coordinator (patricia.richitelli@yale.edu)",
+   "source": "https://medicine.yale.edu/surgery/education/fellowships/endocrine/",
+   "level": "programme"
+  }
+ ],
+ "conflicts": []
+}

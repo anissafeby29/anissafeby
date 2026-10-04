@@ -1,0 +1,89 @@
+{
+ "patches": [
+  {
+   "slug": "/programs/administrative-fellowship-emory",
+   "field": "Deadline",
+   "value": "Applications accepted 1 January - 30 September; interviews 1 August - 1 November; final selection November",
+   "source": "https://med.emory.edu/departments/emergency-medicine/education/fellowship/administrative/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/administrative-fellowship-emory",
+   "field": "Application method",
+   "value": "Submit CV, one-page letter of intent and three signed letters of recommendation to the Fellowship Directors",
+   "source": "https://med.emory.edu/departments/emergency-medicine/education/fellowship/administrative/application-process.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/autoimmune-blistering-disease-fellowship-emory",
+   "field": "Application method",
+   "value": "Submit CV and inquiries directly to the fellowship director (Ron J. Feldman, MD, PhD)",
+   "source": "https://med.emory.edu/departments/dermatology/fellowships/autoimmune-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/gastroenterology-fellowship-emory",
+   "field": "Eligibility",
+   "value": "MD degree and board-eligible in Internal Medicine",
+   "source": "https://med.emory.edu/departments/medicine/divisions/digestive-diseases/education/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hospice-palliative-medicine-fellowship-emory",
+   "field": "Eligibility",
+   "value": "Residents or practicing physicians who are board-eligible or board-certified in a variety of ABMS specialties",
+   "source": "https://med.emory.edu/departments/family-preventive/divisions-programs/palliative-care/hospice-palliative-care-fellowship/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/geriatric-psychiatry-fellowship-emory",
+   "field": "Positions",
+   "value": "2",
+   "source": "https://med.emory.edu/departments/psychiatry/education/fellowships/geriatric/index.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/emory-foot-ankle-fellowship",
+   "field": "Eligibility",
+   "value": "Completion of a U.S. or Canadian orthopaedic residency; passed all three steps of USMLE or COMLEX; eligible for a full unrestricted Georgia medical licence and DEA",
+   "source": "https://med.emory.edu/departments/orthopaedics/education/fellowship/foot-ankle/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-emory",
+   "field": "Application method",
+   "value": "ERAS only (ERAS ID 4231221005); NRMP Radiology Fellowship Match",
+   "source": "https://med.emory.edu/departments/radiology/education/fellowships/neuroradiology/apply.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-emory",
+   "field": "Application method",
+   "value": "ERAS only; All-In NRMP Medical Subspecialties Match",
+   "source": "https://med.emory.edu/departments/medicine/divisions/infectious-diseases/education/application-information.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/infectious-diseases-fellowship-emory",
+   "field": "Eligibility",
+   "value": "Completion of an internal medicine residency in the US required; H-1B and J-1 visa holders accepted",
+   "source": "https://med.emory.edu/departments/medicine/divisions/infectious-diseases/education/application-information.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-fellowship-emory",
+   "field": "Eligibility",
+   "value": "Board eligibility in Internal Medicine or Emergency Medicine; preference given to US citizens and permanent residents (NIH training-grant eligibility)",
+   "source": "https://med.emory.edu/departments/medicine/divisions/pulmonary/education/pulm-fellowship/application-information.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-critical-care-fellowship-emory",
+   "field": "Application method",
+   "value": "ERAS; NRMP match (program signaling used)",
+   "source": "https://med.emory.edu/departments/medicine/divisions/pulmonary/education/pulm-fellowship/application-information.html",
+   "level": "programme"
+  }
+ ],
+ "conflicts": []
+}

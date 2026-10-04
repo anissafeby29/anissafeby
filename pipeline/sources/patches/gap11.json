@@ -1,0 +1,565 @@
+{
+ "patches": [
+  {
+   "slug": "/programs/structural-heart-disease-fellowship-vanderbilt",
+   "field": "Application method",
+   "value": "Direct application: Vanderbilt GME application (with photo), CV/personal statement, USMLE transcript, medical school transcript, three letters of recommendation (one from interventional cardiology PD); ECFMG status report for IMGs",
+   "source": "https://medicine.vumc.org/divisions/cardiovascular-medicine/education/structural-heart-disease-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/consultation-liaison-psychiatry-fellowship-vanderbilt",
+   "field": "Deadline",
+   "value": "Applications accepted 1 July to 15 November (earlier applications preferred)",
+   "source": "https://www.vumc.org/psychiatry/consultation-liaison-psychiatry-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/consultation-liaison-psychiatry-fellowship-vanderbilt",
+   "field": "Application method",
+   "value": "ERAS; positions offered through the NRMP Match",
+   "source": "https://www.vumc.org/psychiatry/consultation-liaison-psychiatry-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-and-adult-craniofacial-fellowship-vanderbilt-university-medical-center",
+   "field": "Start",
+   "value": "1 August (fellowship dates 1 August to 31 July)",
+   "source": "https://www.vumc.org/plasticsurgdept/index.php/pediatric-adult-craniofacial-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/medical-education-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-thoracic-and-upper-gastrointestinal-surgical-oncology-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-drug-allergy-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/immune-deficiency-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/bone-and-mineral-metabolism-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endocrine-tumors-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-inflammatory-bowel-disease-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-therapeutic-endoscopy-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endohepatology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/hepatology-and-liver-transplantation-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/thrombosis-clinical-and-research-fellowship-jgh-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/vascular-medicine-clinical-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-oncology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/lymphoma-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/multiple-myeloma-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/breast-cancer-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/antimicrobial-stewardship-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/transplant-infectious-diseases-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/tropical-medicine-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/kidney-transplantation-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-fellowship-in-glomerular-diseases-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/systemic-autoimmune-rheumatic-disease-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/scleroderma-and-myositis-clinical-research-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-pulmonary-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/sleep-medicine-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cornea-and-advanced-anterior-segment-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/oculoplastic-surgery-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ophthalmic-plastic-and-reconstructive-surgery-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-ophthalmology-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-head-and-neck-surgical-oncology-microvascular-reconstruction-and-trans-oral-robotic-surgery-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 30 June 2026 for the 2027-2028 academic year (McGill PGME online application opens 1 March; listed for the Head and Neck Surgery and Microvascular Reconstruction Fellowship)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/laryngology-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/otology-neurotology-and-lateral-skull-base-surgery-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/skull-base-advanced-rhinology-fellowship-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/sport-medicine-fellowship-mcgill",
+   "field": "Positions",
+   "value": "2 (Sport Medicine - Emergency Track, 1 year)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/emergency-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/aviation-medicine-fellowship-mcgill",
+   "field": "Positions",
+   "value": "1",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/emergency-medicine",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/academic-pediatrics-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-pediatrics-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/gender-variance-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/gender-variance-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-follow-up-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-follow-up-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-complex-care-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-complex-care-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-simulation-based-education-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-simulation-based-education-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/social-pediatrics-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/social-pediatrics-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-food-allergy-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-food-allergy-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-immune-deficiency-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-immune-deficiency-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-cancer-genetics-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-cancer-genetics-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-eeg-epilepsy-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-eeg-epilepsy-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-neurogenetics-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-neurogenetics-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-palliative-medicine-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-in-simulation-based-education-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-in-simulation-based-education-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-metabolic-and-genetic-bone-disorders-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-metabolic-and-genetic-bone-disorders-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-clinical-research-fellowship-mcgill-montreal-children-s",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-clinical-research-fellowship-mcgill-montreal-children-s",
+   "field": "Deadline",
+   "value": "Not open for applications for the 2027-2028 academic year (listed as closed by McGill PGME)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/advanced-training-in-pediatric-cardiac-non-invasive-imaging-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-interventional-cardiology-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-pediatric-intensive-care-medicine-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-pediatric-intensive-care-medicine-research-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-pediatric-endocrinology-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-neurocritical-care-clinical-research-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-scholar-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/academic-pediatric-nephrology-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-respirology-research-fellowship-mcgill-university-montreal-childrens-hospital-mcgill-university-health-centre",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-in-simulation-based-education-fellowship-mcgill-montreal-children-s",
+   "field": "Positions",
+   "value": "1",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/pediatric-critical-care",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-metabolic-and-genetic-bone-disorders-fellowship-mcgill-montreal-children-s",
+   "field": "Positions",
+   "value": "2 (1-year option); 1 (2-year option)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/pediatric-endocrinology-and-metabolism",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neonatal-hemodynamics-clinical-research-fellowship-mcgill-montreal-children-s",
+   "field": "Positions",
+   "value": "1",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/fellowship-programs/pediatric-neonatal-perinatal-medicine",
+   "level": "programme"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,187 @@
+{
+ "patches": [
+  {
+   "slug": "/programs/endocrinology-diabetes-metabolism-fellowship-cleveland-clinic",
+   "field": "Start",
+   "value": "1 July (page: \"Fellowship period begins July 1, 2026\")",
+   "source": "https://my.clevelandclinic.org/departments/endocrinology-metabolism/medical-professionals/endocrinology-diabetes-metabolism-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/gastroenterology-hepatology-fellowship-cleveland-clinic",
+   "field": "Positions",
+   "value": "Three to four fellows selected each year for the categorical track",
+   "source": "https://my.clevelandclinic.org/departments/digestive/medical-professionals/education/gastroenterology-hepatology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroimmunology-fellowship-mellen-center-cleveland-clinic",
+   "field": "Deadline",
+   "value": "SF Match CAS target date 3 February 2027 (SF Match application starts 2 November 2026; rank list deadline 28 April 2027; anticipated start 1 July 2028)",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/neuroimmunology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroimmunology-fellowship-mellen-center-cleveland-clinic",
+   "field": "Application method",
+   "value": "SF Match (ACTRIMS-coordinated Neuroimmunology & MS fellowship match) via the Central Application Service (CAS): CAS application form, USMLE scores, CV, letters",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/neuroimmunology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuro-oncology-fellowship-cleveland-clinic",
+   "field": "Eligibility",
+   "value": "Completed neurology residency and qualified to sit the ABPN examination; USMLE Steps I, II and III completed; foreign medical graduates must hold a valid ECFMG certificate",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/neuro-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuro-oncology-fellowship-cleveland-clinic",
+   "field": "Application method",
+   "value": "Register with the Neuro-Oncology match and submit all required documentation through the SF Match portal (see SNO website for match timeline)",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/neuro-oncology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-neurology-fellowship-cleveland-clinic",
+   "field": "Positions",
+   "value": "4 per year",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/vascular-neurology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/abdominal-imaging-fellowship-cleveland-clinic",
+   "field": "Application method",
+   "value": "Imaging Fellowship Application Portal (application form, CV, USMLE/COMLEX transcripts, Dean's letter, ECFMG certificate if applicable)",
+   "source": "https://my.clevelandclinic.org/departments/imaging/medical-professionals/fellowships/abdominal-imaging-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-cleveland-clinic",
+   "field": "Deadline",
+   "value": "No closing date stated; 2026 ERAS Neuroradiology cycle: submission opens 12 November 2026, programmes begin reviewing 2 December 2026, interviews from 12 January 2027 (for 2028–2029 academic year; NRMP match)",
+   "source": "https://my.clevelandclinic.org/departments/imaging/medical-professionals/fellowships/neuroradiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-cleveland-clinic",
+   "field": "Start",
+   "value": "2028–2029 academic year (current ERAS cycle)",
+   "source": "https://my.clevelandclinic.org/departments/imaging/medical-professionals/fellowships/neuroradiology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-radiology-fellowship-cleveland-clinic",
+   "field": "Application method",
+   "value": "Email application materials to imagingfellowship@ccf.org (subject \"Pediatric Radiology Application\"); letters of recommendation sent directly by writers",
+   "source": "https://my.clevelandclinic.org/departments/imaging/medical-professionals/fellowships/pediatric-imaging-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hospital-neurology-fellowship-cleveland-clinic",
+   "field": "Eligibility",
+   "value": "Completed a residency programme and able to obtain an Ohio medical licence; IMGs must hold a current, valid ECFMG certificate at time of application",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/hospital-neurology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/behavioral-neurology-and-neuropsychiatry-fellowship-cleveland-clinic",
+   "field": "Application method",
+   "value": "Email application materials (fellowship application form, CV, etc.) to the programme coordinator at the desired training site",
+   "source": "https://my.clevelandclinic.org/departments/neurological/medical-professionals/fellowships/behavioral-neurology-neuropsychiatry",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/mohs-micrographic-and-dermatology-oncology-fellowship-university-of-pittsburgh",
+   "field": "Application method",
+   "value": "SF Match Central Application Service (CAS)",
+   "source": "http://dermatology.pitt.edu/training/fellowship-programs/mohs-micrographic-and-dermatology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-university-of-pittsburgh",
+   "field": "Eligibility",
+   "value": "All fellows must be eligible for a Pennsylvania Medical Trainee License",
+   "source": "https://dermpath.upmc.edu/Applications/dermpath/Home/Fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-university-of-pittsburgh",
+   "field": "Deadline",
+   "value": "No closing date stated; applications accepted from March each year (currently for the 2028–2029 year); interviews typically December/January",
+   "source": "https://dermpath.upmc.edu/Applications/dermpath/Home/Fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-university-of-pittsburgh",
+   "field": "Start",
+   "value": "2028–2029 fellowship year (current recruitment)",
+   "source": "https://dermpath.upmc.edu/Applications/dermpath/Home/Fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/adult-cardiothoracic-anesthesiology-fellowship-upmc",
+   "field": "Eligibility",
+   "value": "Completion of an ACGME-accredited anesthesiology residency by the start of the fellowship",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/adult-cardiothoracic-anesthesiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hepatic-transplantation-anesthesiology-fellowship-upmc",
+   "field": "Eligibility",
+   "value": "Completed ACGME/ACGME-I anesthesiology residency; MD, DO, MBBS or equivalent; eligible for Pennsylvania licensure; ABA/AOBA certified or in the certification process",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/hepatic-transplantation-anesthesiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroanesthesiology-fellowship-upmc",
+   "field": "Eligibility",
+   "value": "Completed ACGME/ACGME-I anesthesiology residency; MD, DO, MBBS or equivalent; eligible for Pennsylvania licensure; ABA/AOBA certified or in the certification process",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/neuroanesthesiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroanesthesiology-fellowship-upmc",
+   "field": "Application method",
+   "value": "Complete the departmental fellowship application; selection by review committee based on reference letters and interview",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/neuroanesthesiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/regional-and-obstetric-anesthesiology-hybrid-fellowship-upmc",
+   "field": "Eligibility",
+   "value": "Completed ACGME/ACGME-I anesthesiology residency; MD, DO, MBBS or equivalent; eligible for Pennsylvania licensure; ABA/AOBA certified or in the certification process",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/regional-and-obstetric-anesthesiology-hybrid-one-year",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-anesthesiology-fellowship-upmc",
+   "field": "Deadline",
+   "value": "Rolling review via SF Match; applicant registration begins January 2027, interviews February–June 2027",
+   "source": "https://www.anesthesiology.pitt.edu/education-training/clinical-fellowships/pediatric-anesthesiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuroradiology-fellowship-upmc",
+   "field": "Eligibility",
+   "value": "Institutional training licence required; US citizen or appropriate visa; must satisfy ACGME entry criteria",
+   "source": "https://www.rad.pitt.edu/neuroradiology-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/breast-and-women-s-imaging-fellowship-upmc",
+   "field": "Application method",
+   "value": "Contact the programme coordinator to receive an application",
+   "source": "https://www.rad.pitt.edu/bwi-fellowship.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/endocrinology-diabetes-metabolism-fellowship-upmc-pittsburgh",
+   "field": "Deadline",
+   "value": "No fixed deadline stated; ERAS applications reviewed on a rolling basis as received (early submission recommended)",
+   "source": "https://dom.pitt.edu/endo/fellowship/apply/",
+   "level": "programme"
+  }
+ ],
+ "conflicts": []
+}

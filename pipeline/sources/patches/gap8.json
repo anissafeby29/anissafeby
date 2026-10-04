@@ -1,0 +1,131 @@
+{
+ "patches": [
+  {
+   "slug": "/programs/cardiovascular-disease-fellowship-utsw",
+   "field": "Start",
+   "value": "July (enrolment in July of the year following the 25 August ERAS deadline)",
+   "source": "https://www.utsouthwestern.edu/departments/internal-medicine/divisions/cardiology/education/fellowship-programs/cardiovascular-disease.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-ut-southwestern",
+   "field": "Start",
+   "value": "July (one-year position; page advertises position beginning July 2025)",
+   "source": "https://www.utsouthwestern.edu/departments/internal-medicine/divisions/digestive-liver-diseases/education-training/fellowships/transplant-hepatology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-oncology-fellowship-ut-southwestern",
+   "field": "Duration",
+   "value": "2 years (single board in hematology); 3 years (combined hematology-oncology programme)",
+   "source": "https://www.utsouthwestern.edu/departments/internal-medicine/divisions/hematology-oncology/fellowships/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/body-magnetic-resonance-imaging-fellowship-ut-southwestern-medical-center",
+   "field": "Deadline",
+   "value": "Currently accepting applications for academic year 2028–2029 (follows SCARD fellowship timeline; no fixed date stated)",
+   "source": "https://www.utsouthwestern.edu/departments/radiology/education-training/fellowships/magnetic-resonance-imaging.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/gastroenterology-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endocrinology-metabolism-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/nephrology-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "July of the year following application review (e.g. 2027 review for July 2028 start)",
+   "source": "https://nephrology.uw.edu/education/fellowship/how-to-apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-multiple-sclerosis-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/movement-disorders-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuro-oncology-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/behavioral-neurology-and-neuropsychiatry-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neuromuscular-medicine-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/vascular-neurology-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-psychiatry-fellowship-university-of-washington",
+   "field": "Start",
+   "value": "Institution policy: UW GME academic year runs 1 July – 30 June (standard start 1 July)",
+   "source": "https://sites.uw.edu/uwgme/finance/compensation-schedule/",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-university-of-washington",
+   "field": "Positions",
+   "value": "4 per year (typically 3 Academic Track, 1 Clinical Track)",
+   "source": "https://rheumatology.uw.edu/fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuro-oncology-fellowship-university-of-washington",
+   "field": "Eligibility",
+   "value": "Completed neurology, hematology/oncology or neurosurgery residency and qualified to sit the UCNS certification exam; hematology/oncology, neurosurgery, pediatric oncology or radiation oncology graduates considered case by case",
+   "source": "https://neurology.uw.edu/education/fellowships/neuro-oncology-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/vascular-neurology-fellowship-university-of-washington",
+   "field": "Eligibility",
+   "value": "Completed ACGME-accredited (or RCPSC-accredited Canadian) programme in neurology, child neurology or neurodevelopmental disabilities before appointment",
+   "source": "https://neurology.uw.edu/education/fellowships/vascular-neurology-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/neuromuscular-medicine-fellowship-university-of-washington",
+   "field": "Eligibility",
+   "value": "Trainees from adult neurology, child neurology or physical medicine and rehabilitation backgrounds; visa applicants must be J-1 (ECFMG) eligible (H-1B per UW policy)",
+   "source": "https://neurology.uw.edu/education/fellowships/neuromuscular-medicine-fellowship/",
+   "level": "programme"
+  }
+ ],
+ "conflicts": []
+}
