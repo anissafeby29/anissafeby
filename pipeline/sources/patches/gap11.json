@@ -1441,6 +1441,20 @@
    "value": "Postgraduate qualification in ophthalmology (MS Ophthalmology or equivalent; DO/DOMS diploma holders may apply) and registration to practise ophthalmology independently in home country",
    "source": "https://www.narayananethralaya.org/international-fellowship/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/cutaneous-oncology-fellowship-boston-university",
+   "field": "Deadline",
+   "value": "No closing date stated; application cycle for 2027-2028 currently open and still accepting applications",
+   "source": "https://www.bumc.bu.edu/derm/training-programs-overview/fellowships/skin-oncology-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatologic-dermatology-fellowship-boston-university",
+   "field": "Deadline",
+   "value": "No closing date stated; application cycle for 2027-2028 currently open and still accepting applications",
+   "source": "https://www.bumc.bu.edu/derm/training-programs-overview/fellowships/rheumatologic-dermatology-fellowship/",
+   "level": "programme"
   }
  ],
  "conflicts": [

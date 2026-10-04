@@ -1686,6 +1686,41 @@
    "value": "Institution policy: AGES Accredited Training Program positions open to both local and international graduates; central AGES application with interviews at the March AGES Annual Scientific Meeting (applicants must be registered delegates); units appoint trainees directly",
    "source": "https://ages.com.au/training/trainee-information/overview-of-the-aatp/",
    "level": "institution"
+  },
+  {
+   "slug": "/programs/hematology-and-medical-oncology-fellowship-mount-sinai",
+   "field": "Deadline",
+   "value": "Applications accepted from ERAS opening until 1 August of each cycle (for 1 July start the following year)",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-hematology-oncology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/maternal-fetal-medicine-fellowship-mount-sinai",
+   "field": "Application method",
+   "value": "ERAS; interviews in July and August",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/maternal-fetal-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-mount-sinai",
+   "field": "Positions",
+   "value": "1 per year",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/complex-benign-gynecology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-mount-sinai",
+   "field": "Application method",
+   "value": "NRMP through the AAGL (refer to AAGL guidelines and NRMP timeline)",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/complex-benign-gynecology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/complex-benign-gynecology-fellowship-mount-sinai",
+   "field": "Eligibility",
+   "value": "Completed residency in obstetrics and gynecology with strong interest in gynecologic endoscopy and robotic surgery",
+   "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/complex-benign-gynecology-fellowship",
+   "level": "programme"
   }
  ],
  "conflicts": []
