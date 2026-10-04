@@ -1784,6 +1784,34 @@
    "value": "ERAS (annual)",
    "source": "https://pediatrics.ucsf.edu/allergy-immunology-fellowship",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-program-university-of-michigan-health-c-s-mott-childrens-hospital-michigan-medicine",
+   "field": "Application method",
+   "value": "ERAS (CV, three letters incl. a pediatric cardiologist and residency programme director, MSPE, transcript, USMLE/COMLEX, ECFMG status report for IMGs); interview invitations by early September",
+   "source": "https://medschool.umich.edu/departments/pediatrics/education/fellowships/pediatric-cardiology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-fellowship-program-university-of-michigan-health-c-s-mott-childrens-hospital-michigan-medicine",
+   "field": "Application method",
+   "value": "ERAS; NRMP Pediatric Gastroenterology fall match",
+   "source": "https://medschool.umich.edu/departments/pediatrics/education/fellowships/pediatric-gastroenterology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-infectious-diseases-fellowship-program-university-of-michigan-health-c-s-mott-childrens-hospital-michigan-medicine",
+   "field": "Application method",
+   "value": "ERAS; NRMP (interviews August-November, match in December)",
+   "source": "https://medschool.umich.edu/departments/pediatrics/education/fellowships/pediatric-infectious-diseases",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/critical-care-anesthesiology-fellowship-nyu-langone",
+   "field": "Eligibility",
+   "value": "Completed core anesthesiology residency (or at least three clinical years in neurosurgery, OB/GYN, orthopaedics, otolaryngology, surgery, thoracic, vascular surgery or urology); qualified to enter ABA certification; ACLS; unrestricted New York licence; emergency medicine-trained and H-1B applicants not considered",
+   "source": "https://med.nyu.edu/departments-institutes/anesthesiology-perioperative-care-pain-medicine/education/fellowships/critical-care-anesthesiology",
+   "level": "programme"
   }
  ],
  "conflicts": []
