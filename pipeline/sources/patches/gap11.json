@@ -1455,6 +1455,90 @@
    "value": "No closing date stated; application cycle for 2027-2028 currently open and still accepting applications",
    "source": "https://www.bumc.bu.edu/derm/training-programs-overview/fellowships/rheumatologic-dermatology-fellowship/",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/fellowship-in-neuroradiology-ukm-ukm-medical-centre-hospital-canselor-tuanku-muhriz-universiti-kebangsaan-malaysia",
+   "field": "Deadline",
+   "value": "No fixed deadline; apply at least 6 months before intended start date",
+   "source": "https://www.ukm.my/spsfper/clinical_info/fellowship-in-neuroradiology-ukm/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/fellowship-in-interventional-neuroradiology-inr-ukm-ukm-medical-centre-hospital-canselor-tuanku-muhriz-universiti-kebangsaan-malaysia",
+   "field": "Deadline",
+   "value": "No fixed deadline; apply at least 6 months before intended start date",
+   "source": "https://www.ukm.my/spsfper/clinical_info/fellowship-in-interventional-neuro-radiology-inr-ukm/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-colorectal-fellowship-montreal-childrens-hospital-mcgill-university",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-colorectal-fellowship-montreal-childrens-hospital-mcgill-university",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/transcultural-psychiatry-fellowship-adult-jgh-mcgill",
+   "field": "Deadline",
+   "value": "Institution policy: 1 September 2026 for the 2027-2028 academic year (McGill PGME online application opens 15 May 2026)",
+   "source": "https://www.mcgill.ca/pgme/prospective-fellows/application-timelines",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/transcultural-psychiatry-fellowship-adult-jgh-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/peter-barry-fellowship-research-escrs",
+   "field": "Start",
+   "value": "Fellowship announced at each ESCRS Annual Congress, to start the following year",
+   "source": "https://www.escrs.org/education/grants-awards/peter-barry-fellowship/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-neurosurgery-fellowship-montreal-childrens",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/st-vincent-s-melbourne-arthroplasty-and-orthopaedic-oncology-fellowship-vic19576",
+   "field": "Eligibility",
+   "value": "MBBS or equivalent; current AHPRA medical practitioner registration; working visa; RACS approvals and Medicare registration; letter of approval from home institution; reference letter(s); IELTS 7 or above",
+   "source": "https://aoa.org.au/docs/default-source/aoa-accredited-fellowships-(l3)/web-summary-template_dibellav2.pdf?sfvrsn=f6b9ad04_11",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-sports-and-arthroscopic-surgery-fellowship-hku",
+   "field": "Positions",
+   "value": "2 six-month fellowships per year (one starting 1 January, one starting 1 July)",
+   "source": "https://www.ortho.hku.hk/?p=4272",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/clinical-3d-printing-and-orthopaedic-trauma-fellowship-hku",
+   "field": "Deadline",
+   "value": "No fixed deadline stated; waiting list can be long - early application advised",
+   "source": "https://www.ortho.hku.hk/education/fellowships-visitors/clinical-3d-printing-and-orthopaedic-trauma-fellowship-programme/",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hand-foot-and-ankle-clinical-fellowship-visiting-surgeon-and-observership-hku",
+   "field": "Deadline",
+   "value": "No fixed deadline; applications placed on a waiting list (often long) - early application advised",
+   "source": "https://www.ortho.hku.hk/education/fellowships-visitors/hand-fellow-or-foot-and-ankle-fellow/",
+   "level": "programme"
   }
  ],
  "conflicts": [

@@ -1721,6 +1721,69 @@
    "value": "Completed residency in obstetrics and gynecology with strong interest in gynecologic endoscopy and robotic surgery",
    "source": "https://icahn.mssm.edu/education/residencies-fellowships/list/complex-benign-gynecology-fellowship",
    "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-ucsf-benioff-children-s",
+   "field": "Deadline",
+   "value": "31 August (applications via ERAS; early application encouraged)",
+   "source": "https://pediatrics.ucsf.edu/endocrinology-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-fellowship-ucsf-benioff-children-s",
+   "field": "Eligibility",
+   "value": "Completed an ACGME-accredited pediatric residency",
+   "source": "https://pediatrics.ucsf.edu/endocrinology-fellowship-overview",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-gastroenterology-hepatology-and-nutrition-fellowship-ucsf-benioff-children-s",
+   "field": "Eligibility",
+   "value": "US or Canadian medical school graduate or ECFMG-certified international graduate; general pediatrics board certified/eligible",
+   "source": "https://pediatrics.ucsf.edu/gastroenterology-gi-hepatology-nutrition-education",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ucsf-benioff-children-s",
+   "field": "Deadline",
+   "value": "31 August 2026 via ERAS (current cycle; interviews September-October 2026)",
+   "source": "https://emergency.ucsf.edu/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ucsf-benioff-children-s",
+   "field": "Positions",
+   "value": "Number of fellows: 6 (as stated; per-year intake not specified)",
+   "source": "https://emergency.ucsf.edu/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ucsf-benioff-children-s",
+   "field": "Eligibility",
+   "value": "Completed a pediatric or emergency medicine residency in North America and board eligible before start; USMLE Steps I-III (or COMLEX); IMGs need green card/J-1/US citizenship, valid ECFMG certificate, prior US training and Medical Board of California licensure eligibility letter; J-1 sponsored, no H-1B",
+   "source": "https://emergency.ucsf.edu/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pediatric-emergency-medicine-fellowship-ucsf-benioff-children-s",
+   "field": "Application method",
+   "value": "ERAS (CV, personal statement, three letters including current programme director)",
+   "source": "https://emergency.ucsf.edu/pediatric-emergency-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-pediatric-track-ucsf-benioff-children-s",
+   "field": "Eligibility",
+   "value": "Completed a US residency in pediatrics, internal medicine or medicine-pediatrics by fellowship start; strong interest in an academic allergy/immunology career",
+   "source": "https://pediatrics.ucsf.edu/allergy-immunology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-pediatric-track-ucsf-benioff-children-s",
+   "field": "Application method",
+   "value": "ERAS (annual)",
+   "source": "https://pediatrics.ucsf.edu/allergy-immunology-fellowship",
+   "level": "programme"
   }
  ],
  "conflicts": []

@@ -1252,6 +1252,482 @@
    "value": "Institution policy: UC San Diego GME appointments run 1 July - 30 June (2026-27 terms and conditions of appointment)",
    "source": "https://imresidency.ucsd.edu/apply/2026-2027-Terms-and-Conditions.pdf",
    "level": "institution"
+  },
+  {
+   "slug": "/programs/adult-congenital-heart-disease-fellowship-maude-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/advanced-heart-failure-and-transplantation-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/chip-pci-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/cmr-cardiovascular-imaging-research-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/geriatric-cardiology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/integrated-cardiac-imaging-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-cardiology-structural-heart-disease-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/preventive-cardiology-advanced-lipidology-clinical-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/allergy-and-immunology-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/developmental-behavioral-pediatric-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/neonatal-perinatal-medicine-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-cardiology-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-advanced-interventional-cardiology-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-critical-care-medicine-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-endocrinology-and-diabetes-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-hospital-medicine-fellowship-uc-davis-children-s",
+   "field": "Start",
+   "value": "Institution policy: UC Davis Health GME one-year appointments run 1 July - 30 June (GME sample appointment agreement)",
+   "source": "https://health.ucdavis.edu/media-resources/internal-medicine/documents/UCD-Residency-Interview-Materials/2024-2025/GME%20Interview%20Materials%202024-2025_Employment%20Eligibility%20and%20Benefits.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/general-surgery-trauma-fellowship-mcgill-university-health-centre",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-mcgill-integrated-spine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/mcgill-orthopedic-sports-medicine-arthroscopy-clinical-fellowship",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/multidisciplinary-heart-failure-cardiac-transplantation-and-mechanical-circulatory-support-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/andrology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/male-genito-urinary-dysfunction-and-reconstructive-urology-fellowship-mcgill",
+   "field": "Start",
+   "value": "Institution policy: McGill PGME academic year starts 1 July and ends 30 June (residents and fellows register yearly)",
+   "source": "https://www.mcgill.ca/pgme/current-trainees/essential-steps-new-and-returning-trainees/registration",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-cardiac-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-anesthesiology-critical-care-medicine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-neuroanesthesia-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-obstetric-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-pain-medicine-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-pediatric-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-regional-anesthesiology-acute-pain-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/yale-thoracic-anesthesiology-fellowship",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/medical-simulation-fellowship-yale",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/medical-toxicology-fellowship-yale",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/wilderness-medicine-fellowship-yale",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/surgical-critical-care-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endocrine-surgery-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interdisciplinary-breast-surgery-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/vascular-surgery-fellowship-yale-school-of-medicine-yale-new-haven-hospital",
+   "field": "Start",
+   "value": "Institution policy: Yale-New Haven GME resident/fellow agreements run for one year beginning 1 July and ending 30 June (YNHH sample contract)",
+   "source": "https://www.ynhh.org/-/media/Files/YNHH/Medical_Professionals/Forms_Guides/2022-2023-contract---sample.ashx",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/pediatric-otolaryngology-fellowship-university-of-michigan-medical-school",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/facial-plastic-and-reconstructive-surgery-fellowship-university-of-michigan-medical-school",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/otology-neurotology-and-skull-base-surgery-fellowship-university-of-michigan-medical-school",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/head-and-neck-surgical-oncology-and-microvascular-reconstruction-fellowship-university-of-michigan-medical-school",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-university-of-michigan-medical-school",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/hematology-and-oncology-fellowship-michigan",
+   "field": "Start",
+   "value": "1 July (academic year beginning 1 July)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/hematology-oncology/education/hematology-oncology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-clinical-immunology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/endocrinology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/ilene-r-joseph-interventional-pulmonology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-nephrology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/gastroenterology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-michigan",
+   "field": "Start",
+   "value": "July 2027 (next available slot)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/gastroenterology-hepatology/education/fellowships-training-programs/transplant-hepatology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-nephrology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/interventional-cardiology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/clinical-cardiac-electrophysiology-fellowship-michigan",
+   "field": "Start",
+   "value": "Institution policy: Michigan Medicine house officer appointment year runs 1 July - 30 June (only first-year house officers are appointed on a revised cycle starting at orientation)",
+   "source": "https://hr.umich.edu/sites/default/files/2023-2027_hoa_collective_bargaining_agreement.pdf",
+   "level": "institution"
+  },
+  {
+   "slug": "/programs/allergy-and-clinical-immunology-fellowship-michigan",
+   "field": "Positions",
+   "value": "3 per year (programme approved to accept three fellows per year)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/allergy-clinical-immunology/education/allergy-clinical-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-clinical-immunology-fellowship-michigan",
+   "field": "Deadline",
+   "value": "15 August (all materials via ERAS; later applications not considered)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/allergy-clinical-immunology/education/allergy-clinical-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/allergy-and-clinical-immunology-fellowship-michigan",
+   "field": "Application method",
+   "value": "ERAS only; ranked candidates submitted to the NRMP match",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/allergy-clinical-immunology/education/allergy-clinical-immunology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-and-oncology-fellowship-michigan",
+   "field": "Positions",
+   "value": "7 new positions per year (7 for 2026-2027; 21 fellows in total)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/hematology-oncology/education/hematology-oncology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-and-oncology-fellowship-michigan",
+   "field": "Deadline",
+   "value": "31 July for the academic year beginning 1 July of the following year (last stated cycle: 31 July 2025 for 2026-2027)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/hematology-oncology/education/hematology-oncology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/hematology-and-oncology-fellowship-michigan",
+   "field": "Application method",
+   "value": "ERAS only (no paper applications); NRMP match; programme signals considered preferentially",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/hematology-oncology/education/hematology-oncology-fellowship/apply",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-michigan",
+   "field": "Positions",
+   "value": "1 training slot (for July 2027)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/gastroenterology-hepatology/education/fellowships-training-programs/transplant-hepatology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-hepatology-fellowship-michigan",
+   "field": "Application method",
+   "value": "Online Fellowship Application for Transplant Hepatology (Qualtrics form); enquiries to GIHepFellowshipCoordinators@umich.edu",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/gastroenterology-hepatology/education/fellowships-training-programs/transplant-hepatology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/interventional-nephrology-fellowship-michigan",
+   "field": "Application method",
+   "value": "Submit cover letter, updated CV and two letters of recommendation to the programme director (Karthik Ramani, MD); phone then in-person interview",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/nephrology/education/fellowships/interventional-nephrology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/transplant-nephrology-fellowship-michigan",
+   "field": "Application method",
+   "value": "Submit cover letter, updated CV and two letters of recommendation to the programme director (Raviprasenna Parasuraman, MD); phone then in-person interview",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/nephrology/education/fellowships/transplant-nephrology",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/rheumatology-fellowship-michigan",
+   "field": "Application method",
+   "value": "ERAS only with NRMP match (no direct applications; ERAS cycle deadlines apply)",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/rheumatology/education/fellowship-training-programs/rheumatology-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-columbia",
+   "field": "Deadline",
+   "value": "31 July (all application materials, including letters, must be in ERAS)",
+   "source": "https://www.vagelos.columbia.edu/departments-centers/pulmonary-allergy-and-critical-care/education/pulmonary-and-critical-care-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/pulmonary-and-critical-care-medicine-fellowship-columbia",
+   "field": "Application method",
+   "value": "ERAS",
+   "source": "https://www.vagelos.columbia.edu/departments-centers/pulmonary-allergy-and-critical-care/education/pulmonary-and-critical-care-medicine-fellowship",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/dermatopathology-fellowship-cedars-sinai",
+   "field": "Start",
+   "value": "July (NRMP Pathology Fellowship Match for positions beginning July 2027 and beyond)",
+   "source": "https://www.cedars-sinai.edu/education/graduate-medical/fellowship/dermatopathology.html",
+   "level": "programme"
+  },
+  {
+   "slug": "/programs/artificial-cornea-research-fellowship-uic-illinois-eye-ear",
+   "field": "Eligibility",
+   "value": "Unpaid research fellowship: applicants must have independent funding (outside grants, home country or personal funds); university-funded fellows with positions to return to receive preference",
+   "source": "https://chicago.medicine.uic.edu/ophthalmology-visual-sciences/education/fellowship-programs/artificial-cornea-research-fellowship/",
+   "level": "programme"
   }
  ],
  "conflicts": [
@@ -1268,6 +1744,20 @@
    "existing": "(listed as open to international applicants)",
    "found": "How-to-apply page: foreign medical graduates accepted only with USMLE I-II, ECFMG certificate and US permanent residency status",
    "source": "https://eye.medicine.uiowa.edu/education/fellowships/ophthalmic-pathology-fellowship/how-apply"
+  },
+  {
+   "slug": "/programs/interventional-nephrology-fellowship-michigan",
+   "field": "International applicants",
+   "existing": "(listed as open to international applicants)",
+   "found": "Programme requirements: applicant must be a US citizen or green-card holder; J-1 and H-1B visa statuses not acceptable",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/nephrology/education/fellowships/interventional-nephrology"
+  },
+  {
+   "slug": "/programs/transplant-nephrology-fellowship-michigan",
+   "field": "International applicants",
+   "existing": "(listed as open to international applicants)",
+   "found": "Programme requirements: applicant must be a US citizen or green-card holder; J-1 and H-1B visa statuses not acceptable",
+   "source": "https://medschool.umich.edu/departments/internal-medicine/divisions/nephrology/education/fellowships/transplant-nephrology"
   }
  ]
 }
