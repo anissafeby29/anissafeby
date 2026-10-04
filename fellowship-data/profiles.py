@@ -72,13 +72,83 @@ def status(r):
     return ""
 
 
-def page(r, logo_svg, related, same_inst):
+def short_inst(r, raw=False):
+    """Institution name short enough for a page title."""
+    name = r["i"] if raw else (r.get("org") or r["i"])
+    name = re.sub(r"\s*\(.*?\)", "", name).split(" / ")[0].split(" – ")[0].strip()
+    return name if len(name) <= 40 else name.split(",")[0].strip()
+
+
+def seo_title(r):
+    t = re.sub(r"\s*\((?!NHS Jobs|job advert)[^)]*\)", "", r["t"]).strip() or r["t"]
+    t = re.sub(r"\bFellowship Program(me)?\b", "Fellowship", t)
+    inst = short_inst(r)
+    if len(f"{t} | {inst}") <= 62:
+        return f"{t} | {inst}"
+    room = 62 - len(inst) - 3
+    if room >= 28:
+        return f"{t[:room - 1].rsplit(' ', 1)[0].rstrip(' –-,')}… | {inst}"
+    return t if len(t) <= 62 else t[:59].rsplit(" ", 1)[0] + "…"
+
+
+def seo_desc(r, dup_summaries):
+    f = r["f"]
+    su = (r["su"] or "").strip()
+    if len(su) >= 70 and su not in dup_summaries:
+        return su if len(su) <= 155 else su[:154].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    place = ", ".join(dict.fromkeys(x for x in [r["ci"].split(",")[0] if r["ci"] else "", r["co"]] if x))
+    sub = f.get("Subspecialty") or f.get("Specialty")
+    bits = [f"{r['t']} at {short_inst(r)}" + (f", {place}" if place else "") + "."]
+    m = re.search(r"\b(\d{1,2}|one|two|three)\s*[- ]?(year|month)s?", str(f.get("Duration", "")), re.I)
+    if m:
+        bits.append(f"{m.group(0).strip().capitalize()}.")
+    if r.get("im") == 1:
+        bits.append("Open to international applicants.")
+    elif r.get("im") == 0:
+        bits.append("Citizens or permanent residents only.")
+    if r.get("vs") == 1:
+        bits.append("Visa route stated.")
+    if known(f.get("Deadline")):
+        bits.append(f"Deadline: {f['Deadline']}")
+    out = " ".join(bits)
+    return out if len(out) <= 155 else out[:154].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def unique_titles(records):
+    """seo_title for every record; programmes that would share a title fall back to the full name plus institution or city."""
+    from collections import Counter
+    first = {r["s"]: seo_title(r) for r in records}
+    count = Counter(first.values())
+    out = {}
+    for r in records:
+        t = first[r["s"]]
+        if count[t] > 1:
+            inst, full = short_inst(r, raw=True), r["t"]
+            room = 70 - len(inst) - 3
+            t = f"{full} | {inst}" if len(full) <= room else (f"{full[:room - 1].rsplit(' ', 1)[0].rstrip(' –-,')}… | {inst}" if room >= 28 else full[:69])
+        out[r["s"]] = t
+    count = Counter(out.values())
+    for r in records:
+        if count[out[r["s"]]] > 1:
+            out[r["s"]] = f"{r['t']} | {short_inst(r, raw=True)}"
+    count = Counter(out.values())
+    for r in records:
+        if count[out[r["s"]]] > 1:
+            out[r["s"]] = f"{r['t']} | {r['i']}"
+    count = Counter(out.values())
+    for r in records:
+        if count[out[r["s"]]] > 1 and r["ci"]:
+            out[r["s"]] += f" · {r['ci'].split(',')[0]}"
+    return out
+
+
+def page(r, logo_svg, related, same_inst, dup_summaries=frozenset(), title=None):
     f = r["f"]
     place = ", ".join(dict.fromkeys(x for x in [r["ci"], f.get("State or region"), r["co"]] if x))
     score = sum(1 for k in SCORED if known(f.get(k)))
     pct = round(100 * score / len(SCORED))
-    desc = (r["su"] or f'{r["t"]} at {r["i"]}')[:155]
-    title = f'{r["t"]} · {r["i"]} | The Fellowship Portal'
+    desc = seo_desc(r, dup_summaries)
+    title = title or seo_title(r)
     url = f'{SITE}/programs/{r["s"]}/'
     ld = {"@context": "https://schema.org", "@type": "EducationalOccupationalProgram", "name": r["t"], "description": r["su"] or r["t"],
           "url": url, "provider": {"@type": "Organization", "name": r["i"], **({"url": r["u"][0]} if r["u"] else {})},
@@ -93,7 +163,14 @@ def page(r, logo_svg, related, same_inst):
         f'<a class="rel" href="../{x["s"]}/"><span class="code">{iso(x["co"])} · {e(x["f"].get("Subspecialty") or x["f"].get("Specialty"))}</span><b>{e(x["t"])}</b><span>{e(x["i"])}</span></a>'
         for x in items) + "</div></section>") if items else ""
     st = status(r)
+    crumbs = [("Home", f"{SITE}/"), (f.get("Specialty"), f"{SITE}/specialties/{spec_slug(f.get('Specialty'))}/")]
+    if r["co"]:
+        crumbs.append((r["co"], f"{SITE}/countries/{slugify(r['co'])}/"))
+    crumbs.append((r["t"], url))
+    bc = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+          "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u} for i, (n, u) in enumerate(crumbs)]}
     ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/")
+    bc_json = json.dumps(bc, ensure_ascii=False).replace("</", "<\\/")
     sources = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u)}</a>' for u in r["u"])
     return f'''<!doctype html>
 <html lang="en">
@@ -109,6 +186,7 @@ def page(r, logo_svg, related, same_inst):
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="../../assets/profile.css">
 <script type="application/ld+json">{ld_json}</script>
+<script type="application/ld+json">{bc_json}</script>
 <script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>
 </head>
 <body>
@@ -163,6 +241,10 @@ def write_all(records, logo, root, here):
     for r in records:
         by_sub[(r["f"].get("Specialty"), r["f"].get("Subspecialty"))].append(r)
         by_inst[r.get("org") or r["i"]].append(r)
+    from collections import Counter
+    su_count = Counter((r["su"] or "").strip() for r in records)
+    dup_summaries = frozenset(k for k, v in su_count.items() if v > 1 and k)
+    titles = unique_titles(records)
     for r in records:
         sims = [x for x in by_sub[(r["f"].get("Specialty"), r["f"].get("Subspecialty"))] if x is not r and x["i"] != r["i"]]
         sims.sort(key=lambda x: (x["co"] != r["co"], x["t"]))
@@ -170,13 +252,15 @@ def write_all(records, logo, root, here):
         d = os.path.join(out, r["s"])
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
-            fh.write(page(r, logo_svg, sims[:6], inst))
+            fh.write(page(r, logo_svg, sims[:6], inst, dup_summaries, titles[r["s"]]))
     write_static(records, logo, root)
     landing = pages.write_pages(records, logo, root, here)
     urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/contact/"] + landing + [f'{SITE}/programs/{r["s"]}/' for r in records]
+    import datetime
+    today = datetime.date.today().isoformat()
     with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as fh:
         fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-                 "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
+                 "".join(f"<url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     with open(os.path.join(root, "robots.txt"), "w", encoding="utf-8") as fh:
         fh.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     print("profiles:", len(records), "pages + sitemap.xml")

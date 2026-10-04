@@ -139,3 +139,12 @@ table.cmp tbody th{font:500 11px var(--f-mono);letter-spacing:.1em;text-transfor
 .prow .pt .dlt{font-style:normal;color:var(--ink);opacity:.8}
 
 [hidden]{display:none!important}
+.intro{margin-bottom:16px}
+.faq{margin-bottom:16px}
+.faq h3{font:600 16px/1.35 var(--f-body);margin:14px 0 4px}
+.faq h3:first-of-type{margin-top:0}
+.faq p{margin:0;color:var(--muted);font-size:15px}
+.prow.morerow{justify-content:center;border-top:1px dashed var(--line);border-radius:0 0 10px 10px;margin-top:4px}
+.prow.morerow b{color:var(--brand)}
+.grid > *{min-width:0}
+.prow .pt{overflow-wrap:anywhere}

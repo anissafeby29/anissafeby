@@ -28,24 +28,50 @@ MONTHS.update({m.lower(): i for i, m in enumerate(calendar.month_abbr) if m})
 MONTHS["sept"] = 9
 MON = r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 CLOSED = re.compile(r"closed|passed|expired|past cycle", re.I)
+COMBO_MIN = 8       # specialty x country pages need at least this many programmes
+THIN_COUNTRY = 3    # country pages with fewer programmes are noindex
+THIN_INST = 2       # institution pages with fewer programmes are noindex
 
 
-def shell(title, desc, path, body, logo_svg, crumbs=(), lede=None, ld=None):
+def page_title(title):
+    """<title> text: add the brand only when it still fits in about 60 characters."""
+    full = f"{title} | The Fellowship Portal"
+    return full if len(full) <= 60 else title
+
+
+def breadcrumb_ld(crumbs, path):
+    items = [("Home", f"{SITE}/")] + [(t, f"{SITE}/{h}" if h else f"{SITE}/{path.strip('/')}/") for t, h in crumbs]
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": t, "item": u} for i, (t, u) in enumerate(items)]}
+
+
+def ld_tags(blocks):
+    return "".join('<script type="application/ld+json">' + json.dumps(b, ensure_ascii=False).replace("</", "<\\/") + "</script>" for b in blocks if b)
+
+
+def trim(text, n=155):
+    text = re.sub(r"\s+", " ", text or "").strip()
+    return text if len(text) <= n else text[:n - 1].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+
+
+def shell(title, desc, path, body, logo_svg, crumbs=(), lede=None, ld=None, noindex=False, seo=None):
     depth = path.strip("/").count("/") + 1
     p = "../" * depth
     url = f"{SITE}/{path.strip('/')}/"
     crumb_html = "".join(f'<span>›</span><a href="{p}{h}">{e(t)}</a>' if h else f"<span>›</span><span>{e(t)}</span>" for t, h in crumbs)
-    ld_json = json.dumps(ld, ensure_ascii=False).replace("</", "<\\/") if ld else ""
-    ld_tag = f'<script type="application/ld+json">{ld_json}</script>' if ld else ""
+    blocks = (ld if isinstance(ld, list) else [ld]) + ([breadcrumb_ld(crumbs, path)] if crumbs else [])
+    ld_tag = ld_tags(blocks)
+    robots = '<meta name="robots" content="noindex, follow">\n' if noindex else ""
+    desc = trim(desc)
     return f'''<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{e(title)} | The Fellowship Portal</title>
-<meta name="description" content="{e(desc[:155])}">
+<title>{e(page_title(seo or title))}</title>
+{robots}<meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
-<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc[:155])}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}"><meta property="og:image" content="https://thefellowshipportal.com/assets/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="{p}assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -86,7 +112,7 @@ def row(r, p, extra=""):
             f'<span class="ftags">{tags(r)}</span></a>')
 
 
-def grouped(records, key, p, label_none="Other"):
+def grouped(records, key, p, label_none="Other", cap=None, more=None):
     groups = defaultdict(list)
     for r in records:
         groups[key(r) or label_none].append(r)
@@ -95,8 +121,52 @@ def grouped(records, key, p, label_none="Other"):
     parts = []
     for g in order:
         items = sorted(groups[g], key=lambda r: (r["co"], r["t"].lower()))
-        parts.append(f'<section class="panel plist" id="g-{slugify(g)}"><h2>{e(g)} <span class="n">{len(items)}</span></h2>' + "".join(row(r, p) for r in items) + "</section>")
+        shown = items if not cap or len(items) <= cap else items[:cap]
+        tail = (f'<a class="prow morerow" href="{more(g)}"><span class="pt"><b>See all {len(items):,} {e(g)} programmes →</b></span></a>'
+                if len(shown) < len(items) and more else "")
+        parts.append(f'<section class="panel plist" id="g-{slugify(g)}"><h2>{e(g)} <span class="n">{len(items)}</span></h2>' + "".join(row(r, p) for r in shown) + tail + "</section>")
     return toc + "".join(parts)
+
+
+def typical_duration(rs):
+    c = Counter()
+    for r in rs:
+        m = re.search(r"\b(\d{1,2}|one|two|three)\s*[- ]?(year|month)", str(r["f"].get("Duration", "")), re.I)
+        if m:
+            n = {"one": "1", "two": "2", "three": "3"}.get(m.group(1).lower(), m.group(1))
+            c[f"{n} {m.group(2).lower()}{'s' if n != '1' else ''}"] += 1
+    if not c:
+        return None
+    top, k = c.most_common(1)[0]
+    return top if k >= max(3, 0.3 * sum(c.values())) else None
+
+
+def intro(rs, label, where=""):
+    """Short factual intro and FAQ built only from the listed data. Returns (html, FAQPage JSON-LD)."""
+    n = len(rs)
+    insts = len({r.get("org") or r["i"] for r in rs})
+    cities = [c for c, _ in Counter(r["ci"].split(",")[0].strip() for r in rs if r["ci"]).most_common(3)]
+    img = sum(1 for r in rs if r.get("im") == 1)
+    vs = sum(1 for r in rs if r.get("vs") == 1)
+    dur = typical_duration(rs)
+    today = dt.date.today()
+    soon = sorted(((d, r) for r in rs if not r.get("_closed") for d, k in [parse_deadline(r["f"].get("Deadline"), today) or (None, None)] if d and k == "dated"), key=lambda x: (x[0], x[1]["t"]))[:3]
+    pct = lambda k: round(100 * k / n) if n else 0
+    city_txt = (f" The main training cities are {', '.join(cities[:-1])} and {cities[-1]}." if len(cities) > 1 else f" Most are in {cities[0]}." if cities else "")
+    para = (f"The Fellowship Portal lists {n:,} {label}{where} at {insts:,} institution{'s' if insts != 1 else ''}.{city_txt} "
+            f"{pct(img)}% say they accept international medical graduates and {pct(vs)}% describe a visa route."
+            + (f" The most common length is {dur}." if dur else "")
+            + " Every listing links to the programme's official page, where you should confirm dates and requirements.")
+    dl_txt = ("; ".join(f"{r['t']} ({r['i']}): {d.day} {calendar.month_name[d.month]} {d.year}" for d, r in soon) + "."
+              if soon else "None of these programmes publishes a specific upcoming deadline. Check each official page for the next intake.")
+    faq = [(f"How many {label} are there{where}?", f"{n:,} programmes at {insts:,} institutions are listed, each researched from the institution's official page."),
+           ("Can international medical graduates apply?", f"{img:,} of the {n:,} programmes say they accept international applicants, and {vs:,} describe a visa route such as J-1, H-1B or a work permit. Requirements differ by programme, so check eligibility on the official page."),
+           ("When are the next application deadlines?", dl_txt)]
+    html_out = ('<section class="panel intro"><p class="summary">' + e(para) + '</p></section>'
+                + '<section class="panel faq"><h2>Frequently asked questions</h2>' + "".join(f"<h3>{e(q_)}</h3><p>{e(a)}</p>" for q_, a in faq) + "</section>")
+    ld = {"@context": "https://schema.org", "@type": "FAQPage",
+          "mainEntity": [{"@type": "Question", "name": q_, "acceptedAnswer": {"@type": "Answer", "text": a}} for q_, a in faq]}
+    return html_out, ld
 
 
 def side_counts(title, counter, link, limit=12):
@@ -190,6 +260,18 @@ def write_pages(records, logo, root, here):
     urls = []
     live = [r for r in records if not r.get("_closed")]
 
+    by_inst = defaultdict(list)
+    for r in records:
+        by_inst[r.get("org") or r["i"]].append(r)
+    inst_slug = {name: rs[0]["inst_slug"] for name, rs in by_inst.items()}
+
+    # Specialty x country pages, only where there are enough programmes to be useful
+    by_combo = defaultdict(list)
+    for r in records:
+        if r["co"]:
+            by_combo[(r["f"].get("Specialty"), r["co"])].append(r)
+    combo = {k: f"specialties/{spec_slug(k[0])}/{slugify(k[1])}/" for k, rs in by_combo.items() if len(rs) >= COMBO_MIN}
+
     # Specialties
     by_spec = defaultdict(list)
     for r in records:
@@ -202,17 +284,43 @@ def write_pages(records, logo, root, here):
         path = f"specialties/{slug}"
         p = "../../"
         title = f"{s} fellowships"
-        desc = f"{len(rs):,} {s.lower()} fellowships in {len(cos)} countries, with eligibility, visa and deadline details from official institution pages."
-        body = (f'<div class="grid"><div>{grouped(rs, lambda r: r["f"].get("Subspecialty"), p, "General " + s.lower())}</div><aside class="side">'
-                + stat_panel(rs, p + q(sp=s), s)
-                + side_counts("Top countries", cos, lambda k: p + q(sp=s, co=k))
+        desc = f"{len(rs):,} {s.lower()} fellowships in {len(cos)} countries. Compare eligibility, visa support, funding and deadlines from official pages."
+        intro_html, faq_ld = intro(rs, f"{s.lower()} fellowships")
+        general = "General " + s.lower()
+        body = (f'<div class="grid"><div>{intro_html}' + grouped(rs, lambda r: r["f"].get("Subspecialty"), p, general, cap=40,
+                                                          more=lambda g: p + (q(sp=s) if g == general else q(sp=s, sub=g)))
+                + '</div><aside class="side">' + stat_panel(rs, p + q(sp=s), s)
+                + side_counts("By country", cos, lambda k: p + combo[(s, k)] if (s, k) in combo else p + q(sp=s, co=k), 15)
                 + side_counts("Subspecialties", subs, lambda k: p + q(sp=s, sub=k), 20) + "</aside></div>")
-        write(root, path, shell(title, desc, path, body, logo_svg, [("Specialties", "specialties/"), (s, None)], ld=collection_ld(title, f"{SITE}/{path}/", rs)))
+        write(root, path, shell(title, desc, path, body, logo_svg, [("Specialties", "specialties/"), (s, None)],
+                                ld=[collection_ld(title, f"{SITE}/{path}/", rs), faq_ld]))
         urls.append(f"{SITE}/{path}/")
         tiles += f'<a class="tile" href="{slug}/"><b>{e(s)}</b><span>{len(rs):,} programmes · {len(cos)} countries</span></a>'
-    write(root, "specialties", shell("Fellowships by specialty", f"Browse {len(records):,} fellowships in {len(by_spec)} specialties.", "specialties",
+    write(root, "specialties", shell("Fellowships by specialty", f"Browse {len(records):,} medical and surgical fellowships in {len(by_spec)} specialties, from official institution pages.", "specialties",
                                      f'<div class="tiles">{tiles}</div>', logo_svg, [("Specialties", None)]))
     urls.append(f"{SITE}/specialties/")
+
+    for (s, c), path in combo.items():
+        rs = by_combo[(s, c)]
+        p = "../../../"
+        title = f"{s} fellowships in {c}"
+        seo = title if len(title) <= 62 else f"{s.split(' & ')[0].split(' / ')[0]} fellowships in {c}"
+        cities = [x for x, _ in Counter(r["ci"].split(",")[0].strip() for r in rs if r["ci"]).most_common(3)]
+        desc = (f"{len(rs)} {s.lower()} fellowships in {c}" + (f", including {', '.join(cities)}" if cities else "")
+                + ". Eligibility, visa and deadline details from official pages.")
+        intro_html, faq_ld = intro(rs, f"{s.lower()} fellowships", f" in {c}")
+        others = sorted(((k[1], v) for k, v in combo.items() if k[0] == s and k[1] != c), key=lambda kv: -len(by_combo[(s, kv[0])]))
+        body = (f'<div class="grid"><div>{intro_html}' + grouped(rs, lambda r: r["f"].get("Subspecialty"), p, "General " + s.lower())
+                + '</div><aside class="side">' + stat_panel(rs, p + q(sp=s, co=c), f"{s} · {c}")
+                + side_counts("Top institutions", Counter(r.get("org") or r["i"] for r in rs), lambda k: f"{p}institutions/{inst_slug[k]}/")
+                + (f'<section class="panel"><div class="label">{e(s)} elsewhere</div><ul class="counts">' + "".join(
+                    f'<li><a href="{p}{v}">{e(k)}</a><span>{len(by_combo[(s, k)])}</span></li>' for k, v in others[:12]) + "</ul></section>" if others else "")
+                + f'<section class="panel"><div class="label">More in {e(c)}</div><p><a href="{p}countries/{slugify(c)}/">All fellowships in {e(c)} →</a></p></section>'
+                + "</aside></div>")
+        write(root, path, shell(title, desc, path, body, logo_svg,
+                                [("Specialties", "specialties/"), (s, f"specialties/{spec_slug(s)}/"), (c, None)], seo=seo,
+                                ld=[collection_ld(title, f"{SITE}/{path}", rs), faq_ld]))
+        urls.append(f"{SITE}/{path}")
 
     # Countries
     by_co = defaultdict(list)
@@ -223,27 +331,29 @@ def write_pages(records, logo, root, here):
     for c in sorted(by_co, key=lambda c: -len(by_co[c])):
         rs, slug = by_co[c], slugify(c)
         specs = Counter(r["f"].get("Specialty") for r in rs)
+        path, p = f"countries/{slug}", "../../"
         title = f"Fellowships in {c}"
-        desc = f"{len(rs):,} medical and surgical fellowships in {c} across {len(specs)} specialties, from official institution pages."
-        by_co[c] = (rs, None, title, desc, f"countries/{slug}")
+        desc = f"{len(rs):,} medical and surgical fellowships in {c} across {len(specs)} specialties. Eligibility, visa and deadline details from official pages."
+        thin = len(rs) < THIN_COUNTRY
+        intro_html, faq_ld = intro(rs, "fellowships", f" in {c}") if not thin else ("", None)
+        big = len(rs) > 300
+        body = (f'<div class="grid"><div>{intro_html}' + grouped(rs, lambda r: r["f"].get("Specialty"), p, cap=30 if big else None,
+                                                          more=lambda g: p + combo[(g, c)] if (g, c) in combo else p + q(co=c, sp=g))
+                + '</div><aside class="side">' + stat_panel(rs, p + q(co=c), c)
+                + side_counts("Specialties", specs, lambda k: p + combo[(k, c)] if (k, c) in combo else p + q(co=c, sp=k), 25)
+                + side_counts("Top institutions", Counter(r.get("org") or r["i"] for r in rs), lambda k: f"{p}institutions/{inst_slug[k]}/") + "</aside></div>")
+        write(root, path, shell(title, desc, path, body, logo_svg, [("Countries", "countries/"), (c, None)],
+                                ld=[collection_ld(title, f"{SITE}/{path}/", rs), faq_ld], noindex=thin))
+        if not thin:
+            urls.append(f"{SITE}/{path}/")
         tiles += f'<a class="tile" href="{slug}/"><span class="code">{iso(c)}</span><b>{e(c)}</b><span>{len(rs):,} programmes · {len(specs)} specialties</span></a>'
-    by_inst = defaultdict(list)
-    for r in records:
-        by_inst[r.get("org") or r["i"]].append(r)
-    inst_slug = {name: rs[0]["inst_slug"] for name, rs in by_inst.items()}
-    for c, (rs, body, title, desc, path) in list(by_co.items()):
-        body = (f'<div class="grid"><div>{grouped(rs, lambda r: r["f"].get("Specialty"), "../../")}</div><aside class="side">'
-                + stat_panel(rs, "../../" + q(co=c), c)
-                + side_counts("Specialties", Counter(r["f"].get("Specialty") for r in rs), lambda k: "../../" + q(co=c, sp=k), 25)
-                + side_counts("Top institutions", Counter(r.get("org") or r["i"] for r in rs), lambda k: f"../../institutions/{inst_slug[k]}/") + "</aside></div>")
-        write(root, path, shell(title, desc, path, body, logo_svg, [("Countries", "countries/"), (c, None)], ld=collection_ld(title, f"{SITE}/{path}/", rs)))
-        urls.append(f"{SITE}/{path}/")
-    write(root, "countries", shell("Fellowships by country", f"Fellowships in {len(by_co)} countries and regions.", "countries",
+    write(root, "countries", shell("Fellowships by country", f"Medical and surgical fellowships in {len(by_co)} countries and regions, from official institution pages.", "countries",
                                    f'<div class="tiles">{tiles}</div>', logo_svg, [("Countries", None)]))
     urls.append(f"{SITE}/countries/")
 
-    # Institutions
+    # Institutions (single-programme institutions are kept for visitors but not offered to search engines)
     letters = defaultdict(list)
+    used_seo = set()
     for name in sorted(by_inst, key=str.lower):
         rs = by_inst[name]
         slug = inst_slug[name]
@@ -251,22 +361,30 @@ def write_pages(records, logo, root, here):
         cos = sorted({r["co"] for r in rs if r["co"]})
         where = ", ".join(cos)
         title = f"{name} fellowships"
-        desc = f"{len(rs)} fellowship{'s' if len(rs) != 1 else ''} at {name}{' (' + where + ')' if where else ''}, with eligibility, visa and deadline details from official pages."
+        desc = f"{len(rs)} fellowship{'s' if len(rs) != 1 else ''} at {name}{' (' + where + ')' if where else ''}: eligibility, visa, funding and deadline details from official pages."
         specs = Counter(r["f"].get("Specialty") for r in rs)
+        thin = len(rs) < THIN_INST
         body = (f'<div class="grid"><div>{grouped(rs, lambda r: r["f"].get("Specialty"), p)}</div><aside class="side">'
                 + stat_panel(rs, p + q(q=name), name)
                 + side_counts("Specialties", specs, lambda k: f"{p}specialties/{spec_slug(k)}/", 25)
                 + (f'<section class="panel"><div class="label">Location</div><p>' + " · ".join(f'<a href="{p}countries/{slugify(c)}/">{e(c)}</a>' for c in cos) + "</p></section>" if cos else "")
                 + "</aside></div>")
-        write(root, path, shell(title, desc, path, body, logo_svg, [("Institutions", "institutions/"), (name, None)], ld=collection_ld(title, f"{SITE}/{path}/", rs)))
-        urls.append(f"{SITE}/{path}/")
+        short = re.sub(r"\s*\(.*?\)", "", name).split(" / ")[0].strip()
+        seo = f"{short} fellowships" if len(short) <= 50 else f"{short.split(',')[0][:50].rsplit(' ', 1)[0]} fellowships"
+        if seo in used_seo:
+            seo = title
+        used_seo.add(seo)
+        write(root, path, shell(title, desc, path, body, logo_svg, [("Institutions", "institutions/"), (name, None)],
+                                ld=collection_ld(title, f"{SITE}/{path}/", rs), noindex=thin, seo=seo))
+        if not thin:
+            urls.append(f"{SITE}/{path}/")
         first = name[0].upper()
         letters[first if first.isalpha() else "#"].append((name, slug, len(rs), cos))
     az = '<nav class="toc">' + "".join(f'<a href="#l-{L}">{L}</a>' for L in sorted(letters)) + "</nav>"
     az += "".join(f'<section class="panel plist" id="l-{L}"><h2>{L}</h2>' + "".join(
         f'<a class="prow" href="{s}/"><span class="code">{iso(cos[0]) if len(cos) == 1 else "INT" if cos else "—"}</span><span class="pt"><b>{e(n)}</b><span>{e(", ".join(cos))}</span></span><span class="ftags"><span class="ftag">{c}</span></span></a>'
         for n, s, c, cos in items) + "</section>" for L, items in sorted(letters.items()))
-    write(root, "institutions", shell("Institutions", f"{len(by_inst):,} hospitals, universities and training bodies offering fellowships.", "institutions", az, logo_svg, [("Institutions", None)]))
+    write(root, "institutions", shell("Fellowship institutions A–Z", f"{len(by_inst):,} hospitals, universities and training bodies offering medical fellowships, A to Z.", "institutions", az, logo_svg, [("Institutions", None)]))
     urls.append(f"{SITE}/institutions/")
 
     # Training types
@@ -279,14 +397,14 @@ def write_pages(records, logo, root, here):
         path, p = f"training/{slug}", "../../"
         title = g if g.endswith("s") else g + "s" if not g.startswith("Observership") else "Observerships, visiting fellowships and short courses"
         title = {"Job advert / vacancy": "Fellowship job adverts", "Clinical + research fellowship": "Clinical and research fellowships"}.get(g, title)
-        body = (f'<div class="grid"><div>{grouped(rs, lambda r: r["f"].get("Specialty"), p)}</div><aside class="side">'
+        body = (f'<div class="grid"><div>{grouped(rs, lambda r: r["f"].get("Specialty"), p, cap=25, more=lambda sp: p + q(tt=g, sp=sp))}</div><aside class="side">'
                 + stat_panel(rs, p + q(tt=g), g)
                 + side_counts("Top countries", Counter(r["co"] for r in rs if r["co"]), lambda k: p + q(tt=g, co=k)) + "</aside></div>")
         write(root, path, shell(title, f"{len(rs):,} programmes. {TRAIN_DESC[g]}", path, body, logo_svg, [("Training types", "training/"), (g, None)], lede=TRAIN_DESC[g],
                                 ld=collection_ld(title, f"{SITE}/{path}/", rs)))
         urls.append(f"{SITE}/{path}/")
         tiles += f'<a class="tile" href="{slug}/"><b>{e(title)}</b><span>{len(rs):,} programmes</span><span>{e(TRAIN_DESC[g])}</span></a>'
-    write(root, "training", shell("Fellowships by training type", "Clinical, research and observership programmes.", "training", f'<div class="tiles">{tiles}</div>', logo_svg, [("Training types", None)]))
+    write(root, "training", shell("Fellowships by training type", "Clinical, research and observership programmes for doctors, grouped by training type.", "training", f'<div class="tiles">{tiles}</div>', logo_svg, [("Training types", None)]))
     urls.append(f"{SITE}/training/")
 
     # Deadlines
@@ -326,7 +444,7 @@ def write_pages(records, logo, root, here):
     # Compare / saved
     with open(os.path.join(here, "compare.html"), encoding="utf-8") as fh:
         cmp_body = fh.read()
-    write(root, "compare", shell("Saved programmes", "Your shortlist, saved in this browser. Compare up to four programmes side by side.", "compare", cmp_body, logo_svg, [("Saved", None)]))
+    write(root, "compare", shell("Saved programmes", "Your shortlist, saved in this browser. Compare up to four programmes side by side.", "compare", cmp_body, logo_svg, [("Saved", None)], noindex=True))
 
     with open(os.path.join(root, ".htaccess"), "a", encoding="utf-8") as fh:
         fh.write("""
@@ -347,6 +465,6 @@ ErrorDocument 404 /404.html
 """)
     nf = '<div class="panel"><h2>Page not found</h2><p class="summary">This page has moved or no longer exists. Try the <a href="/">search</a>, or browse by <a href="/specialties/">specialty</a>, <a href="/countries/">country</a> or <a href="/institutions/">institution</a>.</p></div>'
     with open(os.path.join(root, "404.html"), "w", encoding="utf-8") as fh:
-        fh.write(shell("Page not found", "This page has moved.", "404", nf, logo_svg).replace('href="../', 'href="/').replace('src="../', 'src="/'))
+        fh.write(shell("Page not found", "This page has moved.", "404", nf, logo_svg, noindex=True).replace('href="../', 'href="/').replace('src="../', 'src="/'))
     print("landing pages:", len(urls), "| deadlines:", len(dl))
     return urls

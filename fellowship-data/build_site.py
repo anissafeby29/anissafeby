@@ -29,7 +29,7 @@ def build_records():
             "t": r["title"], "i": r["institution"], "co": m.get("Country") or "",
             "ci": m.get("City") or "", "su": m.get("Summary") or "",
             "f": {k: r.get(k, "") for k in FIELDS},
-            "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
+            "u": [u.strip() for u in r["official_urls"].split("|") if u.strip().startswith("http")],
             "n": r.get("notes", ""), "new": False, "s": r["slug"],
         })
     for r in load("new_programs.json"):
@@ -37,7 +37,7 @@ def build_records():
             "t": r["title"], "i": r["inst"], "co": r.get("Country", ""),
             "ci": r.get("City", ""), "su": r.get("Summary", ""),
             "f": {k: "" if r.get(k) is None else str(r.get(k)) for k in FIELDS},
-            "u": [u.strip() for u in r["official_urls"].split("|") if u.strip()],
+            "u": [u.strip() for u in r["official_urls"].split("|") if u.strip().startswith("http")],
             "n": "", "new": True, "p": r.get("profile_url", ""), "s": r["slug"],
         })
     fix = {"Hong Kong SAR, China": "Hong Kong SAR"}
