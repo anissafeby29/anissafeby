@@ -3072,7 +3072,7 @@
  {
   "slug": "/programs/advanced-ibd-fellowship-stanford",
   "title": "Advanced IBD Fellowship",
-  "inst": "Stanford University School of Medicine (Stanford Health Care)",
+  "inst": "Stanford Medicine",
   "Specialty": "Gastroenterology & Hepatology",
   "Subspecialty": "Inflammatory bowel disease",
   "Department": "Division of Gastroenterology and Hepatology, Department of Medicine",
@@ -3100,7 +3100,7 @@
  {
   "slug": "/programs/advanced-endoscopy-fellowship-stanford",
   "title": "Advanced Endoscopy Fellowship",
-  "inst": "Stanford University School of Medicine (Stanford Health Care)",
+  "inst": "Stanford Medicine",
   "Specialty": "Gastroenterology & Hepatology",
   "Subspecialty": "Advanced endoscopy (EUS/ERCP)",
   "Department": "Division of Gastroenterology and Hepatology, Department of Medicine",
@@ -3128,7 +3128,7 @@
  {
   "slug": "/programs/esophagus-fellowship-stanford",
   "title": "Esophagus Fellowship",
-  "inst": "Stanford University School of Medicine (Stanford Health Care)",
+  "inst": "Stanford Medicine",
   "Specialty": "Gastroenterology & Hepatology",
   "Subspecialty": "Neurogastroenterology & motility",
   "Department": "Division of Gastroenterology and Hepatology, Department of Medicine",
@@ -3156,7 +3156,7 @@
  {
   "slug": "/programs/hybrid-neuro-gastroenterology-motility-fellowship-stanford",
   "title": "Hybrid Neuro-Gastroenterology (Motility) Fellowship",
-  "inst": "Stanford University School of Medicine (Stanford Health Care)",
+  "inst": "Stanford Medicine",
   "Specialty": "Gastroenterology & Hepatology",
   "Subspecialty": "Neurogastroenterology & motility",
   "Department": "Division of Gastroenterology and Hepatology with Stanford Autonomic Neurology",
@@ -3184,7 +3184,7 @@
  {
   "slug": "/programs/transplant-hepatology-fellowship-stanford",
   "title": "Transplant Hepatology Fellowship",
-  "inst": "Stanford University School of Medicine (Stanford Health Care)",
+  "inst": "Stanford Medicine",
   "Specialty": "Gastroenterology & Hepatology",
   "Subspecialty": "Transplant hepatology",
   "Department": "Division of Gastroenterology and Hepatology, Department of Medicine",
@@ -3210,7 +3210,7 @@
   ]
  },
  {
-  "slug": "/programs/advanced-endoscopy-fellowship-faculty-career-development-in-advanced-endoscopy-ucla",
+  "slug": "/programs/advanced-endoscopy-fellowship-ucla",
   "title": "Advanced Endoscopy Fellowship (Faculty Career Development in Advanced Endoscopy)",
   "inst": "UCLA Health / David Geffen School of Medicine at UCLA",
   "Specialty": "Gastroenterology & Hepatology",
