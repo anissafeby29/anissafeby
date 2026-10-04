@@ -1,0 +1,3047 @@
+[
+ {
+  "slug": "/programs/regional-anesthesia-acute-pain-fellowship-ucsf",
+  "title": "Regional Anesthesiology and Acute Pain Medicine Fellowship",
+  "inst": "UCSF Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Regional anaesthesia & acute pain",
+   "Department": "Department of Anesthesia and Perioperative Care",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "1 year",
+   "Start": "Not stated on official page",
+   "Deadline": "Not stated on official page",
+   "Eligibility": "Not stated on official page",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME",
+   "Application method": "SF Match (Regional Anesthesiology and Acute Pain Medicine match); virtual interviews February–April",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Licence requirement": "Not stated on official page"
+  },
+  "changes": {
+   "Application method": {
+    "old": "SF Match",
+    "new": "SF Match (Regional Anesthesiology and Acute Pain Medicine match); virtual interviews February–April",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "Eligibility": {
+    "old": "Confirm programme-specific prior training and clinical appointment requirements",
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+   }
+  },
+  "official_urls": [
+   "https://anesthesia.ucsf.edu/opportunities/regional-anesthesia"
+  ],
+  "notes": "Direct curl/WebFetch returned 403; page content read via Exa page fetch of the official URL. Page confirms one-year ACGME-accredited programme via SF Match; dates deferred to SF Match calendar."
+ },
+ {
+  "slug": "/programs/regional-anesthesiology-acute-pain-fellowship-ucla",
+  "title": "Regional Anesthesiology and Acute Pain Medicine Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Regional anaesthesia & acute pain",
+   "Department": "Department of Anesthesiology and Perioperative Medicine",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "Not stated on official page",
+   "Start": "1 August 2027 (expected start date 1 August)",
+   "Deadline": "2027–28 cycle: applications opened 5 January 2026; deadline 4 March 2026 (closed). 2028–29 dates not yet posted",
+   "Eligibility": "Successful completion of an ACGME-accredited anesthesiology residency and a valid California medical licence before appointment",
+   "International applicants": "IMGs may apply; valid ECFMG certificate and notarized English translations of diploma/transcripts required (ACGME-accredited anesthesiology residency still required)",
+   "Accreditation": "ACGME — departmental fellowship listing",
+   "Application method": "SF Match (CAS application) plus supplemental documents emailed to the department",
+   "Funding": "Salary not stated; fellows may work as attending staff 1–2 days/week for additional income",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Positions": "4 per year",
+   "Licence requirement": "Valid California medical licence before appointment"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August 2027 (expected start date 1 August)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "2027–28 cycle: applications opened 5 January 2026; deadline 4 March 2026 (closed). 2028–29 dates not yet posted",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "Eligibility": {
+    "old": "Confirm programme-specific prior training and clinical appointment requirements",
+    "new": "Successful completion of an ACGME-accredited anesthesiology residency and a valid California medical licence before appointment",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs may apply; valid ECFMG certificate and notarized English translations of diploma/transcripts required (ACGME-accredited anesthesiology residency still required)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "SF Match (CAS application) plus supplemental documents emailed to the department",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "Positions": {
+    "old": null,
+    "new": "4 per year",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   },
+   "Funding": {
+    "old": "Not stated on official page",
+    "new": "Salary not stated; fellows may work as attending staff 1–2 days/week for additional income",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Valid California medical licence before appointment",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship/application-process"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/regional-anesthesiology-and-acute-pain-medicine-fellowship"
+  ],
+  "notes": "Details from the programme's Application Process subpage."
+ },
+ {
+  "slug": "/programs/regional-anesthesiology-fellowship-university-washington",
+  "title": "Regional Anesthesiology Fellowship",
+  "inst": "University of Washington",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Regional anaesthesia & acute pain",
+   "Department": "Department of Anesthesiology & Pain Medicine",
+   "State or region": "Washington",
+   "Training type": "Clinical Instructorship",
+   "Duration": "1 year",
+   "Start": "Fall of each year",
+   "Deadline": "Rolling – applications accepted on an ongoing basis",
+   "Eligibility": "Completed US-accredited anaesthesiology residency or equivalent international training; appointment requirements also apply",
+   "International applicants": "Yes – ECFMG documentation and citizenship-status documentation (if applicable) required",
+   "Accreditation": "Not stated on official page",
+   "Application method": "Direct application to the department (Application for Faculty Fellowship, CV, personal statement, 3 references, etc.) via the fellowship administrator",
+   "Funding": "Paid per UW GME salary schedule; academic allowance; internal moonlighting may be approved. Fellows work 40% as Acting Instructor",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Licence requirement": "Current medical licence required with application",
+   "Positions": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "Fall of each year",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Rolling – applications accepted on an ongoing basis",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "Direct application to the department (Application for Faculty Fellowship, CV, personal statement, 3 references, etc.) via the fellowship administrator",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "Funding": {
+    "old": "Not stated on official page",
+    "new": "Paid per UW GME salary schedule; academic allowance; internal moonlighting may be approved. Fellows work 40% as Acting Instructor",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Current medical licence required with application",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "International applicants": {
+    "old": "Yes",
+    "new": "Yes – ECFMG documentation and citizenship-status documentation (if applicable) required",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+   }
+  },
+  "official_urls": [
+   "https://anesthesiology.uw.edu/education/fellowship-program/regional-anesthesiology/"
+  ],
+  "notes": "Page notes preference for two-year positions."
+ },
+ {
+  "slug": "/programs/reproductive-endocrinology-infertility-stanford",
+  "title": "Reproductive Endocrinology & Infertility Fellowship",
+  "inst": "Stanford Medicine",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Reproductive endocrinology",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027",
+   "Deadline": "1 May 2026",
+   "Eligibility": "Completed accredited residency in Obstetrics and Gynaecology",
+   "International applicants": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Application method": "ERAS application; NRMP Match",
+   "Department": "Department of Obstetrics & Gynecology, Division of Reproductive Endocrinology & Infertility",
+   "State or region": "California",
+   "Accreditation": "Not stated on official page",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page"
+  },
+  "changes": {
+   "Application method": {
+    "old": null,
+    "new": "ERAS application; NRMP Match",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Department of Obstetrics & Gynecology, Division of Reproductive Endocrinology & Infertility",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "State or region": {
+    "old": null,
+    "new": "California",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Accreditation": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+   }
+  },
+  "official_urls": [
+   "https://med.stanford.edu/obgyn/divisions/rei/fellowship.html"
+  ],
+  "notes": "Start 1 Aug 2027 and deadline 1 May 2026 confirmed; interviews 18 & 20 Aug 2026 (virtual)."
+ },
+ {
+  "slug": "/programs/roswell-park-cancer-institute-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "Roswell Park Cancer Institute",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "New York",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027",
+   "Deadline": "6 April 2026 for the academic year beginning 1 August 2027",
+   "Eligibility": "Completion of an ACGME OB/GYN residency or equivalent; passage of USMLE Steps 1–3 (or NBME I–III); able to obtain a New York State medical licence; eligible for ABOG certification",
+   "International applicants": "Yes – foreign medical graduates with equivalent qualifications may apply; must have completed all three USMLE steps",
+   "Accreditation": "Aligned with ABOG and ACGME objectives (page does not explicitly state ACGME accreditation)",
+   "Application method": "ERAS",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid; salary and benefits per University at Buffalo Jacobs School of Medicine GME schedule",
+   "Licence requirement": "Ability to obtain a New York State medical licence",
+   "Positions": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 August 2027",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "6 April 2026 for the academic year beginning 1 August 2027",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Eligibility": {
+    "old": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Completion of an ACGME OB/GYN residency or equivalent; passage of USMLE Steps 1–3 (or NBME I–III); able to obtain a New York State medical licence; eligible for ABOG certification",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Yes – foreign medical graduates with equivalent qualifications may apply; must have completed all three USMLE steps",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "Aligned with ABOG and ACGME objectives (page does not explicitly state ACGME accreditation)",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid; salary and benefits per University at Buffalo Jacobs School of Medicine GME schedule",
+    "source": "https://medicine.buffalo.edu/offices/gme/residents/employment/salary-benefits-support.host.html/content/shared/smbs/gme/r/fin-supt/salary-benefits.detail.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Ability to obtain a New York State medical licence",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+   }
+  },
+  "official_urls": [
+   "https://www.roswellpark.org/education/clinical-fellowships/gynecologic-oncology"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/rush-university-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "Rush University",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Illinois",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027",
+   "Deadline": "2026 cycle (Aug 2027 start): applications opened 12 Nov 2025; SFP-recommended close 4 May 2026; rank lists due 9 Sep 2026; match results 23 Sep 2026 (cycle closed). Next cycle dates not yet posted",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid – annual salary, health insurance, CME funding and Master's programme tuition (amount not stated)",
+   "Positions": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "1 August 2027 for the published cycle",
+    "new": "1 August 2027",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "2026 cycle (Aug 2027 start): applications opened 12 Nov 2025; SFP-recommended close 4 May 2026; rank lists due 9 Sep 2026; match results 23 Sep 2026 (cycle closed). Next cycle dates not yet posted",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid – annual salary, health insurance, CME funding and Master's programme tuition (amount not stated)",
+    "source": "https://www.rushu.rush.edu/education-and-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.rushu.rush.edu/education-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship/how-apply"
+   }
+  },
+  "official_urls": [
+   "https://www.rushu.rush.edu/education-and-training/graduate-medical-education/fellowship-programs/complex-family-planning-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/rutgers-cancer-institute-of-new-jersey-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "Rutgers Cancer Institute of New Jersey",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "New Jersey",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years (36 months)",
+   "Start": "Not stated on official page",
+   "Deadline": "By the deadline established by the Society of Gynecologic Oncology (date not stated on page)",
+   "Eligibility": "Satisfactory completion of an accredited OB/GYN residency; board eligible or board certified; able to secure a New Jersey medical licence",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS (by SGO-set deadline) and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Licence requirement": "Able to secure a New Jersey medical licence",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Duration": {
+    "old": "3 years",
+    "new": "3 years (36 months)",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Eligibility": {
+    "old": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Satisfactory completion of an accredited OB/GYN residency; board eligible or board certified; able to secure a New Jersey medical licence",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "ACGME",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (by SGO-set deadline) and NRMP Match",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "By the deadline established by the Society of Gynecologic Oncology (date not stated on page)",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Able to secure a New Jersey medical licence",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cinj.org/education/gynecologic-oncology-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://cinj.org/education/gynecologic-oncology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/st-luke-s-university-health-network-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "St. Luke’s University Health Network",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Pennsylvania",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "Not stated on official page",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME (new three-year programme)",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid; St. Luke's GME scale effective 1 July 2026: $73,095 (PGY1) to $92,253 (PGY7) plus $2,500 annual stipend and benefits; fellow PGY level not stated",
+   "Positions": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "ACGME (new three-year programme)",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid; St. Luke's GME scale effective 1 July 2026: $73,095 (PGY1) to $92,253 (PGY7) plus $2,500 annual stipend and benefits; fellow PGY level not stated",
+    "source": "https://www.slhn.org/-/media/slhn/GME/File/PDF/Residency-Program-Benefits-List.ashx"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://www.slhn.org/graduate-medical-education/residencies-and-fellowships/gynecologic-oncology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/suny-downstate-medical-center-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "SUNY/Downstate Medical Center",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "New York",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 July (per last posted cycle)",
+   "Deadline": "Current cycle not posted; page still shows only an outdated deadline (apply by 1 May 2023 for 1 July 2024 start)",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Current cycle not posted; page still shows only an outdated deadline (apply by 1 May 2023 for 1 July 2024 start)",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 July (per last posted cycle)",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+   }
+  },
+  "official_urls": [
+   "https://www.downstate.edu/education-training/fellowship-residency-programs/obstetrics-gynecology/oncology/fellowship.html"
+  ],
+  "notes": "Official page appears outdated (last posted cycle July 2024 start)."
+ },
+ {
+  "slug": "/programs/the-ohio-state-university-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "The Ohio State University",
+  "status": "source_unreachable",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Ohio",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Annual academic intake; confirm exact date with programme",
+   "Deadline": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Check with programme",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026"
+  },
+  "changes": {},
+  "official_urls": [
+   "https://cancer.osu.edu/for-cancer-researchers/education-and-training/for-postdoc-residents-and-fellows/clinical-programs/gynecologic-oncology-fellowship"
+  ],
+  "notes": "Original URL redirects to cancer.osu.edu/for-cancer-researchers/.../gynecologic-oncology-fellowship, which renders client-side; no programme content retrievable via curl, WebFetch or Exa. Existing values kept."
+ },
+ {
+  "slug": "/programs/uc-irvine-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "UC Irvine",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027",
+   "Deadline": "Follows Society of Family Planning common dates (no programme-specific date on page); interviews for Aug 2027 start held 7 Jul, 13 Jul and 24 Aug 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS (online only); NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Funding": "Paid; fellows enter at PGY5 – UCI GME 2026–27 salary PGY5 $102,856/year; optional paid in-house call (moonlighting)",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "1 August 2027 for the published cycle",
+    "new": "1 August 2027",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "Follows Society of Family Planning common dates (no programme-specific date on page); interviews for Aug 2027 start held 7 Jul, 13 Jul and 24 Aug 2026",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid; fellows enter at PGY5 – UCI GME 2026–27 salary PGY5 $102,856/year; optional paid in-house call (moonlighting)",
+    "source": "https://medschool.uci.edu/education/medical-education/graduate-medical-education/information-resources/gme-residents-0"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (online only); NRMP Match",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/cfp-fellowship"
+  ],
+  "notes": "Salary figure from UCI GME salary page combined with programme-stated PGY5 entry level."
+ },
+ {
+  "slug": "/programs/uc-irvine-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "UC Irvine",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027",
+   "Deadline": "Follows SGO common dates (date not stated on page); interviews 24 July 2026 for Aug 2027 start",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "J-1 visa holders supported; ERAS application required",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS (AAMC); follows SGO common dates",
+   "Last verified": "1 October 2026",
+   "Visa support": "J-1 visas supported",
+   "Funding": "Paid per UCI GME salary scale (2026–27: $90,072 PGY1 to $114,612 PGY8); fellow PGY level not stated",
+   "Positions": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 August 2027",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Follows SGO common dates (date not stated on page); interviews 24 July 2026 for Aug 2027 start",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "J-1 visas supported",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "J-1 visa holders supported; ERAS application required",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (AAMC); follows SGO common dates",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid per UCI GME salary scale (2026–27: $90,072 PGY1 to $114,612 PGY8); fellow PGY level not stated",
+    "source": "https://medschool.uci.edu/education/medical-education/graduate-medical-education/information-resources/gme-residents-0"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+   }
+  },
+  "official_urls": [
+   "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/gynecologic-oncology"
+  ],
+  "notes": "Original URL (obgyn.uci.edu/gynonc-academics.asp) now redirects to the OB/GYN department landing page; replaced with current programme page."
+ },
+ {
+  "slug": "/programs/uc-irvine-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "UC Irvine",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years (OB/GYN fellows); a 2-year urology fellowship position is also offered",
+   "Start": "Early August 2027 for the published cycle; confirm with programme",
+   "Deadline": "Applications open 1 December; follows AUGS common dates; 2026 interview sessions 17 April 2026",
+   "Eligibility": "Satisfactory completion of an ACGME- or RCPSC-approved OB/GYN residency (urology position also offered); USMLE Step 3 must be passed",
+   "International applicants": "J-1 visa holders supported; USMLE Step 3 required",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS (AAMC); follows AUGS common dates",
+   "Positions": "1 position in the published 2026 cycle",
+   "Last verified": "1 October 2026",
+   "Visa support": "J-1 visas supported",
+   "Funding": "Paid per UCI GME salary scale (2026–27: $90,072 PGY1 to $114,612 PGY8); fellow PGY level not stated",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Duration": {
+    "old": "3 years for OBGYN pathways; confirm urology-entry options",
+    "new": "3 years (OB/GYN fellows); a 2-year urology fellowship position is also offered",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Deadline": {
+    "old": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+    "new": "Applications open 1 December; follows AUGS common dates; 2026 interview sessions 17 April 2026",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Eligibility": {
+    "old": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Satisfactory completion of an ACGME- or RCPSC-approved OB/GYN residency (urology position also offered); USMLE Step 3 must be passed",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Accreditation": {
+    "old": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+    "new": "ACGME",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "J-1 visas supported",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "J-1 visa holders supported; USMLE Step 3 required",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (AAMC); follows AUGS common dates",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid per UCI GME salary scale (2026–27: $90,072 PGY1 to $114,612 PGY8); fellow PGY level not stated",
+    "source": "https://medschool.uci.edu/education/medical-education/graduate-medical-education/information-resources/gme-residents-0"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://medschool.uci.edu/research/clinical-departments/obgyn/education-training/fellowship-programs/urps-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/uc-san-diego-health-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "UC San Diego Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "4 May 2026, 2:00 p.m. PT (2026 cycle, closed); next cycle not yet posted",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS (incl. letters of recommendation); NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Funding": "Paid amount not stated; optional paid in-house general OB/GYN calls (two per month, opt-in)",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "4 May 2026, 2:00 p.m. PT (2026 cycle, closed); next cycle not yet posted",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (incl. letters of recommendation); NRMP Match",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid amount not stated; optional paid in-house general OB/GYN calls (two per month, opt-in)",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.ucsd.edu/education-training/fellowships/family-planning/index.html"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/uc-san-diego-health-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "UC San Diego Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "Posted in accordance with SGO fellowship guidelines (date not stated on page); interviews late summer",
+   "Eligibility": "Graduate of a US or Canadian accredited (OB/GYN) residency programme",
+   "International applicants": "Only graduates of US or Canadian accredited residency programmes may apply",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS; NRMP Match (enrolment required)",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Eligibility": {
+    "old": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Graduate of a US or Canadian accredited (OB/GYN) residency programme",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Only graduates of US or Canadian accredited residency programmes may apply",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Posted in accordance with SGO fellowship guidelines (date not stated on page); interviews late summer",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS; NRMP Match (enrolment required)",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.ucsd.edu/education-training/fellowships/gynecologic-oncology/index.html"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/uc-san-diego-health-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "UC San Diego Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years for OBGYN pathways; confirm urology-entry options",
+   "Start": "Early August 2027 for the published cycle; confirm with programme",
+   "Deadline": "2026 cycle: 26 January 2026 deadline for first-round interview consideration; interview day 9 May 2026",
+   "Eligibility": "Completion of a US or Canadian accredited residency programme",
+   "International applicants": "Only applicants who completed a US or Canadian accredited residency",
+   "Accreditation": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+   "Application method": "ERAS; NRMP Match (enrolment required); CREOG scores emailed",
+   "Positions": "2 positions in the published 2026 cycle",
+   "Last verified": "1 October 2026",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+    "new": "2026 cycle: 26 January 2026 deadline for first-round interview consideration; interview day 9 May 2026",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Eligibility": {
+    "old": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Completion of a US or Canadian accredited residency programme",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Only applicants who completed a US or Canadian accredited residency",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS; NRMP Match (enrolment required); CREOG scores emailed",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.ucsd.edu/education-training/fellowships/urogynecology/index.html"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-health-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "4 May 2026, 2:00 p.m. PT for the 2027 cycle (closed); interviews 7 and 21 August 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "1 fellow per year",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "4 May 2026, 2:00 p.m. PT for the 2027 cycle (closed); interviews 7 and 21 August 2026",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Accreditation": {
+    "old": "ACGME-accredited Complex Family Planning pathway",
+    "new": "ACGME",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 fellow per year",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/complex-family-planning-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-health-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027",
+   "Deadline": "6 April 2026, 8:00 a.m. PST for 2027–28 (closed); interview offers 11 May 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Foreign medical graduates may apply; must include all transcripts, exam scores and ECFMG certificate",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS (3 letters, MSPE, transcripts, USMLE) and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Licence requirement": "California medical licence required after matching",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 August 2027",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "6 April 2026, 8:00 a.m. PST for 2027–28 (closed); interview offers 11 May 2026",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Foreign medical graduates may apply; must include all transcripts, exam scores and ECFMG certificate",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "California medical licence required after matching",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (3 letters, MSPE, transcripts, USMLE) and NRMP Match",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/obgyn/education/fellowship-programs/gynecologic-oncology-fellowship-program/applicant-information"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-liver-transplantation-anesthesiology",
+  "title": "Liver Transplantation Anesthesiology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Liver transplant anaesthesia",
+   "State or region": "California",
+   "Training type": "Clinical Instructorship",
+   "Duration": "1 year",
+   "Start": "Not stated on official page",
+   "Deadline": "Not stated on official page",
+   "Eligibility": "Not stated on official page",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "Non-ACGME",
+   "Application method": "Contact the fellowship director (Christine Nguyen-Buckley, MD) by email to submit an application",
+   "Funding": "Paid; salary reflects a blended fellow/staff-anesthesiologist role (scheduled attending OR time), with additional moonlighting; amount not stated",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Application method": {
+    "old": "Contact the fellowship director to submit an application.",
+    "new": "Contact the fellowship director (Christine Nguyen-Buckley, MD) by email to submit an application",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Funding": {
+    "old": "Salary combines fellowship and staff-anesthesiologist work; the page also describes moonlighting.",
+    "new": "Paid; salary reflects a blended fellow/staff-anesthesiologist role (scheduled attending OR time), with additional moonlighting; amount not stated",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/liver-transplantation-anesthesiology-fellowship"
+  ],
+  "notes": "Page confirms one-year, non-ACGME programme; no dates, eligibility or visa information."
+ },
+ {
+  "slug": "/programs/ucla-neuroanesthesiology",
+  "title": "Neuroanesthesiology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Neuroanaesthesia",
+   "State or region": "California",
+   "Training type": "Clinical Instructorship",
+   "Duration": "1 year",
+   "Start": "1 August (expected start date)",
+   "Deadline": "No deadline (rolling review once file complete)",
+   "Eligibility": "Graduating anesthesiology residents and board-eligible or board-certified anesthesiologists; California medical licence required before starting.",
+   "International applicants": "IMGs may apply; Medical Board of California Applicant Evaluation Status Letter and notarized English translations required",
+   "Accreditation": "ICPNT; non-ACGME",
+   "Application method": "Email completed fellowship application PDF and supporting documents to the fellowship director",
+   "Funding": "Appointed as clinical instructor; may work as attending 1–2 days/week for additional income; salary not stated",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "California medical licence before starting.",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August (expected start date)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "No deadline (rolling review once file complete)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "Email completed fellowship application PDF and supporting documents to the fellowship director",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs may apply; Medical Board of California Applicant Evaluation Status Letter and notarized English translations required",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   },
+   "Funding": {
+    "old": "Not stated on official page",
+    "new": "Appointed as clinical instructor; may work as attending 1–2 days/week for additional income; salary not stated",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship/neuroanesthesiology-fellowship-application"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/neuroanesthesiology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-obstetric-anesthesiology",
+  "title": "Obstetric Anesthesiology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Obstetric anaesthesia",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "1 year",
+   "Start": "1 August 2027 (expected start date 1 August)",
+   "Deadline": "Applications for 2027–28 accepted from January 2026; closing date not stated",
+   "Eligibility": "Graduating anesthesiology residents and board-eligible or board-certified anesthesiologists; California medical licence required before starting.",
+   "International applicants": "IMGs may apply; ECFMG certificate and notarized English translations required",
+   "Accreditation": "ACGME, effective July 1, 2024",
+   "Application method": "SF Match (CAS application) plus supplemental documents emailed to the department",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "California medical licence before starting.",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August 2027 (expected start date 1 August)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Applications for 2027–28 accepted from January 2026; closing date not stated",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "SF Match (CAS application) plus supplemental documents emailed to the department",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs may apply; ECFMG certificate and notarized English translations required",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship/application-process"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/obstetric-anesthesiology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-pediatric-anesthesiology",
+  "title": "Pediatric Anesthesiology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Paediatric anaesthesia",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "1 year",
+   "Start": "1 August 2027 (expected start date 1 August)",
+   "Deadline": "2027–28 cycle: applications 5 January – 4 March 2026 (closed); interviews March–May. 2028–29 dates not yet posted",
+   "Eligibility": "Successful completion of an ACGME-accredited anesthesiology residency and a valid California medical licence before appointment",
+   "International applicants": "IMGs with valid ECFMG certificate may apply (ACGME-accredited anesthesiology residency still required)",
+   "Accreditation": "ACGME",
+   "Application method": "SF Match (CAS application) plus supplemental documents emailed to the department",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Positions": "2 per year",
+   "Licence requirement": "Valid California medical licence before appointment",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August 2027 (expected start date 1 August)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "2027–28 cycle: applications 5 January – 4 March 2026 (closed); interviews March–May. 2028–29 dates not yet posted",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Eligibility": {
+    "old": "Not stated on official page",
+    "new": "Successful completion of an ACGME-accredited anesthesiology residency and a valid California medical licence before appointment",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "SF Match (CAS application) plus supplemental documents emailed to the department",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Positions": {
+    "old": null,
+    "new": "2 per year",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs with valid ECFMG certificate may apply (ACGME-accredited anesthesiology residency still required)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Valid California medical licence before appointment",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship/application-process"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/pediatric-anesthesiology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-perioperative-medicine",
+  "title": "Perioperative Medicine Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Perioperative medicine",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "12 months; modifications may be agreed with the programme director",
+   "Start": "1 August (expected start date)",
+   "Deadline": "Not stated; main page says applications currently accepted (application page last updated for 2026–27 cycle)",
+   "Eligibility": "Board-certified or board-eligible anesthesiologists, or residents in their CA-3 year.",
+   "International applicants": "IMGs may apply; valid ECFMG certificate and notarized English translations required",
+   "Accreditation": "Non-ACGME",
+   "Application method": "Completed fellowship application PDF plus supporting documents emailed to the department",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Licence requirement": "Valid California medical licence before starting",
+   "Positions": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August (expected start date)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated; main page says applications currently accepted (application page last updated for 2026–27 cycle)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "Completed fellowship application PDF plus supporting documents emailed to the department",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs may apply; valid ECFMG certificate and notarized English translations required",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Valid California medical licence before starting",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship/application-process"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/perioperative-medicine-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucla-thoracic-anesthesiology",
+  "title": "Thoracic Anesthesiology Fellowship",
+  "inst": "UCLA Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Thoracic anaesthesia",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "1 year",
+   "Start": "1 August (expected start date)",
+   "Deadline": "No deadline (rolling review once file complete)",
+   "Eligibility": "Completed anesthesiology residency (recommendation from residency PD required); unrestricted California medical licence before start",
+   "International applicants": "IMGs may apply; Medical Board of California Applicant Evaluation Status Letter required",
+   "Accreditation": "Non-ACGME",
+   "Application method": "Email completed fellowship application PDF and supporting documents to the fellowship director (Dr Nir Hoftman)",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Licence requirement": "Unrestricted California medical licence before start; postgraduate training licence (PTL) not sufficient",
+   "Positions": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "1 August (expected start date)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "No deadline (rolling review once file complete)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Eligibility": {
+    "old": "Not stated on official page",
+    "new": "Completed anesthesiology residency (recommendation from residency PD required); unrestricted California medical licence before start",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Accreditation": {
+    "old": "Not stated on official page",
+    "new": "Non-ACGME",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Application method": {
+    "old": "See official programme page",
+    "new": "Email completed fellowship application PDF and supporting documents to the fellowship director (Dr Nir Hoftman)",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs may apply; Medical Board of California Applicant Evaluation Status Letter required",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Unrestricted California medical licence before start; postgraduate training licence (PTL) not sufficient",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship/application-process"
+   }
+  },
+  "official_urls": [
+   "https://www.uclahealth.org/departments/anes/education/fellowship-programs/thoracic-anesthesiology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/uclh-neuroanaesthesia-neurocritical-care-fellowship",
+  "title": "Neuroanaesthesia and Neurocritical Care Fellowship",
+  "inst": "National Hospital for Neurology and Neurosurgery, UCLH",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Anaesthesiology",
+   "Subspecialty": "Neuroanaesthesia",
+   "State or region": "England",
+   "Training type": "Clinical Fellowship",
+   "Duration": "12 months: nine months neuroanaesthesia and three months neurocritical care",
+   "Start": "Not stated on official page",
+   "Deadline": "Not stated; fellowships normally advertised twice yearly (December/January or June/July) on NHS Jobs and BMJ Careers",
+   "Eligibility": "Anaesthetic registrars who have completed intermediate neuroanaesthesia training.",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "The hospital states that it is an ICPNT neuroscience fellowship centre.",
+   "Application method": "Apply to advertised posts on NHS Jobs (www.jobs.nhs.uk) and BMJ Careers; normally advertised December/January or June/July",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "Deadline": {
+    "old": "Confirm current intake with the programme",
+    "new": "Not stated; fellowships normally advertised twice yearly (December/January or June/July) on NHS Jobs and BMJ Careers",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "Application method": {
+    "old": "Posts are normally advertised through NHS Jobs and BMJ Careers.",
+    "new": "Apply to advertised posts on NHS Jobs (www.jobs.nhs.uk) and BMJ Careers; normally advertised December/January or June/July",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+   }
+  },
+  "official_urls": [
+   "https://www.uclh.nhs.uk/our-services/find-service/neurology-and-neurosurgery/neuroanaesthesia/join-our-team"
+  ],
+  "notes": "curl/WebFetch blocked (403); page read via Exa fetch of official URL. Training tailored to RCoA CCT 2010 advanced neuroanaesthesia plus SNACC guidelines."
+ },
+ {
+  "slug": "/programs/uconn-health-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "UConn Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Connecticut",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+   "Eligibility": "Completed OB/GYN residency; must have passed USMLE Steps 1, 2 and 3",
+   "International applicants": "Accepted with J-1 (ECFMG), permanent residency or EAD; USMLE Steps 1–3 required; no H/O visa sponsorship",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Visa support": "J-1 (ECFMG-sponsored) accepted; H and O visas not sponsored; green card and EAD accepted",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Eligibility": {
+    "old": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Completed OB/GYN residency; must have passed USMLE Steps 1, 2 and 3",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "J-1 (ECFMG-sponsored) accepted; H and O visas not sponsored; green card and EAD accepted",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Accepted with J-1 (ECFMG), permanent residency or EAD; USMLE Steps 1–3 required; no H/O visa sponsorship",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+   }
+  },
+  "official_urls": [
+   "https://health.uconn.edu/graduate-medical-education/complex-family-planning-fellowship/"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/ucsf-health-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "UCSF Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "Not stated for current cycle (page shows only an older note: deadline May 21 via societyfp.org)",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME (newly accredited)",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "ACGME-accredited Complex Family Planning pathway",
+    "new": "ACGME (newly accredited)",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "Not stated for current cycle (page shows only an older note: deadline May 21 via societyfp.org)",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.ucsf.edu/fellowship-training-programs/complex-family-planning-fellowship-program"
+  ],
+  "notes": "curl/WebFetch blocked (403); page read via Exa fetch. Page content appears dated (©2021) and refers to applying via societyfp.org with a 21 May deadline; existing ERAS/NRMP method retained."
+ },
+ {
+  "slug": "/programs/ucsf-health-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "UCSF Health",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "Last posted deadline 7 April 2025 (previous cycle); current-cycle date not posted",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME (newly accredited; joint UCSF/Kaiser Permanente San Francisco programme)",
+   "Application method": "ERAS application (3 letters incl. SLOEs, personal essay, CV) and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "ACGME (newly accredited; joint UCSF/Kaiser Permanente San Francisco programme)",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Last posted deadline 7 April 2025 (previous cycle); current-cycle date not posted",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS application (3 letters incl. SLOEs, personal essay, CV) and NRMP Match",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.ucsf.edu/fellowship-training-programs/ucsf-kpsf-gynecologic-oncology-fellowship-program"
+  ],
+  "notes": "curl/WebFetch blocked (403); page read via Exa fetch. Page appears not updated for the current cycle."
+ },
+ {
+  "slug": "/programs/umass-chan-medical-school-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "UMass Chan Medical School",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "Massachusetts",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years for OBGYN pathways; confirm urology-entry options",
+   "Start": "Early August 2027 for the published cycle; confirm with programme",
+   "Deadline": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+   "Eligibility": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "IMGs eligible with ECFMG certification, USMLE Step 1 and 2 CK, and Step 3 passed before hire (PGY3+)",
+   "Accreditation": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+   "Application method": "ERAS and NRMP Match",
+   "Positions": "1 position in the published 2026 cycle",
+   "Last verified": "1 October 2026",
+   "Visa support": "Non-US citizens must hold a valid J-1, F-1 or (in limited circumstances) H-1B",
+   "Licence requirement": "Must meet Massachusetts Board of Registration in Medicine licensure requirements (full or limited)",
+   "Funding": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Visa support": {
+    "old": null,
+    "new": "Non-US citizens must hold a valid J-1, F-1 or (in limited circumstances) H-1B",
+    "source": "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "IMGs eligible with ECFMG certification, USMLE Step 1 and 2 CK, and Step 3 passed before hire (PGY3+)",
+    "source": "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Must meet Massachusetts Board of Registration in Medicine licensure requirements (full or limited)",
+    "source": "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+   }
+  },
+  "official_urls": [
+   "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/",
+   "https://www.umassmed.edu/obgyn/education/urogynecology-fellowship-program/how-to-apply/"
+  ],
+  "notes": "Main page blocked (403) for curl; read via Exa. Visa/IMG details from the How to Apply page (UMass Chan GME general eligibility)."
+ },
+ {
+  "slug": "/programs/university-hospitals-cleveland-medical-center-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "University Hospitals Cleveland Medical Center",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Ohio",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027 (position begins 1 August of the year after application)",
+   "Deadline": "6 April 2026 (closed); interview offers 11 May 2026 (SGO common offer date); interviews June–July",
+   "Eligibility": "Completed (or completing) an ACGME-accredited 4-year US OB/GYN residency or RCPSC-accredited 5-year Canadian residency; eligible for ABOG written exam",
+   "International applicants": "Only graduates of ACGME (US) or RCPSC (Canada) accredited OB/GYN residencies are eligible",
+   "Accreditation": "ACGME (programme number 2253822002)",
+   "Application method": "ERAS (Common Application Form) and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "ACGME (programme number 2253822002)",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 August 2027 (position begins 1 August of the year after application)",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "6 April 2026 (closed); interview offers 11 May 2026 (SGO common offer date); interviews June–July",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Eligibility": {
+    "old": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Completed (or completing) an ACGME-accredited 4-year US OB/GYN residency or RCPSC-accredited 5-year Canadian residency; eligible for ABOG written exam",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Only graduates of ACGME (US) or RCPSC (Canada) accredited OB/GYN residencies are eligible",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (Common Application Form) and NRMP Match",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+   }
+  },
+  "official_urls": [
+   "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship",
+   "https://www.uhhospitals.org/medical-education/obstetrics-gynecology-medical-education/gynecologic-oncology-fellowship/application-information"
+  ],
+  "notes": "Original URL redirects to the UH medical-education fellowship page; added application-information page."
+ },
+ {
+  "slug": "/programs/university-of-alabama-at-birmingham-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "University of Alabama at Birmingham",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Alabama",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "Not stated on official page",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS (3 letters of recommendation, personal statement, CV); interviews by email invitation",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (3 letters of recommendation, personal statement, CV); interviews by email invitation",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+   }
+  },
+  "official_urls": [
+   "https://www.uab.edu/medicine/obgyn/?catid=22&id=326&view=article"
+  ],
+  "notes": "Page gives no dates, eligibility, positions, visa or salary details."
+ },
+ {
+  "slug": "/programs/university-of-alabama-at-birmingham-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "University of Alabama at Birmingham",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "Alabama",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years (12 months research, 12 months urogynecology, 12 months combined urogynecology/urology)",
+   "Start": "Early August 2027 for the published cycle; confirm with programme",
+   "Deadline": "Late January each year per AUGS; 2026 interviews 2–3 April 2026",
+   "Eligibility": "Completed (or completing) an OB/GYN residency in the US or Canada, in good standing with the relevant American Board; must meet UAB employment requirements",
+   "International applicants": "Requires OB/GYN residency completed in the US or Canada",
+   "Accreditation": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+   "Application method": "ERAS (3 letters incl. programme director, personal statement, photo, CV); CREOG scores emailed",
+   "Positions": "1 per year",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid; salary and benefits based on PGY level (amount not stated)",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Duration": {
+    "old": "3 years for OBGYN pathways; confirm urology-entry options",
+    "new": "3 years (12 months research, 12 months urogynecology, 12 months combined urogynecology/urology)",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Deadline": {
+    "old": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+    "new": "Late January each year per AUGS; 2026 interviews 2–3 April 2026",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Eligibility": {
+    "old": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Completed (or completing) an OB/GYN residency in the US or Canada, in good standing with the relevant American Board; must meet UAB employment requirements",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Requires OB/GYN residency completed in the US or Canada",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (3 letters incl. programme director, personal statement, photo, CV); CREOG scores emailed",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Positions": {
+    "old": "1 position in the published 2026 cycle",
+    "new": "1 per year",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid; salary and benefits based on PGY level (amount not stated)",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://www.uab.edu/medicine/obgyn/education/fellowships/urogynecology-and-pelvic-reconstructive-surgery-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/university-of-california-davis-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "University of California Davis",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August (2-year programme ends 31 July)",
+   "Deadline": "Not accepting applications for the 2027–2028 academic year",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "1 August 2027 for the published cycle",
+    "new": "1 August (2-year programme ends 31 July)",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "Not accepting applications for the 2027–2028 academic year",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+   }
+  },
+  "official_urls": [
+   "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/"
+  ],
+  "notes": "Original URL redirects to health.ucdavis.edu/obgyn/academic-programs/fellowship/complex-family-planning/. Programme states it will NOT accept applications for 2027–28 (not stated as discontinued)."
+ },
+ {
+  "slug": "/programs/university-of-california-davis-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "University of California Davis",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "California",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2027 (3-year programme ends 31 July)",
+   "Deadline": "2027–28 cycle: applications from December 2025; deadline 6 April 2026 (closed); interviews 13 Jul, 27 Jul, 10 Aug 2026 (SGO common dates)",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS (minimum 3 letters) plus documents emailed to programme coordinator; NRMP",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "1 August 2027 (3-year programme ends 31 July)",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "2027–28 cycle: applications from December 2025; deadline 6 April 2026 (closed); interviews 13 Jul, 27 Jul, 10 Aug 2026 (SGO common dates)",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (minimum 3 letters) plus documents emailed to programme coordinator; NRMP",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+   }
+  },
+  "official_urls": [
+   "https://health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/"
+  ],
+  "notes": "Original URL redirects to health.ucdavis.edu/obgyn/academic-programs/fellowship/gynecologic-oncology/."
+ },
+ {
+  "slug": "/programs/university-of-chicago-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "University of Chicago",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Illinois",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "2027–28 cycle: ERAS opened 12 Nov 2025; deadline 4 May 2026 (closed); first interview invitations 1 June 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid – annual salary, health insurance, funding for international work experience and conferences (amount not stated)",
+   "Positions": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+    "new": "2027–28 cycle: ERAS opened 12 Nov 2025; deadline 4 May 2026 (closed); first interview invitations 1 June 2026",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid – annual salary, health insurance, funding for international work experience and conferences (amount not stated)",
+    "source": "https://obgyn.uchicago.edu/education/fellowship-complex-family-planning"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.uchicago.edu/education/fellowship-complex-family-planning",
+   "https://obgyn.uchicago.edu/family-planning/complex-family-planning-fellowship-how-apply"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/university-of-chicago-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "University of Chicago",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Illinois",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "Application opened December 2025; deadline 5 April 2026 (closed); interview invitations 11 May 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+   "Application method": "ERAS Fellowships (CAF, test transcripts) plus diploma and CREOG scores sent to programme; NRMP",
+   "Last verified": "1 October 2026",
+   "Positions": "1 per year",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Positions": {
+    "old": null,
+    "new": "1 per year",
+    "source": "https://obgyn.uchicago.edu/education/gynecologic-oncology-fellowship"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "Application opened December 2025; deadline 5 April 2026 (closed); interview invitations 11 May 2026",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS Fellowships (CAF, test transcripts) plus diploma and CREOG scores sent to programme; NRMP",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.uchicago.edu/education/gynecologic-oncology-fellowship",
+   "https://obgyn.uchicago.edu/oncology-fellowship/gynecologic-oncology-fellowship-how-apply"
+  ],
+  "notes": "Original URL (obg.bsd.uchicago.edu/GOfellowship.html) redirects to obgyn.uchicago.edu/education/gynecologic-oncology-fellowship. How-to-apply page labels the cycle '2026-2027 academic year'."
+ },
+ {
+  "slug": "/programs/university-of-chicago-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "University of Chicago",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "Illinois",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years for OBGYN pathways; confirm urology-entry options",
+   "Start": "August (fellows join as PGY-5 in August)",
+   "Deadline": "2026 cycle: ERAS opened 12 Nov 2025; first-round interview deadline 26 Jan 2026; interviews 2 Mar–1 Jun 2026 (closed)",
+   "Eligibility": "Graduates of OB/GYN or Urology residencies (fellows enter at PGY-5)",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited (entering third year of accreditation)",
+   "Application method": "ERAS; AUGS common dates",
+   "Positions": "1 position in the published 2026 cycle",
+   "Last verified": "1 October 2026",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Deadline": {
+    "old": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+    "new": "2026 cycle: ERAS opened 12 Nov 2025; first-round interview deadline 26 Jan 2026; interviews 2 Mar–1 Jun 2026 (closed)",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Accreditation": {
+    "old": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+    "new": "ACGME-accredited (entering third year of accreditation)",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Eligibility": {
+    "old": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Graduates of OB/GYN or Urology residencies (fellows enter at PGY-5)",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Start": {
+    "old": "Early August 2027 for the published cycle; confirm with programme",
+    "new": "August (fellows join as PGY-5 in August)",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS; AUGS common dates",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://obgyn.uchicago.edu/education/urogynecology-reconstructive-pelvic-surgery-fellowship"
+  ],
+  "notes": "Page lists the schedule as '2026-2027 academic year'."
+ },
+ {
+  "slug": "/programs/university-of-colorado-anschutz-medical-campus-urogynecology-reconstructive-pelvic-surgery-fellowship",
+  "title": "Urogynecology & Reconstructive Pelvic Surgery Fellowship",
+  "inst": "University of Colorado Anschutz Medical Campus",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Urogynecology & reconstructive pelvic surgery",
+   "State or region": "Colorado",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "1 August 2028 (next intake)",
+   "Deadline": "2 April 2027 (for 1 August 2028 start); interview invitations 19 April 2027",
+   "Eligibility": "Graduated from a US OB/GYN or Urology residency programme by the start date",
+   "International applicants": "Requires completion of a US OB/GYN or Urology residency",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS (max 3 letters per AUGS guidelines); CREOG scores emailed",
+   "Positions": "1 per year",
+   "Last verified": "1 October 2026",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Duration": {
+    "old": "3 years for OBGYN pathways; confirm urology-entry options",
+    "new": "3 years",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Start": {
+    "old": "Early August 2027 for the published cycle; confirm with programme",
+    "new": "1 August 2028 (next intake)",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Deadline": {
+    "old": "Participated in the 2026 ERAS and NRMP cycle; confirm the next cycle",
+    "new": "2 April 2027 (for 1 August 2028 start); interview invitations 19 April 2027",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Eligibility": {
+    "old": "Completed eligible Obstetrics and Gynaecology or Urology residency; ERAS, NRMP and institution-specific requirements apply",
+    "new": "Graduated from a US OB/GYN or Urology residency programme by the start date",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Requires completion of a US OB/GYN or Urology residency",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Accreditation": {
+    "old": "Listed in the American Urogynecologic Society 2026 programme guide; confirm current ACGME status",
+    "new": "ACGME",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (max 3 letters per AUGS guidelines); CREOG scores emailed",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Positions": {
+    "old": "1 position in the published 2026 cycle",
+    "new": "1 per year",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://medschool.cuanschutz.edu/ob-gyn/fellowships/urps-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/university-of-colorado-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "University of Colorado",
+  "status": "no_new_info",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Colorado",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME-accredited Complex Family Planning pathway",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://cufamilyplanning.com/doctors/fellowships/index.html"
+   }
+  },
+  "official_urls": [
+   "https://cufamilyplanning.com/doctors/fellowships/index.html"
+  ],
+  "notes": "Page confirms ACGME-accredited two-year programme; no dates, positions, funding or visa details on official page."
+ },
+ {
+  "slug": "/programs/university-of-colorado-gynecologic-oncology-fellowship",
+  "title": "Gynecologic Oncology Fellowship",
+  "inst": "University of Colorado",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Gynaecologic oncology",
+   "State or region": "Colorado",
+   "Training type": "Clinical Fellowship",
+   "Duration": "3 years",
+   "Start": "Not stated on official page",
+   "Deadline": "6 April 2026 (2026 application; closed); interviews 5 and 11 August 2026",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS (4 letters, incl. SGO Standard Letter of Evaluation) plus CREOG scores emailed; NRMP",
+   "Last verified": "1 October 2026",
+   "Positions": "1–2 per year",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "Listed by the Society of Gynecologic Oncology; confirm current ACGME status",
+    "new": "ACGME",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Deadline": {
+    "old": "Follow the current ERAS and NRMP Gynecologic Oncology fellowship timeline",
+    "new": "6 April 2026 (2026 application; closed); interviews 5 and 11 August 2026",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS (4 letters, incl. SGO Standard Letter of Evaluation) plus CREOG scores emailed; NRMP",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Positions": {
+    "old": null,
+    "new": "1–2 per year",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Start": {
+    "old": "Annual academic intake; confirm exact date with programme",
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+   }
+  },
+  "official_urls": [
+   "https://medschool.cuanschutz.edu/ob-gyn/fellowships/gynecologic-oncology-fellowship"
+  ],
+  "notes": ""
+ },
+ {
+  "slug": "/programs/university-of-hawaii-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "University of Hawaii",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Hawaii",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August",
+   "Deadline": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME",
+   "Application method": "ERAS; Society of Family Planning application process",
+   "Last verified": "1 October 2026",
+   "Funding": "Paid amount not stated; additional compensation for 1–2 in-house generalist calls per month",
+   "Department": "Department of Obstetrics & Gynecology (Ob-Gyn), University of Hawaii John A. Burns School of Medicine",
+   "Positions": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page"
+  },
+  "changes": {
+   "Start": {
+    "old": "1 August 2027 for the published cycle",
+    "new": "1 August",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Accreditation": {
+    "old": "ACGME-accredited Complex Family Planning pathway",
+    "new": "ACGME",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Application method": {
+    "old": "ERAS and NRMP Match",
+    "new": "ERAS; Society of Family Planning application process",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Paid amount not stated; additional compensation for 1–2 in-house generalist calls per month",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Department": {
+    "old": null,
+    "new": "Department of Obstetrics & Gynecology (Ob-Gyn), University of Hawaii John A. Burns School of Medicine",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+   }
+  },
+  "official_urls": [
+   "https://uhobgyn.org/education/complex-family-planning-fellowship.html"
+  ],
+  "notes": "Original URL (fpfellowshiphawaii.org) redirects to uhobgyn.org/education/complex-family-planning-fellowship.html."
+ },
+ {
+  "slug": "/programs/university-of-illinois-at-chicago-complex-family-planning-fellowship",
+  "title": "Complex Family Planning Fellowship",
+  "inst": "University of Illinois at Chicago",
+  "status": "updated",
+  "fields": {
+   "Specialty": "Obstetrics & Gynaecology",
+   "Subspecialty": "Complex family planning",
+   "State or region": "Illinois",
+   "Training type": "Clinical Fellowship",
+   "Duration": "2 years",
+   "Start": "1 August 2027 for the published cycle",
+   "Deadline": "The published 2026 application cycle has closed; confirm the next ERAS and NRMP cycle",
+   "Eligibility": "Completed Obstetrics and Gynaecology residency; ERAS, NRMP and institution-specific requirements apply",
+   "International applicants": "Not stated on official page",
+   "Accreditation": "ACGME (accredited September 2021)",
+   "Application method": "ERAS and NRMP Match",
+   "Last verified": "1 October 2026",
+   "Positions": "Not stated on official page",
+   "Funding": "Not stated on official page",
+   "Visa support": "Not stated on official page",
+   "Licence requirement": "Not stated on official page",
+   "Department": "Not stated on official page"
+  },
+  "changes": {
+   "Accreditation": {
+    "old": "ACGME-accredited Complex Family Planning pathway",
+    "new": "ACGME (accredited September 2021)",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "International applicants": {
+    "old": "Check with programme",
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "Positions": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "Funding": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "Visa support": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "Licence requirement": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   },
+   "Department": {
+    "old": null,
+    "new": "Not stated on official page",
+    "source": "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+   }
+  },
+  "official_urls": [
+   "https://chicago.medicine.uic.edu/obstetrics-gynecology/education/fellowship/complex-family-planning/"
+  ],
+  "notes": "Original URL now redirects to the OB/GYN divisions page; replaced with current fellowship page. No dates, positions, funding or visa details stated."
+ }
+]

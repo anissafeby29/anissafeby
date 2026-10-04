@@ -271,7 +271,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
 
   DATA.forEach(r => {
     r._closed = /advert/i.test(r.t) && /closed|has closed|now closed|past|expired/i.test((r.f.Deadline||'') + ' ' + (r.f.Start||''));
-    r._s = [r.t, r.i, r.ci, r.co, r.f.Subspecialty, r.f.Specialty, r.su, r.f['Visa support'], r.f['International applicants']].join(' ').toLowerCase();
+    r._s = [r.t, r.i, r.o, r.ci, r.co, r.f.Subspecialty, r.f.Specialty, r.su, r.f['Visa support'], r.f['International applicants']].join(' ').toLowerCase();
   });
   let shown = PAGE, filtered = DATA;
 
@@ -279,7 +279,7 @@ footer{color:var(--muted);font-size:13px;padding-block:28px 40px;border-top:1px 
 
   function board(){
     const items = [[DATA.length,'Programmes'],[Object.keys(count(DATA, r => r.f.Specialty)).length,'Specialties'],
-      [Object.keys(count(DATA, r => r.i)).length,'Institutions'],[Object.keys(count(DATA, r => r.co)).length,'Countries']];
+      [Object.keys(count(DATA, r => r.o || r.i)).length,'Institutions'],[Object.keys(count(DATA, r => r.co)).length,'Countries']];
     $('board').innerHTML = items.map(([n,l]) => '<div><b>' + n.toLocaleString() + '</b><span>' + l + '</span></div>').join('');
   }
 

@@ -1,0 +1,15 @@
+You are adding NEW fellowship programmes to a medical fellowship directory (thefellowshipportal.com). Today is 2026-10-03.
+
+{TASK}
+
+Existing programmes (do NOT duplicate — check slug, official URL and title+institution): <PIPELINE>/sources/new/existing_all.json
+
+Rules:
+- Use ONLY official institution pages and official sources (ERAS/NRMP, SF Match, ACGME, national colleges and societies' official pages). Never aggregators (FREIDA, ResidencyAdvisor, Doximity, etc.). Do not invent anything; any field the official source doesn't state = "Not stated on official page".
+- Each programme must have a working official URL you actually fetched. Many US academic sites return 403 to curl/WebFetch — read the same official URL via the Exa fetch tool in that case. jobs.nhs.uk or hospital job adverts only if no standing programme page exists — mark "(NHS Jobs advert)" / "(job advert)" in the title.
+- Prioritise programmes open to international medical graduates and say clearly in "International applicants" / "Visa support" what the page states.
+- The scratchpad directory is shared with other agents — keep working files in the subfolder new/{DIR}/.
+
+Output: write <PIPELINE>/sources/new/{OUT} incrementally (save every ~10 programmes) as a JSON array of objects with exactly these keys:
+{"slug": "/programs/<kebab-case-title-institution>", "title": "...", "inst": "...", "Specialty": "...", "Subspecialty": "...", "Department": "...", "Country": "...", "City": "...", "State or region": "...", "Training type": "Clinical Fellowship" (or Research Fellowship etc.), "Duration": "...", "Start": "...", "Deadline": "...", "Eligibility": "...", "International applicants": "...", "Accreditation": "...", "Application method": "...", "Positions": "...", "Funding": "...", "Visa support": "...", "Licence requirement": "...", "Summary": "<one-sentence description from the official page>", "Last verified": "3 October 2026", "official_urls": ["..."]}
+Reuse existing subspecialty labels from existing_all.json where they fit. Slugs must be unique. When done, reply with brief counts per specialty, country and institution, plus anything to check before publishing.

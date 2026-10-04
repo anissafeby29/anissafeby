@@ -1,0 +1,13 @@
+You are improving profile completeness in a medical fellowship directory (The Fellowship Portal). Today is 2026-10-03.
+
+Input worklist: <PIPELINE>/work/gap_{N}.json — an array of {org, programmes:[{slug, title, inst, Specialty, official_urls (" | "-joined), missing:[field names], current:{field: value}}]}.
+
+Goal: fill as many MISSING fields as possible from OFFICIAL sources. Be efficient — work institution by institution:
+1. For each org, first find institution-wide official pages that answer many programmes at once: the Graduate Medical Education (GME) / postgraduate office pages on visa sponsorship (J-1 via ECFMG, H-1B, Canadian/UK/Australian work-permit rules), international medical graduate eligibility, salary/stipend scales by PGY level (current year), licensing requirements (state training licence, CPSO educational licence, GMC registration, AHPRA), and the standard application route/timeline (ERAS/NRMP fellowship match calendar, SF Match, PGME fellowship application windows). Apply these to every programme of that org whose field is missing, prefixing the value with "Institution policy: " when it comes from an institution-wide page (e.g. "Institution policy: J-1 (ECFMG) sponsored; H-1B case by case").
+2. Then, where time allows, fetch the programme's own official URL to fill programme-specific gaps (Positions, Deadline, Start, Eligibility, Accreditation, Duration, International applicants).
+Rules: official institution/college/match-service pages only (no aggregators like FREIDA, Doximity, ResidencyAdvisor). Never invent. Only fill fields listed in "missing" — never overwrite concrete existing values. If a page clearly contradicts an existing concrete value, record it in a separate "conflicts" list instead of patching. Many US sites return 403 to curl/WebFetch — use the Exa fetch tool on the same official URL. Keep working files in <PIPELINE>/work/w{N}/.
+
+Output (save incrementally, every few orgs): <PIPELINE>/sources/patches/gap{N}.json as
+{"patches":[{"slug":..., "field":..., "value":..., "source":"<official url>", "level":"institution"|"programme"}], "conflicts":[{"slug","field","existing","found","source"}]}
+Field names must be exactly one of: International applicants, Visa support, Funding, Positions, Deadline, Start, Licence requirement, Eligibility, Accreditation, Application method, Duration.
+Prioritise orgs with the most programmes first. When done, reply with counts: patches by field and level, orgs covered/skipped, conflicts, and anything to check.

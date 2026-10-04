@@ -59,8 +59,16 @@ def build_records():
         if "research" in t or "postdoc" in t or "t32" in t: return "Research fellowship"
         if "instructor" in t: return "Clinical instructorship"
         return "Clinical fellowship"
+    import sys
+    sys.path.insert(0, HERE)
+    from normalize import canon_sub, canon_org
     for r in records:
         r["g"] = group(r)
+        raw = r["f"].get("Subspecialty") or ""
+        canon = canon_sub(r["f"].get("Specialty"), raw)
+        r["focus"] = raw if raw and raw != canon else ""
+        r["f"]["Subspecialty"] = canon
+        r["org"] = canon_org(r["i"], r["co"])
     seen = set()
     for r in records:
         base = r["s"].rstrip("/").split("/")[-1] or "programme"
@@ -81,7 +89,7 @@ def main():
               "Licence requirement", "Deadline", "Application method", "Funding", "Department"]
     KEEP = ["Specialty", "Subspecialty", "State or region", "Training type", "Duration", "Deadline", "Positions",
             "International applicants", "Visa support", "Funding", "Start"]
-    slim = [{"t": r["t"], "i": r["i"], "co": r["co"], "ci": r["ci"], "su": r["su"], "s": r["s"], "g": r["g"],
+    slim = [{"t": r["t"], "i": r["i"], "o": r["org"], "co": r["co"], "ci": r["ci"], "su": r["su"], "s": r["s"], "g": r["g"],
              "new": r["new"], "u": r["u"][:1], "sc": sum(1 for k in SCORED if r["f"].get(k) and not NS.match(str(r["f"][k]))),
              "f": {k: r["f"].get(k, "") for k in KEEP}} for r in records]
     data = json.dumps(slim, ensure_ascii=False, separators=(",", ":"))

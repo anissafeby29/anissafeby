@@ -69,7 +69,7 @@ def page(r, logo_svg, related, same_inst):
     if known(f.get("Duration")):
         ld["timeToComplete"] = f["Duration"]
     groups = "".join(
-        f'<section class="panel"><h2>{g}</h2><dl class="facts">' + "".join(f"<dt>{e(k)}</dt><dd>{fmt(f.get(k))}</dd>" for k in keys) + "</dl></section>"
+        f'<section class="panel"><h2>{g}</h2><dl class="facts">' + (f"<dt>Focus</dt><dd>{e(r['focus'])}</dd>" if g == "The programme" and r.get("focus") else "") + "".join(f"<dt>{e(k)}</dt><dd>{fmt(f.get(k))}</dd>" for k in keys) + "</dl></section>"
         for g, keys in GROUPS)
     rel = lambda items, heading: (f'<section class="more"><h2>{heading}</h2><div class="related">' + "".join(
         f'<a class="rel" href="../{x["s"]}/"><span class="code">{iso(x["co"])} · {e(x["f"].get("Subspecialty") or x["f"].get("Specialty"))}</span><b>{e(x["t"])}</b><span>{e(x["i"])}</span></a>'
@@ -121,7 +121,7 @@ def page(r, logo_svg, related, same_inst):
     </aside>
   </div>
   {rel(related, "Similar programmes")}
-  {rel(same_inst, "More at " + e(r["i"]))}
+  {rel(same_inst, "More at " + e(r.get("org") or r["i"]))}
   <footer>The Fellowship Portal lists fellowships from official institution sources. Spotted an error? <a href="../../contact/">Contact us</a> so we can update this profile. · <a href="../../about/">About</a></footer>
 </main>
 </body>
@@ -140,11 +140,11 @@ def write_all(records, logo, root, here):
     by_sub, by_inst = defaultdict(list), defaultdict(list)
     for r in records:
         by_sub[(r["f"].get("Specialty"), r["f"].get("Subspecialty"))].append(r)
-        by_inst[r["i"]].append(r)
+        by_inst[r.get("org") or r["i"]].append(r)
     for r in records:
         sims = [x for x in by_sub[(r["f"].get("Specialty"), r["f"].get("Subspecialty"))] if x is not r and x["i"] != r["i"]]
         sims.sort(key=lambda x: (x["co"] != r["co"], x["t"]))
-        inst = [x for x in by_inst[r["i"]] if x is not r][:6]
+        inst = [x for x in by_inst[r.get("org") or r["i"]] if x is not r][:6]
         d = os.path.join(out, r["s"])
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
@@ -194,7 +194,7 @@ def write_static(records, logo, root):
     n = len(records)
     specs = len({r["f"].get("Specialty") for r in records})
     countries = len({r["co"] for r in records if r["co"]})
-    insts = len({r["i"] for r in records})
+    insts = len({r.get("org") or r["i"] for r in records})
     about = f'''<div>
 <section class="panel"><h2>What this is</h2><p class="summary">The Fellowship Portal is a free directory of clinical and research fellowships for doctors who want to train abroad. It lists {n:,} programmes in {specs} specialties at {insts:,} institutions across {countries} countries, with each programme's eligibility, visa, funding and application details where the institution publishes them.</p></section>
 <section class="panel"><h2>Who it is for</h2><p class="summary">Specialists and senior trainees, especially international medical graduates, who are comparing fellowships across countries and need to know early whether a programme accepts overseas applicants, sponsors visas and pays a salary.</p></section>
