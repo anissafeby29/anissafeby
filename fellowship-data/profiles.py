@@ -268,7 +268,12 @@ def write_static(records, logo, root):
   ExpiresByType application/json "access plus 1 day"
   ExpiresByType text/css "access plus 7 days"
   ExpiresByType image/svg+xml "access plus 30 days"
-  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
 </IfModule>
 """)
     print("static pages: about, contact, .htaccess")
