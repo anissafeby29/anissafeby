@@ -122,7 +122,7 @@ def page(r, logo_svg, related, same_inst):
   </div>
   {rel(related, "Similar programmes")}
   {rel(same_inst, "More at " + e(r["i"]))}
-  <footer>The Fellowship Portal lists fellowships from official institution sources. Spotted an error? Tell the programme or contact us so we can update this profile.</footer>
+  <footer>The Fellowship Portal lists fellowships from official institution sources. Spotted an error? <a href="../../contact/">Contact us</a> so we can update this profile. · <a href="../../about/">About</a></footer>
 </main>
 </body>
 </html>'''
@@ -149,10 +149,102 @@ def write_all(records, logo, root, here):
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
             fh.write(page(r, logo_svg, sims[:6], inst))
-    urls = [f"{SITE}/"] + [f'{SITE}/programs/{r["s"]}/' for r in records]
+    write_static(records, logo, root)
+    urls = [f"{SITE}/", f"{SITE}/about/", f"{SITE}/contact/"] + [f'{SITE}/programs/{r["s"]}/' for r in records]
     with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as fh:
         fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
                  "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     with open(os.path.join(root, "robots.txt"), "w", encoding="utf-8") as fh:
         fh.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     print("profiles:", len(records), "pages + sitemap.xml")
+
+
+def static_page(title, desc, slug, body, logo_svg):
+    url = f"{SITE}/{slug}/"
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{e(title)} | The Fellowship Portal</title>
+<meta name="description" content="{e(desc)}">
+<link rel="canonical" href="{url}">
+<link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/profile.css">
+<script>try{{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="top"><a class="brand" href="../">{logo_svg}<span>The Fellowship Portal</span></a><a class="back" href="../#results">← All programmes</a></div>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>›</span><span>{e(title)}</span></nav>
+  <h1>{e(title)}</h1>
+  <p class="inst">{e(desc)}</p>
+</div></header>
+<main class="wrap"><div class="grid">{body}</div>
+<footer>The Fellowship Portal · <a href="../about/">About</a> · <a href="../contact/">Contact</a></footer>
+</main>
+</body>
+</html>'''
+
+
+def write_static(records, logo, root):
+    logo_svg = logo.replace("<svg ", '<svg aria-hidden="true" ', 1)
+    n = len(records)
+    specs = len({r["f"].get("Specialty") for r in records})
+    countries = len({r["co"] for r in records if r["co"]})
+    insts = len({r["i"] for r in records})
+    about = f'''<div>
+<section class="panel"><h2>What this is</h2><p class="summary">The Fellowship Portal is a free directory of clinical and research fellowships for doctors who want to train abroad. It lists {n:,} programmes in {specs} specialties at {insts:,} institutions across {countries} countries, with each programme's eligibility, visa, funding and application details where the institution publishes them.</p></section>
+<section class="panel"><h2>Who it is for</h2><p class="summary">Specialists and senior trainees, especially international medical graduates, who are comparing fellowships across countries and need to know early whether a programme accepts overseas applicants, sponsors visas and pays a salary.</p></section>
+<section class="panel"><h2>How the data is collected</h2><dl class="facts">
+<dt>Sources</dt><dd>Every programme is researched from the institution's own fellowship page, its graduate medical education office, or an official college, society or match service. We do not copy from aggregator sites.</dd>
+<dt>Institution policy</dt><dd>Values marked “Institution policy” come from the hospital's or university's general rules, for example its visa sponsorship policy or salary scale. They apply to all its programmes, but a single programme may differ.</dd>
+<dt>Not stated</dt><dd>“Not stated on official page” means we checked the official page and it does not publish that detail. Ask the programme coordinator directly.</dd>
+<dt>Closed adverts</dt><dd>Some posts are recruited through job adverts. Closed adverts are hidden by default because they usually recur each year.</dd>
+<dt>Last checked</dt><dd>October 2026. Dates and requirements change every cycle, so always confirm on the official page before applying.</dd>
+</dl></section>
+<section class="panel"><h2>Specialist directories</h2><p class="summary">For surgical specialties we also run dedicated directories with deeper listings: <a href="https://orthofellow.com">OrthoFellow</a>, <a href="https://urofellow.com">UroFellow</a>, <a href="https://neurosurgfellow.com">NeuroSurgFellow</a>, <a href="https://surgfellow.com">SurgFellow</a>, <a href="https://plasticfellow.com">PlasticFellow</a>, <a href="https://ctsfellow.com">CTSFellow</a> and <a href="https://vascfellow.com">VascFellow</a>.</p></section>
+</div>
+<aside class="side">
+<section class="panel"><div class="label">Directory size</div><div class="big">{n:,}</div><p>programmes in {specs} specialties and {countries} countries</p></section>
+<section class="panel"><div class="label">Independent</div><p>We are not affiliated with any hospital, university or match service, and we do not process applications. Apply through each programme's official route.</p></section>
+<section class="panel"><div class="label">Questions</div><p><a href="../contact/">Contact us</a> to report an error or update a programme.</p></section>
+</aside>'''
+    contact = '''<div>
+<section class="panel"><h2>Email</h2><p class="summary">Write to <b>info@thefellowshipportal.com</b>. We read every message and usually reply within a few working days.</p>
+<p style="margin-top:14px"><a class="btn primary" href="mailto:info@thefellowshipportal.com" style="display:inline-flex">Email us</a> <button class="btn" type="button" id="copy" style="border:1px solid var(--line);background:var(--surface);color:var(--ink)">Copy address</button> <span id="copied" class="label" hidden>Copied</span></p></section>
+<section class="panel"><h2>Report an error in a programme</h2><dl class="facts">
+<dt>Include</dt><dd>The programme name and the link to its page on this site, the field that is wrong (for example deadline or visa support), and the correct information.</dd>
+<dt>Source</dt><dd>A link to the official page that shows the correct detail. We only publish information we can confirm on an official source.</dd>
+</dl></section>
+<section class="panel"><h2>Programme directors and coordinators</h2><p class="summary">If you run a fellowship and want to add it, update its details or link a new official page, email us from your institutional address with the programme's official URL. We update listings free of charge.</p></section>
+<section class="panel"><h2>What we cannot help with</h2><p class="summary">We do not accept or forward applications, and we cannot advise on individual eligibility, visas or licensing. Contact the programme or the relevant licensing body directly.</p></section>
+</div>
+<aside class="side">
+<section class="panel"><div class="label">Email</div><p><b style="color:var(--ink)">info@thefellowshipportal.com</b></p></section>
+<section class="panel"><div class="label">Response time</div><p>Usually within a few working days.</p></section>
+<section class="panel"><div class="label">Before you write</div><p>Many questions are answered on each programme's official page, linked from every profile.</p></section>
+</aside>
+<script>document.getElementById('copy').onclick=function(){var a='info@thefellowshipportal.com';var s=document.getElementById('copied');(navigator.clipboard?navigator.clipboard.writeText(a):Promise.reject()).then(function(){s.hidden=false},function(){s.textContent=a;s.hidden=false})};</script>'''
+    for slug, title, desc, body in [("about", "About", "A free, source-checked directory of medical and surgical fellowships worldwide.", about),
+                                    ("contact", "Contact", "Report an error, update a programme or ask a question.", contact)]:
+        d = os.path.join(root, slug)
+        os.makedirs(d, exist_ok=True)
+        with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+            fh.write(static_page(title, desc, slug, body, logo_svg))
+    with open(os.path.join(root, ".htaccess"), "w", encoding="utf-8") as fh:
+        fh.write("""# Compression and caching for The Fellowship Portal
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml application/xml
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+""")
+    print("static pages: about, contact, .htaccess")

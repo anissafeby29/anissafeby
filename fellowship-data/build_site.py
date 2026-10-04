@@ -75,7 +75,21 @@ def build_records():
 
 def main():
     records = build_records()
-    data = json.dumps(records, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    import re as _re
+    NS = _re.compile(r"^(not stated|check with|confirm current|not specified|contact programme|see official|unknown)", _re.I)
+    SCORED = ["Duration", "Start", "Positions", "Accreditation", "Eligibility", "International applicants", "Visa support",
+              "Licence requirement", "Deadline", "Application method", "Funding", "Department"]
+    KEEP = ["Specialty", "Subspecialty", "State or region", "Training type", "Duration", "Deadline", "Positions",
+            "International applicants", "Visa support", "Funding", "Start"]
+    slim = [{"t": r["t"], "i": r["i"], "co": r["co"], "ci": r["ci"], "su": r["su"], "s": r["s"], "g": r["g"],
+             "new": r["new"], "u": r["u"][:1], "sc": sum(1 for k in SCORED if r["f"].get(k) and not NS.match(str(r["f"][k]))),
+             "f": {k: r["f"].get(k, "") for k in KEEP}} for r in records]
+    data = json.dumps(slim, ensure_ascii=False, separators=(",", ":"))
+    import hashlib
+    ver = hashlib.sha1(data.encode()).hexdigest()[:10]
+    os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
+    with open(os.path.join(ROOT, "assets", "programmes.json"), "w", encoding="utf-8") as fh:
+        fh.write(data)
     with open(os.path.join(HERE, "site_template.html"), encoding="utf-8") as fh:
         page = fh.read()
     with open(os.path.join(HERE, "logo.svg"), encoding="utf-8") as fh:
@@ -85,7 +99,7 @@ def main():
             .replace("__COUNT__", f"{len(records):,}")
             .replace("__SPECS__", str(len({r["f"]["Specialty"] for r in records})))
             .replace("__COUNTRIES__", str(len({r["co"] for r in records if r["co"]})))
-            .replace("__DATA__", data))
+            .replace("__VER__", ver))
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
     print("index.html:", len(records), "programmes,", round(len(page) / 1e6, 2), "MB")
