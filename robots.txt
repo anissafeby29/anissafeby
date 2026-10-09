@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://thefellowshipportal.com/sitemap.xml
+
+Sitemap: https://anissafeby.com/sitemap.xml

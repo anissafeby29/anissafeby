@@ -2,7 +2,11 @@
 
 Audit publik: 9 Oktober 2026. Target awal: pembaca Indonesia yang mencari profil dokter ortopedi dan informasi bahu/siku, serta kolega yang mencari publikasi. Sesuaikan prioritas apabila tujuan utama adalah kolaborasi akademik.
 
-## Temuan yang terverifikasi
+## Pembaruan repository
+
+Setelah audit awal, atas permintaan pemilik, branch main diganti menjadi profil dari anissafeby.com. Metadata canonical, Open Graph, Person JSON-LD, robots.txt, dan sitemap.xml ditambahkan. Temuan di bawah adalah kondisi sebelum perubahan repository; deployment domain aktif belum diverifikasi. Isi Fellowship Portal tersimpan pada branch backup/fellowship-before-profile-20261009.
+
+## Temuan yang terverifikasi saat audit awal
 
 - anissafeby.com menampilkan profil profesional berbahasa Inggris, pendidikan, penghargaan, dan tautan publikasi PubMed.
 - Judul halaman hanya berisi nama dan gelar. Deskripsi masih umum dan berbahasa Inggris.
