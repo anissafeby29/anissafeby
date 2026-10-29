@@ -197,6 +197,8 @@
       .footer-inner { flex-direction: column; }
     }
   </style>
+  <link rel="stylesheet" href="/analytics.css">
+  <script defer src="/analytics.js"></script>
 </head>
 <body>
   <header>
@@ -339,5 +341,12 @@
       <div>The information on this page is a professional profile and is not a substitute for a direct medical examination.</div>
     </div>
   </footer>
+  <details id="analytics-preferences" class="analytics-preferences">
+    <summary>Privacy and analytics preferences</summary>
+    <p id="analytics-status" role="status" aria-live="polite">Optional analytics is off.</p>
+    <p>Allow optional Google Analytics cookies to measure visits? Your choice does not affect access. Advertising storage stays off. Only the public site origin and referring website origin are used; search text, referring paths and contact details are excluded. Your choice is remembered for up to 180 days. <a href="/privacy.html">Privacy details</a>.</p>
+    <button type="button" id="analytics-deny">Keep analytics off</button>
+    <button type="button" id="analytics-allow">Allow analytics</button>
+  </details>
 </body>
 </html>
